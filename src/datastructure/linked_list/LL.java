@@ -1,3 +1,5 @@
+package datastructure.linked_list;
+
 public class LL {
     private Node head;
     private Node tail;

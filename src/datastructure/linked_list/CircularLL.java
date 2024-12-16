@@ -1,3 +1,5 @@
+package datastructure.linked_list;
+
 public class CircularLL {
     Node head = null;
     Node tail = null;

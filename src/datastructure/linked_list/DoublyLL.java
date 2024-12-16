@@ -1,3 +1,5 @@
+package datastructure.linked_list;
+
 public class DoublyLL {
     Node head;
     Node tail;

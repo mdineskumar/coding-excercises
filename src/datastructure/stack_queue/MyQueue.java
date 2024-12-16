@@ -1,3 +1,5 @@
+package datastructure.stack_queue;
+
 import java.util.Arrays;
 import java.util.EmptyStackException;
 import java.util.Iterator;
@@ -42,7 +44,7 @@ public class MyQueue<T> implements Iterator<T> {
     @Override
     public String toString() {
 
-        return "Stack{" +
+        return "datastructure.stack_queue.Stack{" +
                 "list=" + Arrays.toString(list.toArray()) +
                 '}';
     }

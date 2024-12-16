@@ -1,4 +1,6 @@
-import java.util.LinkedList;
+package datastructure.linked_list;
+
+import datastructure.linked_list.LL;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +26,7 @@ public class Main {
 //        linkedList.find(6);
 //
 //
-//        DoublyLL doublyLL = new DoublyLL();
+//        datastructure.linked_list.DoublyLL doublyLL = new datastructure.linked_list.DoublyLL();
 //
 //        doublyLL.insertFirst(8);
 //        doublyLL.insertFirst(3);
@@ -41,7 +43,7 @@ public class Main {
 //        doublyLL.display();
 //
 //
-//        CircularLL circularLL = new CircularLL();
+//        datastructure.linked_list.CircularLL circularLL = new datastructure.linked_list.CircularLL();
 //        circularLL.insert(87);
 //        circularLL.insert(67);
 //        circularLL.insert(89);

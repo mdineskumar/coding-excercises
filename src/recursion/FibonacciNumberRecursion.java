@@ -1,3 +1,5 @@
+package recursion;
+
 public class FibonacciNumberRecursion {
 
     public static int fib(int n){

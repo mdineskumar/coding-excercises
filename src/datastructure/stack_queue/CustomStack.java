@@ -19,7 +19,7 @@ public class CustomStack {
 
     public boolean push(int item){
         if(isFull()){
-            System.out.println("Stack is full");
+            System.out.println("datastructure.stack_queue.Stack is full");
             return false;
         }
         ptr++;
