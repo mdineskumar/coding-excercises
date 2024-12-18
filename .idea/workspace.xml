@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="rearrange classes">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/question19/Solution.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="leetcode finished">
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/FindGuitarTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Style.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Wood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/instrument/Guitar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/instrument/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/instrument/Mandolin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/GuitarSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/InstrumentSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/MandolinSpec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -38,6 +50,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -46,6 +59,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="headfirst_ooad.chapter5" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TestSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.question19.TestSolution" />
@@ -75,7 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1734369881652</updated>
       <workItem from="1734369882664" duration="5677000" />
-      <workItem from="1734441607417" duration="699000" />
+      <workItem from="1734441607417" duration="3163000" />
+      <workItem from="1734530267596" duration="1029000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -117,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734370356806</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="leetcode finished">
+      <option name="closed" value="true" />
+      <created>1734443495636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734443495636</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +157,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="migrate previous coding" />
     <MESSAGE value="rearrange classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="rearrange classes" />
+    <MESSAGE value="leetcode finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
