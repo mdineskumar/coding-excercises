@@ -4,20 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="leetcode finished">
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/FindGuitarTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Style.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Wood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/instrument/Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/instrument/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/instrument/Mandolin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/GuitarSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/InstrumentSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/MandolinSpec.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="search tool with aggragation, encapsulation and abstracting">
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/InstrumentType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/FindGuitarTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/FindGuitarTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Wood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/Wood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/instrument/Guitar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/instrument/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/instrument/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/instrument/Mandolin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/GuitarSpec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/InstrumentSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/InstrumentSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/MandolinSpec.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,21 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TestSolution.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter5&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FindGuitarTester.executor": "Run",
+    "Application.FindInstrumentTester.executor": "Debug",
+    "Application.TestSolution.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_ooad.chapter5" />
@@ -66,8 +68,37 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FindGuitarTester">
+    <configuration name="FindGuitarTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_ooad.chapter5.FindGuitarTester" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headfirst_ooad.chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindInstrumentTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_ooad.chapter5ans.FindInstrumentTester" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headfirst_ooad.chapter5ans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.question19.TestSolution" />
       <module name="coding" />
@@ -83,6 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindGuitarTester" />
+        <item itemvalue="Application.FindInstrumentTester" />
         <item itemvalue="Application.TestSolution" />
       </list>
     </recent_temporary>
@@ -97,7 +130,9 @@
       <updated>1734369881652</updated>
       <workItem from="1734369882664" duration="5677000" />
       <workItem from="1734441607417" duration="3163000" />
-      <workItem from="1734530267596" duration="1029000" />
+      <workItem from="1734530267596" duration="1939000" />
+      <workItem from="1734580773160" duration="6433000" />
+      <workItem from="1734668955560" duration="1134000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -147,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734443495636</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="search tool with aggragation, encapsulation and abstracting">
+      <option name="closed" value="true" />
+      <created>1734531985854</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734531985854</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +201,8 @@
     <MESSAGE value="migrate previous coding" />
     <MESSAGE value="rearrange classes" />
     <MESSAGE value="leetcode finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode finished" />
+    <MESSAGE value="search tool with aggragation, encapsulation and abstracting" />
+    <option name="LAST_COMMIT_MESSAGE" value="search tool with aggragation, encapsulation and abstracting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -172,6 +216,46 @@
           <url>file://$PROJECT_DIR$/src/leetcode/question19/Solution.java</url>
           <line>14</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter5/Inventory.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter5/Inventory.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/InstrumentSpec.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter5/FindGuitarTester.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/InstrumentSpec.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/InstrumentSpec.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/InstrumentSpec.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/InstrumentSpec.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,55 +4,41 @@ import headfirst_ooad.chapter5.Builder;
 import headfirst_ooad.chapter5.Type;
 import headfirst_ooad.chapter5.Wood;
 
-public abstract class InstrumentSpec {
-    private Builder builder;
-    private String model;
-    private Type type;
-    private Wood backWood;
-    private Wood topWood;
-    public InstrumentSpec(Builder builder, String model, Type type,
-                      Wood backWood, Wood topWood) {
-        this.builder = builder;
-        this.model = model;
-        this.type = type;
-        this.backWood = backWood;
-        this.topWood = topWood;
+import java.util.Iterator;
+import java.util.Map;
 
+public class InstrumentSpec {
+//    private Builder builder;
+//    private String model;
+//    private Type type;
+//    private Wood backWood;
+//    private Wood topWood;
+    Map properties;
+
+    public InstrumentSpec(Map properties) {
+        this.properties = properties;
     }
 
-    public Builder getBuilder() {
-        return builder;
+    public Object getProperty(String property){
+        return properties.get(property);
     }
 
-    public String getModel() {
-        return model;
-    }
-
-    public Type getType() {
-        return type;
-    }
-
-    public Wood getBackWood() {
-        return backWood;
-    }
-
-    public Wood getTopWood() {
-        return topWood;
+    public Map getProperties(){
+        return properties;
     }
 
     public boolean matches(InstrumentSpec searchSpec){
-        if (searchSpec.getBuilder() != getBuilder())
-            return false;
-        String model = searchSpec.getModel().toLowerCase();
-        if ((model != null) && (!model.equals("")) &&
-                (!model.equals(getModel().toLowerCase())))
-            return false;
-        if (searchSpec.getType() != getType())
-            return false;
-        if (searchSpec.getBackWood() != getBackWood())
-            return false;
-        if (searchSpec.getTopWood() != getTopWood())
-            return false;
+        for (Iterator i = searchSpec.getProperties().keySet().iterator();
+             i.hasNext(); ) {
+            String propertyName = (String)i.next();
+            Object o1 = properties.get(propertyName);
+            Object o2 = searchSpec.getProperty(propertyName);
+
+            if (!properties.get(propertyName).equals(
+                    searchSpec.getProperty(propertyName))) {
+                return false;
+            }
+        }
         return true;
 
     }

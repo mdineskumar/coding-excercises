@@ -1,10 +1,13 @@
 package headfirst_ooad.chapter5;
 
-import headfirst_ooad.chapter5.instrument.Guitar;
-import headfirst_ooad.chapter5.specification.GuitarSpec;
+import headfirst_ooad.chapter1.Guitar;
+import headfirst_ooad.chapter5.instrument.Instrument;
+import headfirst_ooad.chapter5.specification.InstrumentSpec;
 
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 public class FindGuitarTester {
 
@@ -13,59 +16,86 @@ public class FindGuitarTester {
     Inventory inventory = new Inventory();
     initializeInventory(inventory);
 
-    GuitarSpec whatErinLikes =
-      new GuitarSpec(Builder.FENDER, "Stratocastor",
-                     Type.ELECTRIC, Wood.ALDER, Wood.ALDER, 6);
-    List matchingGuitars = inventory.search(whatErinLikes);
-    if (!matchingGuitars.isEmpty()) {
-      System.out.println("Erin, you might like these guitars:");
-      for (Iterator i = matchingGuitars.iterator(); i.hasNext(); ) {
-        Guitar guitar = (Guitar)i.next();
-        GuitarSpec spec = (GuitarSpec) guitar.getInstrumentSpec();
-        System.out.println("  We have a " +
-          spec.getBuilder() + " " + spec.getModel() + " " +
-          spec.getType() + " guitar:\n     " +
-          spec.getBackWood() + " back and sides,\n     " +
-          spec.getTopWood() + " top.\n  You can have it for only $" +
-          guitar.getPrice() + "!\n  ----");
+    Map properties = new HashMap();
+    properties.put("builder", Builder.GIBSON);
+    properties.put("backWood", Wood.MAPLE);
+    InstrumentSpec whatBryanLikes = new InstrumentSpec(properties);
+
+    List matchingInstruments = inventory.search(whatBryanLikes);
+    if (!matchingInstruments.isEmpty()) {
+      System.out.println("Bryan, you might like these instruments:");
+      for (Iterator i = matchingInstruments.iterator(); i.hasNext(); ) {
+        Instrument instrument = (Instrument)i.next();
+        InstrumentSpec spec = instrument.getInstrumentSpec();
+        System.out.println("We have a " + spec.getProperty("instrumentType") +
+                " with the following properties:");
+        for (Iterator j = spec.getProperties().keySet().iterator();
+             j.hasNext(); ) {
+          String propertyName = (String)j.next();
+          if (propertyName.equals("instrumentType"))
+            continue;
+          System.out.println("    " + propertyName + ": " +
+                  spec.getProperty(propertyName));
+        }
+        System.out.println("  You can have this " +
+                spec.getProperty("instrumentType") + " for $" +
+                instrument.getPrice() + "\n---");
       }
     } else {
-      System.out.println("Sorry, Erin, we have nothing for you.");
+      System.out.println("Sorry, Bryan, we have nothing for you.");
     }
   }
 
   private static void initializeInventory(Inventory inventory) {
-    inventory.addInstrument("11277", 3999.95,
-            new GuitarSpec(Builder.COLLINGS, "CJ", Type.ACOUSTIC,
-                    Wood.INDIAN_ROSEWOOD, Wood.SITKA,6));
-    inventory.addInstrument("V95693", 1499.95,
-            new GuitarSpec(Builder.FENDER, "Stratocastor", Type.ELECTRIC,
-                    Wood.ALDER, Wood.ALDER,6));
-    inventory.addInstrument("V9512", 1549.95,
-            new GuitarSpec(Builder.FENDER, "Stratocastor", Type.ELECTRIC,
-                    Wood.ALDER, Wood.ALDER,6));
-    inventory.addInstrument("122784", 5495.95,
-            new GuitarSpec(Builder.MARTIN, "D-18", Type.ACOUSTIC,
-                    Wood.MAHOGANY, Wood.ADIRONDACK,6));
-    inventory.addInstrument("76531", 6295.95,
-            new GuitarSpec(Builder.MARTIN, "OM-28", Type.ACOUSTIC,
-                    Wood.BRAZILIAN_ROSEWOOD, Wood.ADIRONDACK,6));
+    Map properties = new HashMap();
+    properties.put("instrumentType", InstrumentType.GUITAR);
+    properties.put("builder", Builder.COLLINGS);
+    properties.put("model", "CJ");
+    properties.put("type", Type.ACOUSTIC);
+    properties.put("numStrings", 6);
+    properties.put("topWood", Wood.INDIAN_ROSEWOOD);
+    properties.put("backWood", Wood.SITKA);
+    inventory.addInstrument("11277", 3999.95, new InstrumentSpec(properties));
+
+    properties.put("builder", Builder.MARTIN);
+    properties.put("model", "D-18");
+    properties.put("topWood", Wood.MAHOGANY);
+    properties.put("backWood", Wood.ADIRONDACK);
+    inventory.addInstrument("122784", 5495.95, new InstrumentSpec(properties));
+
+    properties.put("builder", Builder.FENDER);
+    properties.put("model", "Stratocastor");
+    properties.put("type", Type.ELECTRIC);
+    properties.put("topWood", Wood.ALDER);
+    properties.put("backWood", Wood.ALDER);
+    inventory.addInstrument("V95693", 1499.95, new InstrumentSpec(properties));
+    inventory.addInstrument("V9512", 1549.95, new InstrumentSpec(properties));
+
+    properties.put("builder", Builder.GIBSON);
+    properties.put("model", "Les Paul");
+    properties.put("topWood", Wood.MAPLE);
+    properties.put("backWood", Wood.MAPLE);
     inventory.addInstrument("70108276", 2295.95,
-            new GuitarSpec(Builder.GIBSON, "Les Paul", Type.ELECTRIC,
-                    Wood.MAHOGANY, Wood.MAHOGANY,6));
+            new InstrumentSpec(properties));
+
+    properties.put("model", "SG '61 Reissue");
+    properties.put("topWood", Wood.MAHOGANY);
+    properties.put("backWood", Wood.MAHOGANY);
     inventory.addInstrument("82765501", 1890.95,
-            new GuitarSpec(Builder.GIBSON, "SG '61 Reissue", Type.ELECTRIC,
-                    Wood.MAHOGANY, Wood.MAHOGANY,6));
-    inventory.addInstrument("77023", 6275.95,
-            new GuitarSpec(Builder.MARTIN, "D-28", Type.ACOUSTIC,
-                    Wood.BRAZILIAN_ROSEWOOD, Wood.ADIRONDACK,6));
-    inventory.addInstrument("1092", 12995.95,
-            new GuitarSpec(Builder.OLSON, "SJ", Type.ACOUSTIC,
-                    Wood.INDIAN_ROSEWOOD, Wood.CEDAR,12));
-    inventory.addInstrument("566-62", 8999.95,
-            new GuitarSpec(Builder.RYAN, "Cathedral", Type.ACOUSTIC,
-                    Wood.COCOBOLO, Wood.CEDAR,12));
-    inventory.addInstrument("6 29584", 2100.95,
-            new GuitarSpec(Builder.PRS, "Dave Navarro Signature", Type.ELECTRIC, Wood.MAHOGANY, Wood.MAPLE,6));
-  }
+            new InstrumentSpec(properties));
+
+    properties.put("instrumentType", InstrumentType.MANDOLIN);
+    properties.put("type", Type.ACOUSTIC);
+    properties.put("model", "F-5G");
+    properties.put("backWood", Wood.MAPLE);
+    properties.put("topWood", Wood.MAPLE);
+    properties.remove("numStrings");
+    inventory.addInstrument("9019920", 5495.99, new InstrumentSpec(properties));
+
+    properties.put("instrumentType", InstrumentType.BANJO);
+    properties.put("model", "RB-3 Wreath");
+    properties.remove("topWood");
+    properties.put("numStrings", 5);
+    inventory.addInstrument("8900231", 2945.95, new InstrumentSpec(properties));
+}
 }
