@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="hashtable separate chaining">
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter9/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter9/Unit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter9/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter9/board/Board.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="ooad chapter9">
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter7/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter7/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter7/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter7/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter9/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter9/Unit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,24 +34,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FindGuitarTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindInstrumentTester.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HashtableDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSolution.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FindGuitarTester.executor": "Run",
+    "Application.FindInstrumentTester.executor": "Debug",
+    "Application.HashtableDemo.executor": "Run",
+    "Application.TestSolution.executor": "Debug",
+    "Application.UnitTester.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_ooad.chapter5" />
@@ -68,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashtableDemo">
+  <component name="RunManager" selected="Application.UnitTester">
     <configuration name="FindGuitarTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="headfirst_ooad.chapter5.FindGuitarTester" />
       <module name="coding" />
@@ -121,8 +118,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnitTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_ooad.chapter9.UnitTester" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headfirst_ooad.chapter9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnitTester" />
         <item itemvalue="Application.HashtableDemo" />
         <item itemvalue="Application.FindGuitarTester" />
         <item itemvalue="Application.FindInstrumentTester" />
@@ -146,7 +157,7 @@
       <workItem from="1734775514527" duration="2269000" />
       <workItem from="1735641021053" duration="6969000" />
       <workItem from="1735802964587" duration="2498000" />
-      <workItem from="1735972848423" duration="642000" />
+      <workItem from="1735972848423" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -228,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735803051218</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ooad chapter9">
+      <option name="closed" value="true" />
+      <created>1735973508185</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735973508185</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +262,8 @@
     <MESSAGE value="apply ooad" />
     <MESSAGE value="my Board thing" />
     <MESSAGE value="hashtable separate chaining" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashtable separate chaining" />
+    <MESSAGE value="ooad chapter9" />
+    <option name="LAST_COMMIT_MESSAGE" value="ooad chapter9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -297,6 +317,15 @@
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/InstrumentSpec.java</url>
           <line>36</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
+          <line>33</line>
+          <properties class="headfirst_ooad.chapter9.UnitTester" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

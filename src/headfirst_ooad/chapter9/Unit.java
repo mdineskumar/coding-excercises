@@ -49,4 +49,12 @@ public class Unit {
         }
         return properties.get(property);
     }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
+    }
 }
