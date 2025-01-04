@@ -1,6 +1,8 @@
 package headfirst_ooad.chapter9;
 
 
+import java.sql.SQLOutput;
+
 public class UnitTester {
     public static void printTestResult(boolean isPassed){
         if (isPassed) {
@@ -10,31 +12,55 @@ public class UnitTester {
         }
 
     }
-    public static void testSetGetCommonProperty(Unit unit, String value, String exprectedValue){
-        unit.setType(value);
-        printTestResult(unit.getType().equals(exprectedValue));
+    public static void testType(Unit unit, String type, String expectedOutputType){
+        System.out.println("\nTesting setting/getting the type property.");
+        unit.setType(type);
+        String outputType = unit.getType();
+        if (outputType.equals(expectedOutputType)){
+            System.out.println("Test passed.");
+        }else{
+            System.out.println("Test failed: "+outputType+" didn't match " + expectedOutputType);
+        }
     }
 
-    public static void testSetGetUnitSpecificProperty(Unit unit,String property, Object value, Object expectedValue){
-        unit.setProperty(property,value);
-        printTestResult(unit.getProperty(property).equals(expectedValue));
+    public static void testSpecificProperty(Unit unit,String propertyName, Object inputValue, Object expectedOutputValue){
+        System.out.println("\nTesting setting/getting a unit-specific property.");
+        unit.setProperty(propertyName,inputValue);
+        Object outputValue = unit.getProperty(propertyName);
+        if (outputValue.equals(expectedOutputValue)){
+            System.out.println("Test passed.");
+        }else{
+            System.out.println("Test failed: "+outputValue+ " didn't match "+expectedOutputValue);
+        }
+
     }
 
-    public static void testUpdateUnitSpecificProperty(Unit unit,String property, Object value,Object expectedValue){
-        unit.setProperty(property,value);
-
-        printTestResult(unit.getProperty(property).equals(expectedValue));
+    public static void testUpdateSpecificProperty(Unit unit,String propertyName, Object inputValue,Object expectedOutputValue){
+        System.out.println("\nTesting updating an existing property's value.");
+        unit.setProperty(propertyName,inputValue);
+        Object outputValue = unit.getProperty(propertyName);
+        if (outputValue.equals(expectedOutputValue)){
+            System.out.println("Test passed.");
+        }else{
+            System.out.println("Test failed: "+outputValue+ " didn't match "+expectedOutputValue);
+        }
     }
 
-    public static void testNonExistentPropeerty(Unit unit,String property,Object expectedValue){
-        printTestResult(unit.getProperty(property) == expectedValue);
+    public static void testNonExistentPropeerty(Unit unit,String propertyName,Object expectedOutputValue){
+        System.out.println("\nTesting getting a non-existent property's value");
+        Object outputValue = unit.getProperty(propertyName);
+        if (outputValue == expectedOutputValue){
+            System.out.println("Test passed.");
+        }else{
+            System.out.println("Test failed: "+ outputValue + " didn't match "+ expectedOutputValue);
+        }
     }
 
     public static void main(String[] args) {
-        testSetGetCommonProperty(new Unit(1),"infantry","infantry");
-        Unit unit = new Unit(2);
-        testSetGetUnitSpecificProperty(unit,"hitPoints",25,25);
-        testUpdateUnitSpecificProperty(unit,"hitPoints",15, 15);
+        Unit unit = new Unit(1000);
+        testType(unit,"infantry","infantry");
+        testSpecificProperty(unit,"hitPoints",25,25);
+        testUpdateSpecificProperty(unit,"hitPoints",15, 15);
         testNonExistentPropeerty(new Unit(3),"strength",null);
     }
 }
