@@ -1,7 +1,7 @@
-package headfirst_ooad.chapter7.board;
+package headfirst_ooad.chapter9.board;
 
-import headfirst_ooad.chapter7.Tile;
-import headfirst_ooad.chapter7.Unit;
+import headfirst_ooad.chapter9.Tile;
+import headfirst_ooad.chapter9.Unit;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,7 +41,7 @@ public class Board {
         return getTile(x,y).getUnits();
     }
 
-    public void removeUnit(int x, int y, Unit unit){
+    public void removeUnit(int x,int y,Unit unit){
         Tile tile = getTile(x,y);
         tile.removeUnit(unit);
     }
