@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="updated tests on unit class">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/hashtable/question1.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="two sum first draft">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter9/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter9/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/hashtable/question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/hashtable/question1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     "Application.FindGuitarTester.executor": "Run",
     "Application.FindInstrumentTester.executor": "Debug",
     "Application.HashtableDemo.executor": "Run",
-    "Application.Solution.executor": "Run",
+    "Application.Solution.executor": "Debug",
     "Application.TestSolution.executor": "Debug",
     "Application.UnitTester.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -158,7 +157,7 @@
       <workItem from="1734775514527" duration="2269000" />
       <workItem from="1735641021053" duration="6969000" />
       <workItem from="1735802964587" duration="2498000" />
-      <workItem from="1735972848423" duration="6649000" />
+      <workItem from="1735972848423" duration="8837000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -272,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735996902151</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="two sum first draft">
+      <option name="closed" value="true" />
+      <created>1735998331082</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1735998331082</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +297,8 @@
     <MESSAGE value="ooad chapter9" />
     <MESSAGE value="write own tests on unit class" />
     <MESSAGE value="updated tests on unit class" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated tests on unit class" />
+    <MESSAGE value="two sum first draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="two sum first draft" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -347,13 +355,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/datastructure/hashtable/question1.java</url>
-          <line>15</line>
+          <line>14</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/datastructure/hashtable/question1.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/datastructure/hashtable/question1.java</url>
@@ -362,8 +365,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/datastructure/hashtable/question1.java</url>
-          <line>28</line>
+          <line>18</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/hashtable/question1.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
