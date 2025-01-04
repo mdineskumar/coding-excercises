@@ -41,15 +41,17 @@ public class Unit {
         properties.put(property,value);
     }
 
-    public Object getProperty(String property) throws IllegalAccessException{
+    public Object getProperty(String property) {
         //since properties might not be initialized,
         // there's an extra check here before looking up a property's value.
         if (properties == null){
-            throw new IllegalAccessException("What are you doing? No properties!");
+//            throw new IllegalAccessException("What are you doing? No properties!");
+            return null;
         }
         Object value = properties.get(property);
         if (value == null){
-            throw new IllegalAccessException("You're screwing up! No property value!");
+//            throw new IllegalAccessException("You're screwing up! No property value!");
+            return null;
         }else{
             return value;
         }

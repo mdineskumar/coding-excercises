@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="updated tests on unit class">
+      <change afterPath="$PROJECT_DIR$/src/datastructure/hashtable/question1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter9/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter9/Unit.java" afterDir="false" />
     </list>
@@ -38,6 +39,7 @@
     "Application.FindGuitarTester.executor": "Run",
     "Application.FindInstrumentTester.executor": "Debug",
     "Application.HashtableDemo.executor": "Run",
+    "Application.Solution.executor": "Run",
     "Application.TestSolution.executor": "Debug",
     "Application.UnitTester.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -64,7 +66,7 @@
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UnitTester">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="FindGuitarTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="headfirst_ooad.chapter5.FindGuitarTester" />
       <module name="coding" />
@@ -104,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.question19.TestSolution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.hashtable.Solution" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.question19.*" />
+          <option name="PATTERN" value="datastructure.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.UnitTester" />
         <item itemvalue="Application.HashtableDemo" />
         <item itemvalue="Application.FindGuitarTester" />
         <item itemvalue="Application.FindInstrumentTester" />
-        <item itemvalue="Application.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +158,7 @@
       <workItem from="1734775514527" duration="2269000" />
       <workItem from="1735641021053" duration="6969000" />
       <workItem from="1735802964587" duration="2498000" />
-      <workItem from="1735972848423" duration="5226000" />
+      <workItem from="1735972848423" duration="6649000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -262,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735976645292</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updated tests on unit class">
+      <option name="closed" value="true" />
+      <created>1735996902151</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735996902151</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +344,26 @@
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter5/specification/InstrumentSpec.java</url>
           <line>36</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/hashtable/question1.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/hashtable/question1.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/hashtable/question1.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/hashtable/question1.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
