@@ -6,11 +6,11 @@ import java.util.List;
 import java.util.Map;
 
 public class Unit {
-    int id;
-    String type;
-    String name;
-    List weapons;
-    Map properties;
+    private int id;
+    private String type;
+    private String name;
+    private List weapons;
+    private Map properties;
 
     public Unit(int id) {
         this.id = id;
