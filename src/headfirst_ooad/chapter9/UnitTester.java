@@ -48,12 +48,14 @@ public class UnitTester {
 
     public static void testNonExistentPropeerty(Unit unit,String propertyName,Object expectedOutputValue){
         System.out.println("\nTesting getting a non-existent property's value");
-        Object outputValue = unit.getProperty(propertyName);
-        if (outputValue == expectedOutputValue){
+        Object outputValue = null;
+        try{
+            outputValue = unit.getProperty(propertyName);
+        }catch (RuntimeException e){
             System.out.println("Test passed.");
-        }else{
-            System.out.println("Test failed: "+ outputValue + " didn't match "+ expectedOutputValue);
+            return;
         }
+        System.out.println("Test failed: "+ outputValue + " didn't match "+ expectedOutputValue);
     }
 
     public static void main(String[] args) {

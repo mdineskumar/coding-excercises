@@ -46,12 +46,14 @@ public class Unit {
         // there's an extra check here before looking up a property's value.
         if (properties == null){
 //            throw new IllegalAccessException("What are you doing? No properties!");
-            return null;
+//            return null;
+            throw new RuntimeException("No properties for this unit.");
         }
         Object value = properties.get(property);
         if (value == null){
 //            throw new IllegalAccessException("You're screwing up! No property value!");
-            return null;
+//            return null;
+            throw new RuntimeException("Request for non-existent property.");
         }else{
             return value;
         }
