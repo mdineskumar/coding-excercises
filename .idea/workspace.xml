@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="string has all unique characters.">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/twopointers_slidingwindow/Solution.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="maximum point in card leetcode 1423">
+      <change afterPath="$PROJECT_DIR$/src/ObjectvilleSubway.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/LoadTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/Subway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/SubwayLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/twopointers_slidingwindow/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/twopointers_slidingwindow/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +44,12 @@
     "Application.FindGuitarTester.executor": "Run",
     "Application.FindInstrumentTester.executor": "Debug",
     "Application.HashtableDemo.executor": "Run",
+    "Application.LoadTester.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.TestSolution.executor": "Debug",
     "Application.UnitTester.executor": "Run",
     "Application.datastructure.arrays.Solution.executor": "Debug",
-    "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Debug",
+    "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -64,16 +71,17 @@
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.datastructure.twopointers_slidingwindow.Solution">
-    <configuration name="HashtableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.hashtable.HashtableDemo" />
+  <component name="RunManager" selected="Application.LoadTester">
+    <configuration name="LoadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_ooad.chapter10.LoadTester" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.hashtable.*" />
+          <option name="PATTERN" value="headfirst_ooad.chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoadTester" />
         <item itemvalue="Application.datastructure.twopointers_slidingwindow.Solution" />
         <item itemvalue="Application.datastructure.arrays.Solution" />
         <item itemvalue="Application.UnitTester" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.HashtableDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +169,9 @@
       <workItem from="1735802964587" duration="2498000" />
       <workItem from="1735972848423" duration="8848000" />
       <workItem from="1736132071324" duration="5633000" />
-      <workItem from="1736251518471" duration="4407000" />
+      <workItem from="1736251518471" duration="5252000" />
+      <workItem from="1736310822910" duration="2072000" />
+      <workItem from="1736399819414" duration="4882000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -307,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736158433995</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="maximum point in card leetcode 1423">
+      <option name="closed" value="true" />
+      <created>1736258556920</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736258556920</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +347,8 @@
     <MESSAGE value="two sum optimize" />
     <MESSAGE value="implement programming by contract" />
     <MESSAGE value="string has all unique characters." />
-    <option name="LAST_COMMIT_MESSAGE" value="string has all unique characters." />
+    <MESSAGE value="maximum point in card leetcode 1423" />
+    <option name="LAST_COMMIT_MESSAGE" value="maximum point in card leetcode 1423" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -413,6 +432,21 @@
           <url>file://$PROJECT_DIR$/src/datastructure/twopointers_slidingwindow/Solution.java</url>
           <line>6</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter10/Subway.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter10/Subway.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter10/Subway.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>

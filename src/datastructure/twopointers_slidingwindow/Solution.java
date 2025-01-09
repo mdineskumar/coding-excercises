@@ -9,15 +9,14 @@ class Solution {
         int rsum = 0;
 
         for(int j = 0; j < k; j++){
-            int ele = cardPoints[j];
             lsum = lsum + cardPoints[j];
             maxSum = lsum;
         }
-        for (int i = 1; i <= k; i++) {
-            int leftIndex = k - i;
-            lsum = lsum - cardPoints[leftIndex];
-            int rightIndex = cardPoints.length - i;
+        int rightIndex = cardPoints.length - 1;
+        for (int i = k-1; i >= 0; i--) {
+            lsum = lsum - cardPoints[i];
             rsum = rsum + cardPoints[rightIndex];
+            rightIndex--;
             maxSum = Math.max(lsum+rsum, maxSum);
         }
 
