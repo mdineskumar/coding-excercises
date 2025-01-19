@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="maximum point in card leetcode 1423">
-      <change afterPath="$PROJECT_DIR$/src/ObjectvilleSubway.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/LoadTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/Station.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/Subway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/SubwayLoader.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/twopointers_slidingwindow/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/twopointers_slidingwindow/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/LoadTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/LoadTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/Subway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst_ooad/chapter10/Subway.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +34,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FindGuitarTester.executor": "Run",
-    "Application.FindInstrumentTester.executor": "Debug",
-    "Application.HashtableDemo.executor": "Run",
-    "Application.LoadTester.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.TestSolution.executor": "Debug",
-    "Application.UnitTester.executor": "Run",
-    "Application.datastructure.arrays.Solution.executor": "Debug",
-    "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FindGuitarTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindInstrumentTester.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HashtableDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoadTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSolution.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.UnitTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.datastructure.arrays.Solution.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.datastructure.twopointers_slidingwindow.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_ooad.chapter5" />
@@ -171,7 +166,9 @@
       <workItem from="1736132071324" duration="5633000" />
       <workItem from="1736251518471" duration="5252000" />
       <workItem from="1736310822910" duration="2072000" />
-      <workItem from="1736399819414" duration="4882000" />
+      <workItem from="1736399819414" duration="5642000" />
+      <workItem from="1736757736953" duration="784000" />
+      <workItem from="1737269191823" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -325,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736258556920</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="my subway testcases">
+      <option name="closed" value="true" />
+      <created>1736405852198</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1736405852198</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +353,8 @@
     <MESSAGE value="implement programming by contract" />
     <MESSAGE value="string has all unique characters." />
     <MESSAGE value="maximum point in card leetcode 1423" />
-    <option name="LAST_COMMIT_MESSAGE" value="maximum point in card leetcode 1423" />
+    <MESSAGE value="my subway testcases" />
+    <option name="LAST_COMMIT_MESSAGE" value="my subway testcases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -435,17 +441,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter10/Subway.java</url>
-          <line>33</line>
+          <line>36</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter10/Subway.java</url>
-          <line>32</line>
+          <line>35</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter10/Subway.java</url>
-          <line>40</line>
+          <line>45</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
