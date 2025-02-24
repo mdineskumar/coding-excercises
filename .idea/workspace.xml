@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="chapter 10 finished">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/question13/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="leetcode question 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,31 +33,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FindGuitarTester.executor": "Run",
-    "Application.FindInstrumentTester.executor": "Debug",
-    "Application.HashtableDemo.executor": "Run",
-    "Application.LoadTester.executor": "Debug",
-    "Application.Solution.executor": "Run",
-    "Application.TestSolution.executor": "Debug",
-    "Application.TwoPointersSlidingWindow.executor": "Run",
-    "Application.UnitTester.executor": "Run",
-    "Application.datastructure.arrays.Solution.executor": "Debug",
-    "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
-    "Application.leetcode.question13.Solution.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FindGuitarTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindInstrumentTester.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HashtableDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoadTester.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSolution.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TwoPointersSlidingWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnitTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.datastructure.arrays.Solution.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.datastructure.twopointers_slidingwindow.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.question13.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_ooad.chapter5" />
@@ -72,7 +71,7 @@
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoPointersSlidingWindow">
+  <component name="RunManager" selected="Application.RecursionExample">
     <configuration name="LoadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="headfirst_ooad.chapter10.LoadTester" />
       <module name="coding" />
@@ -86,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoPointersSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.question4.TwoPointersSlidingWindow" />
+    <configuration name="RecursionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.RecursionExample" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.question4.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="datastructure.arrays.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.arrays.Solution" />
+    <configuration name="TwoPointersSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.question4.TwoPointersSlidingWindow" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.arrays.*" />
+          <option name="PATTERN" value="leetcode.question4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionExample" />
         <item itemvalue="Application.TwoPointersSlidingWindow" />
         <item itemvalue="Application.leetcode.question13.Solution" />
         <item itemvalue="Application.LoadTester" />
         <item itemvalue="Application.datastructure.twopointers_slidingwindow.Solution" />
-        <item itemvalue="Application.datastructure.arrays.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +170,7 @@
       <workItem from="1736399819414" duration="5642000" />
       <workItem from="1736757736953" duration="784000" />
       <workItem from="1737269191823" duration="2199000" />
-      <workItem from="1739630169879" duration="2293000" />
+      <workItem from="1739630169879" duration="5367000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -341,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737275457839</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="leetcode question 4">
+      <option name="closed" value="true" />
+      <created>1739632495392</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1739632495392</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +373,8 @@
     <MESSAGE value="maximum point in card leetcode 1423" />
     <MESSAGE value="my subway testcases" />
     <MESSAGE value="chapter 10 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 10 finished" />
+    <MESSAGE value="leetcode question 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode question 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -473,28 +481,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java</url>
-          <line>11</line>
+          <line>8</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java</url>
-          <line>23</line>
+          <line>27</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="36" />
+          <line>12</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="37" />
+          <line>13</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>

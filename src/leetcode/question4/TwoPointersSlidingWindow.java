@@ -1,26 +1,30 @@
 package leetcode.question4;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class TwoPointersSlidingWindow {
     public static int lengthOfLongestSubstring(String s){
-        if(s.length() == 1){
-            return 1;
-        }
-        if(s.isEmpty()){
-            return 0;
-        }
         int maxLength = 0;
         int l = 0;
-        int r = 1;
-        String subString = "";
-        subString = s.substring(l,r);
-        System.out.println("startpoint: "+subString);
+        int r = 0;
+        Map hash = new HashMap();
+
         while(r < s.length()){
-            while(s.substring(l,r).contains(String.valueOf(s.charAt(r)))){
-                l = l+1;
+            if(hash.get(s.charAt(r)) != null){
+
+                if((int) hash.get(s.charAt(r)) >= l ){
+                    l = (int) hash.get(s.charAt(r)) + 1;
+                    maxLength = Math.max(maxLength,r-l+1);
+                    hash.put(s.charAt(r),r);
+                }
+
             }
-            if(!s.substring(l,r).contains(String.valueOf(s.charAt(r)))){
+            //if(hash.get(s.charAt(r)) == null){
                 maxLength = Math.max(maxLength,r-l+1);
-            }
+                hash.put(s.charAt(r),r);
+            //}
+
             r++;
             System.out.println(s.substring(l,r));
         }
@@ -32,7 +36,8 @@ public class TwoPointersSlidingWindow {
         String s2 = "bbbbb";
         String s3 = "pwwkew";
         String s4 = " ";
-        System.out.println(lengthOfLongestSubstring(s4));
+        String s5 = "tmmzuxt";
+        System.out.println(lengthOfLongestSubstring(s5));
 
 
 
