@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="leetcode question 4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java" afterDir="false" />
-    </list>
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="leetcode question 4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,31 +30,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FindGuitarTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindInstrumentTester.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HashtableDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoadTester.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSolution.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TwoPointersSlidingWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnitTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.datastructure.arrays.Solution.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.datastructure.twopointers_slidingwindow.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.leetcode.question13.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FindGuitarTester.executor": "Run",
+    "Application.FindInstrumentTester.executor": "Debug",
+    "Application.HashtableDemo.executor": "Run",
+    "Application.LoadTester.executor": "Debug",
+    "Application.RecursionExample.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.TestSolution.executor": "Debug",
+    "Application.TwoPointersSlidingWindow.executor": "Run",
+    "Application.UnitTester.executor": "Run",
+    "Application.datastructure.arrays.Solution.executor": "Debug",
+    "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
+    "Application.leetcode.question13.Solution.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_ooad.chapter5" />
@@ -171,6 +169,7 @@
       <workItem from="1736757736953" duration="784000" />
       <workItem from="1737269191823" duration="2199000" />
       <workItem from="1739630169879" duration="5367000" />
+      <workItem from="1740411601178" duration="588000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -348,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739632495392</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="leetcode question 4">
+      <option name="closed" value="true" />
+      <created>1740411847548</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740411847548</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
