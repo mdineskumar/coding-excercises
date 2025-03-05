@@ -174,7 +174,7 @@
       <workItem from="1739630169879" duration="5367000" />
       <workItem from="1740411601178" duration="877000" />
       <workItem from="1740672928868" duration="2181000" />
-      <workItem from="1741193555581" duration="1222000" />
+      <workItem from="1741193555581" duration="3471000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -376,7 +376,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741194089252</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="recursion multiplication example">
+      <option name="closed" value="true" />
+      <created>1741195941572</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1741195941572</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
