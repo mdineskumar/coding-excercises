@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="recursion multiplication example">
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="recursion loop through list example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recursion/RecursionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/RecursionExample.java" afterDir="false" />
     </list>
@@ -174,7 +174,8 @@
       <workItem from="1739630169879" duration="5367000" />
       <workItem from="1740411601178" duration="877000" />
       <workItem from="1740672928868" duration="2181000" />
-      <workItem from="1741193555581" duration="3471000" />
+      <workItem from="1741193555581" duration="3769000" />
+      <workItem from="1741412188335" duration="3831000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -384,7 +385,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741195941572</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="recursion loop through list example">
+      <option name="closed" value="true" />
+      <created>1741197663679</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1741197663679</updated>
+    </task>
+    <task id="LOCAL-00028" summary="recursion loop through list example">
+      <option name="closed" value="true" />
+      <created>1741197872423</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1741197872423</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +439,8 @@
     <MESSAGE value="chapter 10 finished" />
     <MESSAGE value="leetcode question 4" />
     <MESSAGE value="recursion multiplication example" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion multiplication example" />
+    <MESSAGE value="recursion loop through list example" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion loop through list example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
