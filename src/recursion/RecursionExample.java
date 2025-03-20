@@ -117,6 +117,31 @@ public class RecursionExample {
         return lst[i]*product; //otherwise multiply the current element and running product together
     }
 
+    public static void isPalindrome(String s){
+        boolean isPalindrome = f(s);
+        if(isPalindrome){
+            System.out.println(s + " is a palindrome");
+        }else{
+            System.out.println(s+" is not a palindrome");
+        }
+    }
+
+    public static boolean f(String s){
+        int n = s.length();
+        if (n <= 1){
+            return true;
+        }
+        char left = s.toLowerCase().charAt(0);
+        char right = s.toLowerCase().charAt(n-1);
+        if(left != right){
+            return false;
+        }
+        String substring = s.substring(1,n-1);
+        return f(substring);
+
+    }
+
+
     public static void main(String[] args) {
         System.out.println(recursiveSum(9));
         System.out.println("multiplication: 4 * 5: " + multiplyMine(-4,5));
@@ -128,6 +153,19 @@ public class RecursionExample {
         System.out.println("product of even numbers: [-8,-3,2]: "+ productOfEvenNumbers(new int[]{-8,-3,2}));
         System.out.println("product of even numbers: [1,2,3,4,5]: "+ productOfEvenNumbers(new int[]{1,2,3,4,5}));
         System.out.println("product of even numbers: [1,7,3]: "+ productOfEvenNumbers(new int[]{1,7,3}));
+
+
+        System.out.println("Testing palindrome===========");
+        String s1 = "ababa";
+        String s2 = "765432";
+        String s3 = "madam";
+        String s4 = "palindrome";
+        String s5 = "";
+        isPalindrome(s1);
+        isPalindrome(s2);
+        isPalindrome(s3);
+        isPalindrome(s4);
+        isPalindrome(s5);
 
     }
 }
