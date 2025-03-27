@@ -1,5 +1,7 @@
 package recursion;
 
+import java.net.Inet4Address;
+
 import static java.lang.Math.abs;
 
 public class RecursionExample {
@@ -29,11 +31,11 @@ public class RecursionExample {
         return multiply(a-1,b)+b;
     }
 
-    public static int multiplyFiset(int a, int b){
-        if (b == 0){
+    public static int multiplyFiset(int a, int b) {
+        if (b == 0) {
             return 0;
         }
-        if(b < 0){
+        if (b < 0) {
             return multiplyFiset(a,b+1) - a;
         }
         return multiplyFiset(a, b-1) + a;
@@ -47,7 +49,7 @@ public class RecursionExample {
             return 0;
         }
         //check if the current number is odd
-        if (arr[index] % 2 != 0){
+        if (arr[index] % 2 != 0) {
             return sumOdds(index+1,arr) + arr[index];
         }
         return sumOdds(index+1,arr);
@@ -57,11 +59,11 @@ public class RecursionExample {
     //i - current index position
     //lst - reference to list
     public static int sumOddsFiset(int i, int[] lst){
-        if ( i == lst.length){
+        if ( i == lst.length) {
             return 0;
         }
         int value = 0;
-        if (lst[i] % 2 != 0){
+        if (lst[i] % 2 != 0) {
             value = lst[i];
         }
         return sumOddsFiset(i+1,lst) + value;
@@ -126,20 +128,54 @@ public class RecursionExample {
         }
     }
 
-    public static boolean f(String s){
+    public static boolean f(String s) {
         int n = s.length();
-        if (n <= 1){
+        if (n <= 1) {
             return true;
         }
         char left = s.toLowerCase().charAt(0);
         char right = s.toLowerCase().charAt(n-1);
-        if(left != right){
+        if (left != right) {
             return false;
         }
         String substring = s.substring(1,n-1);
         return f(substring);
 
     }
+
+    public static Pair findMinMax(int a, int b){
+        if ( a < b ){
+            return new Pair(a,b);
+        }
+        return new Pair(b,a);
+    }
+
+    //calling findMax with starting index, reference to list
+    //which delegates work of finding maximum value and its index to findMax function
+    public static Pair findMaximumElement(int[] lst) {
+        return findMax(0,lst);
+    }
+
+    //i - current index
+    //lst- reference to list
+    public static Pair findMax(int i, int[] lst) {
+        //base condition
+        if ( i == lst.length) {
+            return new Pair(null,null);
+        }
+
+        Pair bestIndexPair = findMax(i+1,lst);
+        Integer bestMax = bestIndexPair.first;
+        Integer bestIndex = bestIndexPair.second;
+
+        //no best maximum yet
+        if (bestMax == null || lst[i] > bestMax) {
+            bestMax = lst[i];
+            bestIndex = i;
+        }
+        return new Pair(bestMax,bestIndex);
+    }
+
 
 
     public static void main(String[] args) {
@@ -167,5 +203,34 @@ public class RecursionExample {
         isPalindrome(s4);
         isPalindrome(s5);
 
+        System.out.println("===Find Maximum element in the list and return multiple values ======");
+        int[] lst = {2,1,3,-4,2};
+        System.out.println("Max value");
+    }
+}
+
+class Pair{
+    Integer first;
+    Integer second;
+
+    public Pair(Integer first, Integer second) {
+        this.first = first;
+        this.second = second;
+    }
+
+    public Integer getFirst() {
+        return first;
+    }
+
+    public void setFirst(Integer first) {
+        this.first = first;
+    }
+
+    public Integer getSecond() {
+        return second;
+    }
+
+    public void setSecond(Integer second) {
+        this.second = second;
     }
 }

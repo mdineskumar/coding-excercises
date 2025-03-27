@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="recursion loop through list example 2">
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="recursion isPalindrome">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recursion/RecursionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/RecursionExample.java" afterDir="false" />
     </list>
@@ -33,32 +33,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FindGuitarTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindInstrumentTester.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HashtableDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoadTester.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RecursionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSolution.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TwoPointersSlidingWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnitTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.datastructure.arrays.Solution.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.datastructure.twopointers_slidingwindow.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.leetcode.question13.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FindGuitarTester.executor": "Run",
+    "Application.FindInstrumentTester.executor": "Debug",
+    "Application.HashtableDemo.executor": "Run",
+    "Application.LoadTester.executor": "Debug",
+    "Application.RecursionExample.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.TestSolution.executor": "Debug",
+    "Application.TwoPointersSlidingWindow.executor": "Run",
+    "Application.UnitTester.executor": "Run",
+    "Application.datastructure.arrays.Solution.executor": "Debug",
+    "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
+    "Application.leetcode.question13.Solution.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_ooad.chapter5" />
@@ -176,7 +183,9 @@
       <workItem from="1740672928868" duration="2181000" />
       <workItem from="1741193555581" duration="3769000" />
       <workItem from="1741412188335" duration="4652000" />
-      <workItem from="1742436869208" duration="556000" />
+      <workItem from="1742436869208" duration="1081000" />
+      <workItem from="1742573223114" duration="605000" />
+      <workItem from="1742611535395" duration="2708000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -418,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741459596894</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="recursion isPalindrome">
+      <option name="closed" value="true" />
+      <created>1742437582289</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1742437582289</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +475,8 @@
     <MESSAGE value="recursion multiplication example" />
     <MESSAGE value="recursion loop through list example" />
     <MESSAGE value="recursion loop through list example 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion loop through list example 2" />
+    <MESSAGE value="recursion isPalindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion isPalindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
