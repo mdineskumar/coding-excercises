@@ -1,6 +1,7 @@
 package recursion;
 
 import java.net.Inet4Address;
+import java.util.Arrays;
 
 import static java.lang.Math.abs;
 
@@ -204,9 +205,20 @@ public class RecursionExample {
         isPalindrome(s5);
 
         System.out.println("===Find Maximum element in the list and return multiple values ======");
-        int[] lst = {2,1,3,-4,2};
-        System.out.println("Max value");
+        int[] lst1 = {2,1,3,-4,2};
+        int[] lst2 = {};
+        int[] lst3 = {2};
+        printResultForFindMaximumElement(lst1);
+        printResultForFindMaximumElement(lst2);
+        printResultForFindMaximumElement(lst3);
+
     }
+
+    public static void printResultForFindMaximumElement(int [] lst){
+        Pair result = findMaximumElement(lst);
+        System.out.println(Arrays.toString(lst) +"-->"+ result.toString());
+    }
+
 }
 
 class Pair{
@@ -232,5 +244,10 @@ class Pair{
 
     public void setSecond(Integer second) {
         this.second = second;
+    }
+
+    @Override
+    public String toString() {
+        return "Best max: "+first+" Best index: "+second;
     }
 }

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="recursion findMax" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="recursion findMax">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion/RecursionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/RecursionExample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,39 +33,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FindGuitarTester.executor": "Run",
-    "Application.FindInstrumentTester.executor": "Debug",
-    "Application.HashtableDemo.executor": "Run",
-    "Application.LoadTester.executor": "Debug",
-    "Application.RecursionExample.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.TestSolution.executor": "Debug",
-    "Application.TwoPointersSlidingWindow.executor": "Run",
-    "Application.UnitTester.executor": "Run",
-    "Application.datastructure.arrays.Solution.executor": "Debug",
-    "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
-    "Application.leetcode.question13.Solution.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FindGuitarTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindInstrumentTester.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HashtableDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoadTester.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RecursionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSolution.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TwoPointersSlidingWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnitTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.datastructure.arrays.Solution.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.datastructure.twopointers_slidingwindow.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.question13.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_ooad.chapter5" />
@@ -183,6 +186,7 @@
       <workItem from="1742436869208" duration="1081000" />
       <workItem from="1742573223114" duration="605000" />
       <workItem from="1742611535395" duration="3558000" />
+      <workItem from="1743256629481" duration="1120000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -440,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743043989387</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="recursion findMax">
+      <option name="closed" value="true" />
+      <created>1743256633185</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1743256633185</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
