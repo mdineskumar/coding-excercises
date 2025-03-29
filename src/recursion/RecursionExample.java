@@ -4,6 +4,7 @@ import java.net.Inet4Address;
 import java.util.Arrays;
 
 import static java.lang.Math.abs;
+import static java.lang.Math.max;
 
 public class RecursionExample {
     public static int recursiveSum(int n){
@@ -177,6 +178,39 @@ public class RecursionExample {
         return new Pair(bestMax,bestIndex);
     }
 
+    public static Pair findMatrixMax(int [][] matrix){
+        return matrixMax(0,0,matrix);
+    }
+
+    private static Pair matrixMax(int r, int c, int[][] matrix) {
+        //test to see if we're outside bounds of the row
+        if (r == matrix.length) {
+            //represents there is no best maximum
+            return new Pair(null,null);
+        }
+        //check we're out of bounds on the right
+        if (c == matrix[r].length){
+            //want to move down to the next row and reset col
+            return matrixMax(r+1,0,matrix);
+        }
+        //normal flow move left to right
+        Pair maxPair = matrixMax(r,c+1, matrix);
+        Integer max_row = maxPair.first;
+        Integer max_col = maxPair.second;
+
+        //there is no best maximum found yet
+        if (max_row == null){
+            max_row = r;
+            max_col = c;
+        }
+        //check current cell is greater that best maximum
+        if (matrix[r][c] > matrix[max_row][max_col]) {
+            max_row = r;
+            max_col = c;
+        }
+
+        return new Pair(max_row,max_col);
+    }
 
 
     public static void main(String[] args) {
@@ -212,11 +246,23 @@ public class RecursionExample {
         printResultForFindMaximumElement(lst2);
         printResultForFindMaximumElement(lst3);
 
+        System.out.println("Finding index pair(row,col) which is best maximum element in the matrix");
+        int[][] mat1 = {
+                {1,9,6},
+                {8,3,7}
+        };
+
+
     }
 
     public static void printResultForFindMaximumElement(int [] lst){
         Pair result = findMaximumElement(lst);
         System.out.println(Arrays.toString(lst) +"-->"+ result.toString());
+    }
+
+    public static void printResultForFindMatrixMax(int[][] matrix) {
+        Pair result = findMatrixMax(matrix);
+        System.out.println(Arrays.toString(matrix)+"--->"+result.toString());
     }
 
 }
@@ -248,6 +294,6 @@ class Pair{
 
     @Override
     public String toString() {
-        return "Best max: "+first+" Best index: "+second;
+        return "Best max/row: "+first+" Best index/col: "+second;
     }
 }
