@@ -42,14 +42,6 @@ public class Stack<T> implements Iterator<T> {
         return size() == 0;
     }
 
-    @Override
-    public String toString() {
-
-        return "datastructure.stack_queue.Stack{" +
-                "list=" + Arrays.toString(list.reversed().toArray()) +
-                '}';
-    }
-
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
         stack.push(1);

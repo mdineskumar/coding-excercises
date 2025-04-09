@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="recursion findMax">
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/interfaces/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/interfaces/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/interfaces/FlyingCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/interfaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/interfaces/MathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/interfaces/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/interfaces/Vehicle.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="interfaces - algomaster lld">
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/polymorphism/method_overloading/MathOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/polymorphism/method_overloading/MathOperationsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/polymorphism/method_overriding/example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/polymorphism/payment_system/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/polymorphism/vehicledemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/leetcode_questions/PowerRecursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/stack_queue/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/stack_queue/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,43 +53,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FindGuitarTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindInstrumentTester.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HashtableDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoadTester.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RecursionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSolution.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TwoPointersSlidingWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnitTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.datastructure.arrays.Solution.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.datastructure.twopointers_slidingwindow.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.leetcode.question13.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.maddyhome.idea.vim.ui.VimEmulationConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FindGuitarTester.executor": "Run",
+    "Application.FindInstrumentTester.executor": "Debug",
+    "Application.HashtableDemo.executor": "Run",
+    "Application.LoadTester.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.MathOperationsDemo.executor": "Run",
+    "Application.PowerRecursion.executor": "Run",
+    "Application.RecursionExample.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.TestSolution.executor": "Debug",
+    "Application.TwoPointersSlidingWindow.executor": "Run",
+    "Application.UnitTester.executor": "Run",
+    "Application.algomaster_lld.polymorphism.payment_system.Main.executor": "Run",
+    "Application.datastructure.arrays.Solution.executor": "Debug",
+    "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
+    "Application.leetcode.question13.Solution.executor": "Run",
+    "Application.vehicledemo.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_ooad.chapter5" />
@@ -103,20 +107,7 @@
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="LoadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="headfirst_ooad.chapter10.LoadTester" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="headfirst_ooad.chapter10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PowerRecursion">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algomaster_lld.interfaces.Main" />
       <module name="coding" />
@@ -130,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.RecursionExample" />
+    <configuration name="MathOperationsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algomaster_lld.interfaces.polymorphism.method_overloading.MathOperationsDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="algomaster_lld.interfaces.polymorphism.method_overloading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoPointersSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.question4.TwoPointersSlidingWindow" />
+    <configuration name="PowerRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.leetcode_questions.PowerRecursion" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.question4.*" />
+          <option name="PATTERN" value="recursion.leetcode_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +147,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.question13.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.question13.Solution" />
+    <configuration name="algomaster_lld.polymorphism.payment_system.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algomaster_lld.polymorphism.payment_system.Main" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.question13.*" />
+          <option name="PATTERN" value="algomaster_lld.polymorphism.payment_system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vehicledemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algomaster_lld.polymorphism.vehicledemo" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algomaster_lld.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PowerRecursion" />
+        <item itemvalue="Application.algomaster_lld.polymorphism.payment_system.Main" />
+        <item itemvalue="Application.vehicledemo" />
+        <item itemvalue="Application.MathOperationsDemo" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RecursionExample" />
-        <item itemvalue="Application.TwoPointersSlidingWindow" />
-        <item itemvalue="Application.leetcode.question13.Solution" />
-        <item itemvalue="Application.LoadTester" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +224,9 @@
       <workItem from="1742611535395" duration="3558000" />
       <workItem from="1743256629481" duration="1120000" />
       <workItem from="1743755485722" duration="2579000" />
-      <workItem from="1743758143046" duration="339000" />
+      <workItem from="1743758143046" duration="654000" />
+      <workItem from="1744015618467" duration="2695000" />
+      <workItem from="1744187149711" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -486,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743256633185</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="interfaces - algomaster lld">
+      <option name="closed" value="true" />
+      <created>1743758663580</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1743758663580</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +542,8 @@
     <MESSAGE value="recursion loop through list example 2" />
     <MESSAGE value="recursion isPalindrome" />
     <MESSAGE value="recursion findMax" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion findMax" />
+    <MESSAGE value="interfaces - algomaster lld" />
+    <option name="LAST_COMMIT_MESSAGE" value="interfaces - algomaster lld" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -667,6 +682,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/question4/TwoPointersSlidingWindow.java</url>
           <line>16</line>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/leetcode_questions/PowerRecursion.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
