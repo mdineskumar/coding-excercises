@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="interfaces - algomaster lld">
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/polymorphism/method_overloading/MathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/polymorphism/method_overloading/MathOperationsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/polymorphism/method_overriding/example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/polymorphism/payment_system/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/polymorphism/vehicledemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/leetcode_questions/PowerRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="merge sort code done">
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/inheritance/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/stack_queue/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/stack_queue/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coding.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +81,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
