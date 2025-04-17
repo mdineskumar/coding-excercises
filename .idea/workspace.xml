@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="merge sort code done">
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/inheritance/Animal.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="inheritance added">
+      <change afterPath="$PROJECT_DIR$/src/backtracking/BacktrackingQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/leetcode_questions/MergedTwoSortedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coding.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +49,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BacktrackingQuestions.executor": "Run",
     "Application.FindGuitarTester.executor": "Run",
     "Application.FindInstrumentTester.executor": "Debug",
     "Application.HashtableDemo.executor": "Run",
     "Application.LoadTester.executor": "Debug",
     "Application.Main.executor": "Run",
     "Application.MathOperationsDemo.executor": "Run",
+    "Application.MergedTwoSortedList.executor": "Run",
     "Application.PowerRecursion.executor": "Run",
     "Application.RecursionExample.executor": "Run",
     "Application.Solution.executor": "Run",
@@ -101,13 +103,13 @@
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PowerRecursion">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algomaster_lld.interfaces.Main" />
+  <component name="RunManager" selected="Application.MergedTwoSortedList">
+    <configuration name="BacktrackingQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.BacktrackingQuestions" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algomaster_lld.interfaces.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathOperationsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algomaster_lld.interfaces.polymorphism.method_overloading.MathOperationsDemo" />
+    <configuration name="MergedTwoSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.leetcode_questions.MergedTwoSortedList" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algomaster_lld.interfaces.polymorphism.method_overloading.*" />
+          <option name="PATTERN" value="recursion.leetcode_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,21 +171,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergedTwoSortedList" />
+        <item itemvalue="Application.BacktrackingQuestions" />
         <item itemvalue="Application.PowerRecursion" />
         <item itemvalue="Application.algomaster_lld.polymorphism.payment_system.Main" />
         <item itemvalue="Application.vehicledemo" />
-        <item itemvalue="Application.MathOperationsDemo" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -221,6 +215,7 @@
       <workItem from="1743758143046" duration="654000" />
       <workItem from="1744015618467" duration="2695000" />
       <workItem from="1744187149711" duration="1150000" />
+      <workItem from="1744638289883" duration="4142000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -494,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743758663580</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="inheritance added">
+      <option name="closed" value="true" />
+      <created>1744638316034</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1744638316034</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="migrate previous coding" />
     <MESSAGE value="rearrange classes" />
     <MESSAGE value="leetcode finished" />
@@ -537,7 +539,8 @@
     <MESSAGE value="recursion isPalindrome" />
     <MESSAGE value="recursion findMax" />
     <MESSAGE value="interfaces - algomaster lld" />
-    <option name="LAST_COMMIT_MESSAGE" value="interfaces - algomaster lld" />
+    <MESSAGE value="inheritance added" />
+    <option name="LAST_COMMIT_MESSAGE" value="inheritance added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
