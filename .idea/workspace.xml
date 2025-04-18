@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="interfaces - algomaster lld">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/arrays/leet_code/Arrays.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="arrays move zeroes">
+      <change afterPath="$PROJECT_DIR$/src/datastructure/arrays/leet_code/MajorityElementDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,47 +46,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FindGuitarTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindInstrumentTester.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HashtableDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoadTester.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MathOperationsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PowerRecursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RecursionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSolution.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TwoPointersSlidingWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnitTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.algomaster_lld.polymorphism.payment_system.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.datastructure.arrays.Solution.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.datastructure.twopointers_slidingwindow.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.leetcode.question13.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.vehicledemo.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FindGuitarTester.executor": "Run",
+    "Application.FindInstrumentTester.executor": "Debug",
+    "Application.HashtableDemo.executor": "Run",
+    "Application.LoadTester.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.MajorityElementDemo.executor": "Debug",
+    "Application.MathOperationsDemo.executor": "Run",
+    "Application.PowerRecursion.executor": "Run",
+    "Application.RecursionExample.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.TestSolution.executor": "Debug",
+    "Application.TwoPointersSlidingWindow.executor": "Run",
+    "Application.UnitTester.executor": "Run",
+    "Application.algomaster_lld.polymorphism.payment_system.Main.executor": "Run",
+    "Application.datastructure.arrays.Solution.executor": "Debug",
+    "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
+    "Application.leetcode.question13.Solution.executor": "Run",
+    "Application.vehicledemo.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_ooad.chapter5" />
@@ -100,13 +101,13 @@
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PowerRecursion">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algomaster_lld.interfaces.Main" />
+  <component name="RunManager" selected="Application.MajorityElementDemo">
+    <configuration name="MajorityElementDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.arrays.leet_code.MajorityElementDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algomaster_lld.interfaces.*" />
+          <option name="PATTERN" value="datastructure.arrays.leet_code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MajorityElementDemo" />
         <item itemvalue="Application.PowerRecursion" />
         <item itemvalue="Application.algomaster_lld.polymorphism.payment_system.Main" />
         <item itemvalue="Application.vehicledemo" />
         <item itemvalue="Application.MathOperationsDemo" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +222,11 @@
       <workItem from="1744015618467" duration="2695000" />
       <workItem from="1744187149711" duration="1150000" />
       <workItem from="1744347222481" duration="7000" />
-      <workItem from="1744352975603" duration="866000" />
+      <workItem from="1744352975603" duration="1608000" />
+      <workItem from="1744867144854" duration="46000" />
+      <workItem from="1744867709727" duration="14000" />
+      <workItem from="1744867739013" duration="2000" />
+      <workItem from="1744975188763" duration="2047000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -495,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743758663580</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="arrays move zeroes">
+      <option name="closed" value="true" />
+      <created>1744354433725</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1744354433725</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="migrate previous coding" />
     <MESSAGE value="rearrange classes" />
     <MESSAGE value="leetcode finished" />
@@ -538,7 +550,8 @@
     <MESSAGE value="recursion isPalindrome" />
     <MESSAGE value="recursion findMax" />
     <MESSAGE value="interfaces - algomaster lld" />
-    <option name="LAST_COMMIT_MESSAGE" value="interfaces - algomaster lld" />
+    <MESSAGE value="arrays move zeroes" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays move zeroes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -682,6 +695,16 @@
           <url>file://$PROJECT_DIR$/src/recursion/leetcode_questions/PowerRecursion.java</url>
           <line>25</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/arrays/leet_code/MajorityElementDemo.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/arrays/leet_code/MajorityElementDemo.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
