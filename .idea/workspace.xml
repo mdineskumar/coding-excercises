@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="MergedTwoSortedList leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/aggregation/AggregationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/aggregation/AggregationExampleWithInterfaces.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="aggregation theory and code examples">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/leetcode_questions/decode_string/DecodeStringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +51,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AggregationExample.executor": "Run",
-    "Application.AggregationExampleWithInterfaces.executor": "Run",
+    "Application.AggregationExampleWithInterfaces.executor": "Debug",
     "Application.BacktrackingQuestions.executor": "Run",
+    "Application.DecodeStringDemo.executor": "Run",
     "Application.FindGuitarTester.executor": "Run",
     "Application.FindInstrumentTester.executor": "Debug",
     "Application.HashtableDemo.executor": "Run",
@@ -77,6 +79,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7",
@@ -105,7 +108,7 @@
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AggregationExampleWithInterfaces">
+  <component name="RunManager" selected="Application.DecodeStringDemo">
     <configuration name="AggregationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algomaster_lld.aggregation.AggregationExample" />
       <module name="coding" />
@@ -145,6 +148,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DecodeStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.leetcode_questions.decode_string.DecodeStringDemo" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.leetcode_questions.decode_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergedTwoSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.leetcode_questions.MergedTwoSortedList" />
       <module name="coding" />
@@ -158,26 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.leetcode_questions.PowerRecursion" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.leetcode_questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecodeStringDemo" />
         <item itemvalue="Application.AggregationExampleWithInterfaces" />
         <item itemvalue="Application.AggregationExample" />
         <item itemvalue="Application.MergedTwoSortedList" />
         <item itemvalue="Application.BacktrackingQuestions" />
-        <item itemvalue="Application.PowerRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +220,8 @@
       <workItem from="1743758143046" duration="654000" />
       <workItem from="1744015618467" duration="2695000" />
       <workItem from="1744187149711" duration="1150000" />
-      <workItem from="1744638289883" duration="5861000" />
+      <workItem from="1744638289883" duration="6493000" />
+      <workItem from="1745141711722" duration="5754000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -507,7 +511,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744906185011</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="aggregation theory and code examples">
+      <option name="closed" value="true" />
+      <created>1744907913496</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1744907913496</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rearrange classes" />
     <MESSAGE value="leetcode finished" />
     <MESSAGE value="search tool with aggragation, encapsulation and abstracting" />
     <MESSAGE value="apply ooad" />
@@ -550,7 +561,8 @@
     <MESSAGE value="interfaces - algomaster lld" />
     <MESSAGE value="inheritance added" />
     <MESSAGE value="MergedTwoSortedList leetcode questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="MergedTwoSortedList leetcode questions" />
+    <MESSAGE value="aggregation theory and code examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggregation theory and code examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -694,6 +706,26 @@
           <url>file://$PROJECT_DIR$/src/recursion/leetcode_questions/PowerRecursion.java</url>
           <line>25</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/leetcode_questions/decode_string/DecodeStringDemo.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/leetcode_questions/decode_string/DecodeStringDemo.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/leetcode_questions/decode_string/DecodeStringDemo.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/leetcode_questions/decode_string/DecodeStringDemo.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
