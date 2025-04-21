@@ -1,6 +1,6 @@
 package datastructure.arrays.leet_code;
 
-public class Arrays{
+public class MoveZeroesDemo {
     public static void moveZeroes(int[] nums){
             //start from begining position of array
             int nonZeroIndex = 0;
