@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Merge branch 'master' of https://github.com/mdineskumar/coding-excercises&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/backtracking/Permutation.java">
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/questions/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="backtracking theory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/LetterCombinationPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/LetterCombinationPhoneNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +56,10 @@
     "Application.AggregationExampleWithInterfaces.executor": "Debug",
     "Application.BacktrackingQuestions.executor": "Run",
     "Application.DecodeStringDemo.executor": "Run",
-    "Application.DemoObjectTracker.executor": "Run",
     "Application.FindGuitarTester.executor": "Run",
     "Application.FindInstrumentTester.executor": "Debug",
     "Application.HashtableDemo.executor": "Run",
+    "Application.LetterCombinationPhoneNumber.executor": "Debug",
     "Application.LoadTester.executor": "Debug",
     "Application.Main.executor": "Run",
     "Application.MathOperationsDemo.executor": "Run",
@@ -113,7 +112,7 @@
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoObjectTracker">
+  <component name="RunManager" selected="Application.LetterCombinationPhoneNumber">
     <configuration name="AggregationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algomaster_lld.aggregation.AggregationExample" />
       <module name="coding" />
@@ -140,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoObjectTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algomaster_lld.questions.DemoObjectTracker" />
+    <configuration name="LetterCombinationPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.LetterCombinationPhoneNumber" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algomaster_lld.questions.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,7 +180,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoObjectTracker" />
+        <item itemvalue="Application.LetterCombinationPhoneNumber" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.MergedTwoSortedList" />
         <item itemvalue="Application.DecodeStringDemo" />
@@ -237,10 +236,7 @@
       <workItem from="1745141711722" duration="5754000" />
       <workItem from="1745387470146" duration="64000" />
       <workItem from="1745387552560" duration="4188000" />
-      <workItem from="1745482407907" duration="3685000" />
-      <workItem from="1746002266664" duration="1000" />
-      <workItem from="1746685908237" duration="3000" />
-      <workItem from="1747219598586" duration="4046000" />
+      <workItem from="1745482407907" duration="3587000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -554,15 +550,7 @@
       <option name="project" value="LOCAL" />
       <updated>1745322752332</updated>
     </task>
-    <task id="LOCAL-00040" summary="Merge branch 'master' of https://github.com/mdineskumar/coding-excercises&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/backtracking/Permutation.java">
-      <option name="closed" value="true" />
-      <created>1745501248174</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1745501248174</updated>
-    </task>
-    <option name="localTasksCounter" value="41" />
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,6 +568,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="search tool with aggragation, encapsulation and abstracting" />
     <MESSAGE value="apply ooad" />
     <MESSAGE value="my Board thing" />
     <MESSAGE value="hashtable separate chaining" />
@@ -604,8 +593,7 @@
     <MESSAGE value="MergedTwoSortedList leetcode questions" />
     <MESSAGE value="aggregation theory and code examples" />
     <MESSAGE value="backtracking theory" />
-    <MESSAGE value="Merge branch 'master' of https://github.com/mdineskumar/coding-excercises&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/backtracking/Permutation.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/mdineskumar/coding-excercises&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/backtracking/Permutation.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="backtracking theory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -784,6 +772,31 @@
           <url>file://$PROJECT_DIR$/src/backtracking/Permutation.java</url>
           <line>39</line>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/LetterCombinationPhoneNumber.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/LetterCombinationPhoneNumber.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/LetterCombinationPhoneNumber.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/LetterCombinationPhoneNumber.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/LetterCombinationPhoneNumber.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
