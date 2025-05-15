@@ -27,7 +27,6 @@ public class Permutation {
 
          // base condition
         if (depth == k){
-            //TODO: use deep copy to and solution
             //ans.append(curr[::])
             ans.add(new ArrayList<>(curr));
             return;
@@ -38,7 +37,6 @@ public class Permutation {
                 //generate the next solution from curr
                 //curr.append(a[i])
                 curr.add(a[i]);
-                //TODO: java implementation for this
                 used[i] = true;
                 System.out.println(curr);
                 //mode to next solution

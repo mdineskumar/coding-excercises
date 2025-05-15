@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="LetterCombinationPhoneNumber solutions">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/arrays/leet_code/BestTimeToBuyStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/arrays/leet_code/RemoveDuplicates.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="leetcode solutions:&#10;- best time to buy stock&#10;- remove duplicates">
+      <change afterPath="$PROJECT_DIR$/src/backtracking/Subsets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Permutation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +71,7 @@
     "Application.RecursionExample.executor": "Run",
     "Application.RemoveDuplicates.executor": "Debug",
     "Application.Solution.executor": "Run",
+    "Application.Subsets.executor": "Debug",
     "Application.TestSolution.executor": "Debug",
     "Application.TwoPointersSlidingWindow.executor": "Run",
     "Application.UnitTester.executor": "Run",
@@ -115,7 +116,7 @@
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BestTimeToBuyStock">
+  <component name="RunManager" selected="Application.Subsets">
     <configuration name="BestTimeToBuyStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructure.arrays.leet_code.BestTimeToBuyStock" />
       <module name="coding" />
@@ -135,19 +136,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergedTwoSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.leetcode_questions.MergedTwoSortedList" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.leetcode_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,13 +169,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.Subsets" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.BestTimeToBuyStock" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.LetterCombinationPhoneNumber" />
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.MergedTwoSortedList" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +234,7 @@
       <workItem from="1745387552560" duration="4188000" />
       <workItem from="1745482407907" duration="3587000" />
       <workItem from="1746756001314" duration="1984000" />
+      <workItem from="1747273528948" duration="2254000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -554,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745733899765</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="leetcode solutions:&#10;- best time to buy stock&#10;- remove duplicates">
+      <option name="closed" value="true" />
+      <created>1747273569767</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1747273569767</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="apply ooad" />
     <MESSAGE value="my Board thing" />
     <MESSAGE value="hashtable separate chaining" />
     <MESSAGE value="ooad chapter9" />
@@ -597,7 +606,8 @@
     <MESSAGE value="aggregation theory and code examples" />
     <MESSAGE value="backtracking theory" />
     <MESSAGE value="LetterCombinationPhoneNumber solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="LetterCombinationPhoneNumber solutions" />
+    <MESSAGE value="leetcode solutions:&#10;- best time to buy stock&#10;- remove duplicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode solutions:&#10;- best time to buy stock&#10;- remove duplicates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -769,12 +779,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/backtracking/Permutation.java</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/backtracking/Permutation.java</url>
-          <line>39</line>
+          <line>38</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -832,6 +842,36 @@
           <line>10</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
           <line>60</line>
@@ -845,6 +885,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/coding$Subsets.ic" NAME="Subsets Coverage Results" MODIFIED="1747275431654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>backtracking.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/coding$AggregationExample.ic" NAME="AggregationExample Coverage Results" MODIFIED="1744907267248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>algomaster_lld.aggregation.*</FILTER>
     </SUITE>
