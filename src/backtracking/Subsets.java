@@ -14,7 +14,9 @@ public class Subsets {
         rst.add(new ArrayList<>(temp)); // copy of temp
         for(int i = idx;i < nums.length;i++){
             temp.add(nums[i]);
-            dfs(temp,idx+1,rst,nums);
+            System.out.println(temp);
+            //need to look at nned to add i+1 not idx+1
+            dfs(temp,i+1,rst,nums);
             temp.remove(temp.size() - 1);
             System.out.println("backtrack: "+temp);
         }
