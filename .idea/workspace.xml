@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="backtracking&#10;- subsets problem - need to recheck">
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="backtracking&#10;- subsets problem - finished">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/singleton/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/singleton/EnumSingletonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/singleton/ReflectionProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/singleton/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/singleton/TestEnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/singleton/assignment1/Logger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtracking/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Subsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coding.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -68,9 +75,12 @@
     "Application.Permutation.executor": "Debug",
     "Application.PowerRecursion.executor": "Run",
     "Application.RecursionExample.executor": "Run",
+    "Application.ReflectionProblem.executor": "Run",
     "Application.RemoveDuplicates.executor": "Debug",
+    "Application.SingletonTest.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Subsets.executor": "Debug",
+    "Application.TestEnumSingleton.executor": "Run",
     "Application.TestSolution.executor": "Debug",
     "Application.TwoPointersSlidingWindow.executor": "Run",
     "Application.UnitTester.executor": "Run",
@@ -87,6 +97,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/headfirst_ooad/chapter7",
@@ -114,21 +127,14 @@
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="designpattern.singleton" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Subsets">
-    <configuration name="BestTimeToBuyStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.arrays.leet_code.BestTimeToBuyStock" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructure.arrays.leet_code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestEnumSingleton">
     <configuration name="LetterCombinationPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtracking.LetterCombinationPhoneNumber" />
       <module name="coding" />
@@ -142,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.Permutation" />
+    <configuration name="ReflectionProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.singleton.ReflectionProblem" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.*" />
+          <option name="PATTERN" value="designpattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.arrays.leet_code.RemoveDuplicates" />
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.singleton.SingletonTest" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.arrays.leet_code.*" />
+          <option name="PATTERN" value="designpattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,13 +187,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestEnumSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.singleton.TestEnumSingleton" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Subsets" />
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.BestTimeToBuyStock" />
-        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.TestEnumSingleton" />
+        <item itemvalue="Application.ReflectionProblem" />
+        <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Application.LetterCombinationPhoneNumber" />
+        <item itemvalue="Application.Subsets" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +253,9 @@
       <workItem from="1745482407907" duration="3587000" />
       <workItem from="1746756001314" duration="1984000" />
       <workItem from="1747273528948" duration="2945000" />
-      <workItem from="1747529994585" duration="2745000" />
+      <workItem from="1747529994585" duration="3750000" />
+      <workItem from="1747874542286" duration="3248000" />
+      <workItem from="1748195102190" duration="2447000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -572,7 +593,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747275908450</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="backtracking&#10;- subsets problem - finished">
+      <option name="closed" value="true" />
+      <created>1747539872917</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1747539872917</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +619,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hashtable separate chaining" />
     <MESSAGE value="ooad chapter9" />
     <MESSAGE value="write own tests on unit class" />
     <MESSAGE value="updated tests on unit class" />
@@ -615,7 +643,8 @@
     <MESSAGE value="LetterCombinationPhoneNumber solutions" />
     <MESSAGE value="leetcode solutions:&#10;- best time to buy stock&#10;- remove duplicates" />
     <MESSAGE value="backtracking&#10;- subsets problem - need to recheck" />
-    <option name="LAST_COMMIT_MESSAGE" value="backtracking&#10;- subsets problem - need to recheck" />
+    <MESSAGE value="backtracking&#10;- subsets problem - finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="backtracking&#10;- subsets problem - finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
