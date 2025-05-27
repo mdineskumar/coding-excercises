@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="design pattern&#10;- singleton">
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/CheesPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/ChickenPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/FactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/PizzaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/VegPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/assignment/Female.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/assignment/Male.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/assignment/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/assignment/PersonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/assignment/PersonStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/factory/assignment/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/DBDaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/DBDeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/DBEmpDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/DaoAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/DaoProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/XMLDaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/XMLDeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/XMLEmpDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +66,7 @@
     "Application.AggregationExampleWithInterfaces.executor": "Debug",
     "Application.BacktrackingQuestions.executor": "Run",
     "Application.BestTimeToBuyStock.executor": "Debug",
+    "Application.Client.executor": "Run",
     "Application.DecodeStringDemo.executor": "Run",
     "Application.FactoryTest.executor": "Run",
     "Application.FindGuitarTester.executor": "Run",
@@ -142,11 +140,25 @@
       <recent name="designpattern.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designpattern.abstractfactory" />
       <recent name="designpattern.factory.assignment" />
       <recent name="designpattern.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PersonTest">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.abstractfactory.Client" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpattern.factory.FactoryTest" />
       <module name="coding" />
@@ -186,19 +198,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.singleton.SingletonTest" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpattern.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestEnumSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpattern.singleton.TestEnumSingleton" />
       <module name="coding" />
@@ -214,13 +213,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.PersonTest" />
         <item itemvalue="Application.FactoryTest" />
         <item itemvalue="Application.TestEnumSingleton" />
         <item itemvalue="Application.ReflectionProblem" />
-        <item itemvalue="Application.SingletonTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -899,40 +906,10 @@
           <line>10</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/backtracking/Subsets.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
           <line>60</line>
-          <properties class="headfirst_ooad.chapter9.UnitTester" method="main">
+          <properties class="headfirst_ooad.chapter9.UnitTester">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -940,8 +917,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/designpattern/factory/FactoryTest.java</url>
-          <line>3</line>
-          <properties class="designpattern.factory.FactoryTest" method="main">
+          <line>2</line>
+          <properties class="designpattern.factory.FactoryTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
