@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="template method design pattern">
-      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/WeatherFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/WeatherFinderAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/WeatherFinderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/WeatherUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/assignment/PaymentAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/assignment/PaymentApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/assignment/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/assignment/PaymentProcessorImpl.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="adapter design pattern">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/PaintApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +84,7 @@
     "Application.SingletonTest.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Subsets.executor": "Debug",
+    "Application.Test.executor": "Run",
     "Application.TestEnumSingleton.executor": "Run",
     "Application.TestSolution.executor": "Debug",
     "Application.TwoPointersSlidingWindow.executor": "Run",
@@ -151,20 +150,7 @@
       <recent name="designpattern.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PaymentApp">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.abstractfactory.Client" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpattern.abstractfactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ComputerManufacturerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpattern.templatemethod.assignment.ComputerManufacturerTest" />
       <module name="coding" />
@@ -184,6 +170,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="designpattern.adapter.assignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.flyweight.Test" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.PaymentApp" />
         <item itemvalue="Application.WeatherUI" />
         <item itemvalue="Application.ComputerManufacturerTest" />
         <item itemvalue="Application.UIVIew" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +281,7 @@
       <workItem from="1747874542286" duration="3248000" />
       <workItem from="1748195102190" duration="4952000" />
       <workItem from="1748531005069" duration="2366000" />
-      <workItem from="1748536424553" duration="1463000" />
+      <workItem from="1748536424553" duration="4157000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -652,7 +651,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748536613579</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="adapter design pattern">
+      <option name="closed" value="true" />
+      <created>1748538001779</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1748538001779</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,7 +677,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="two sum first draft" />
     <MESSAGE value="two sum optimize" />
     <MESSAGE value="implement programming by contract" />
     <MESSAGE value="string has all unique characters." />
@@ -695,7 +701,8 @@
     <MESSAGE value="design pattern&#10;- singleton" />
     <MESSAGE value="abstract factory design pattern finished" />
     <MESSAGE value="template method design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="template method design pattern" />
+    <MESSAGE value="adapter design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapter design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
