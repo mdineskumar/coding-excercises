@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="flyweight design pattern">
-      <change afterPath="$PROJECT_DIR$/src/designpattern/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/command/OffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/command/OnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/command/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/command/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/command/Television.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="command design pattern">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/decorator/udemy/CheesePizzaDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/decorator/udemy/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/decorator/udemy/PizzaDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/decorator/udemy/PlainPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/decorator/udemy/VegiePizzaDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,7 @@
     "Application.MergedTwoSortedList.executor": "Run",
     "Application.PaymentApp.executor": "Run",
     "Application.Permutation.executor": "Debug",
+    "Application.Person.executor": "Run",
     "Application.PersonTest.executor": "Run",
     "Application.PowerRecursion.executor": "Run",
     "Application.RecursionExample.executor": "Run",
@@ -142,27 +143,14 @@
       <recent name="designpattern.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designpattern.decorator.udemy" />
       <recent name="designpattern.templatemethod.assignment" />
       <recent name="designpattern.templatemethod" />
       <recent name="designpattern.abstractfactory" />
       <recent name="designpattern.factory.assignment" />
-      <recent name="designpattern.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Person">
-    <configuration name="ComputerManufacturerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.templatemethod.assignment.ComputerManufacturerTest" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpattern.templatemethod.assignment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PizzaShop">
     <configuration name="PaymentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpattern.adapter.assignment.PaymentApp" />
       <module name="coding" />
@@ -182,6 +170,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="designpattern.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.decorator.udemy.PizzaShop" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.decorator.udemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PizzaShop" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.PaymentApp" />
         <item itemvalue="Application.WeatherUI" />
-        <item itemvalue="Application.ComputerManufacturerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +281,7 @@
       <workItem from="1747874542286" duration="3248000" />
       <workItem from="1748195102190" duration="4952000" />
       <workItem from="1748531005069" duration="2366000" />
-      <workItem from="1748536424553" duration="5147000" />
+      <workItem from="1748536424553" duration="6057000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -666,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748541276990</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="command design pattern">
+      <option name="closed" value="true" />
+      <created>1748541874637</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1748541874637</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +693,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implement programming by contract" />
     <MESSAGE value="string has all unique characters." />
     <MESSAGE value="maximum point in card leetcode 1423" />
     <MESSAGE value="my subway testcases" />
@@ -709,7 +717,8 @@
     <MESSAGE value="template method design pattern" />
     <MESSAGE value="adapter design pattern" />
     <MESSAGE value="flyweight design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="flyweight design pattern" />
+    <MESSAGE value="command design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="command design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
