@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="adapter design pattern">
-      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/PaintApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/flyweight/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="flyweight design pattern">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/command/OffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/command/OnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/command/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/command/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/command/Television.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
       <recent name="designpattern.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Person">
     <configuration name="ComputerManufacturerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpattern.templatemethod.assignment.ComputerManufacturerTest" />
       <module name="coding" />
@@ -177,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.flyweight.Test" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.command.Person" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.flyweight.*" />
+          <option name="PATTERN" value="designpattern.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UIVIew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.templatemethod.UIVIew" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.flyweight.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.templatemethod.*" />
+          <option name="PATTERN" value="designpattern.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.PaymentApp" />
         <item itemvalue="Application.WeatherUI" />
         <item itemvalue="Application.ComputerManufacturerTest" />
-        <item itemvalue="Application.UIVIew" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +280,7 @@
       <workItem from="1747874542286" duration="3248000" />
       <workItem from="1748195102190" duration="4952000" />
       <workItem from="1748531005069" duration="2366000" />
-      <workItem from="1748536424553" duration="4157000" />
+      <workItem from="1748536424553" duration="5147000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -659,7 +658,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748538001779</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="flyweight design pattern">
+      <option name="closed" value="true" />
+      <created>1748541276990</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1748541276990</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -677,7 +684,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="two sum optimize" />
     <MESSAGE value="implement programming by contract" />
     <MESSAGE value="string has all unique characters." />
     <MESSAGE value="maximum point in card leetcode 1423" />
@@ -702,7 +708,8 @@
     <MESSAGE value="abstract factory design pattern finished" />
     <MESSAGE value="template method design pattern" />
     <MESSAGE value="adapter design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="adapter design pattern" />
+    <MESSAGE value="flyweight design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="flyweight design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
