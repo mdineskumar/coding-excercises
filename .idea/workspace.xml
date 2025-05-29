@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="abstract factory design pattern finished">
-      <change afterPath="$PROJECT_DIR$/src/designpattern/templatemethod/CSVDataRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/templatemethod/DataRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/templatemethod/UIVIew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/templatemethod/XMLDataRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/templatemethod/assignment/ComputerManufacturer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/templatemethod/assignment/ComputerManufacturerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/templatemethod/assignment/DesktopManufacturer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/templatemethod/assignment/LaptopManufacturer.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="template method design pattern">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/WeatherFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/WeatherFinderAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/WeatherFinderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/WeatherUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/assignment/PaymentAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/assignment/PaymentApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/assignment/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/assignment/PaymentProcessorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +76,7 @@
     "Application.Main.executor": "Run",
     "Application.MathOperationsDemo.executor": "Run",
     "Application.MergedTwoSortedList.executor": "Run",
+    "Application.PaymentApp.executor": "Run",
     "Application.Permutation.executor": "Debug",
     "Application.PersonTest.executor": "Run",
     "Application.PowerRecursion.executor": "Run",
@@ -90,6 +91,7 @@
     "Application.TwoPointersSlidingWindow.executor": "Run",
     "Application.UIVIew.executor": "Run",
     "Application.UnitTester.executor": "Run",
+    "Application.WeatherUI.executor": "Run",
     "Application.algomaster_lld.polymorphism.payment_system.Main.executor": "Run",
     "Application.datastructure.arrays.Solution.executor": "Debug",
     "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
@@ -123,6 +125,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="designpattern.adapter.assignment" />
+      <recent name="designpattern.adapter" />
       <recent name="headfirst_ooad.chapter5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -147,7 +151,7 @@
       <recent name="designpattern.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComputerManufacturerTest">
+  <component name="RunManager" selected="Application.PaymentApp">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpattern.abstractfactory.Client" />
       <module name="coding" />
@@ -174,25 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.factory.FactoryTest" />
+    <configuration name="PaymentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.adapter.assignment.PaymentApp" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.factory.assignment.PersonTest" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpattern.factory.assignment.*" />
+          <option name="PATTERN" value="designpattern.adapter.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,13 +204,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeatherUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.adapter.WeatherUI" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PaymentApp" />
+        <item itemvalue="Application.WeatherUI" />
         <item itemvalue="Application.ComputerManufacturerTest" />
         <item itemvalue="Application.UIVIew" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.FactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +282,7 @@
       <workItem from="1747874542286" duration="3248000" />
       <workItem from="1748195102190" duration="4952000" />
       <workItem from="1748531005069" duration="2366000" />
+      <workItem from="1748536424553" duration="1463000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -639,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748343979855</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="template method design pattern">
+      <option name="closed" value="true" />
+      <created>1748536613579</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1748536613579</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +670,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated tests on unit class" />
     <MESSAGE value="two sum first draft" />
     <MESSAGE value="two sum optimize" />
     <MESSAGE value="implement programming by contract" />
@@ -682,7 +694,8 @@
     <MESSAGE value="backtracking&#10;- subsets problem - finished" />
     <MESSAGE value="design pattern&#10;- singleton" />
     <MESSAGE value="abstract factory design pattern finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="abstract factory design pattern finished" />
+    <MESSAGE value="template method design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="template method design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
