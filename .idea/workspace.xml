@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="decorator design pattern">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/NonStaticMembersDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/ThisKeywordDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/BMICalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/IfElseLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/LabelledBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/SwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/SwitchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/SwitchProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/While.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +62,7 @@
   "keyToString": {
     "Application.AggregationExample.executor": "Run",
     "Application.AggregationExampleWithInterfaces.executor": "Debug",
+    "Application.BMICalculator.executor": "Run",
     "Application.BacktrackingQuestions.executor": "Run",
     "Application.BestTimeToBuyStock.executor": "Debug",
     "Application.Client.executor": "Run",
@@ -69,6 +74,8 @@
     "Application.FindInstrumentTester.executor": "Debug",
     "Application.HashtableDemo.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.IfElseLadder.executor": "Run",
+    "Application.LabelledBlock.executor": "Run",
     "Application.LetterCombinationPhoneNumber.executor": "Debug",
     "Application.LoadTester.executor": "Debug",
     "Application.Main.executor": "Run",
@@ -87,6 +94,9 @@
     "Application.SingletonTest.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Subsets.executor": "Debug",
+    "Application.Switch.executor": "Run",
+    "Application.SwitchDemo.executor": "Run",
+    "Application.SwitchProblem.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestEnumSingleton.executor": "Run",
     "Application.TestSolution.executor": "Debug",
@@ -137,6 +147,7 @@
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DM2719\Downloads\coding\src\core_java_udemy" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5ans" />
     </key>
@@ -154,9 +165,9 @@
       <recent name="designpattern.abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NonStaticMembersDemo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.Demo" />
+  <component name="RunManager" selected="Application.For">
+    <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.DoWhile" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -168,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.HelloWorld" />
+    <configuration name="For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.For" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -181,8 +192,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonStaticMembersDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.NonStaticMembersDemo" />
+    <configuration name="IfElseLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.IfElseLadder" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -194,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.decorator.udemy.PizzaShop" />
+    <configuration name="Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.Switch" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.decorator.udemy.*" />
+          <option name="PATTERN" value="core_java_udemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,8 +218,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThisKeywordDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.ThisKeywordDemo" />
+    <configuration name="SwitchProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.SwitchProblem" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -222,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NonStaticMembersDemo" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.ThisKeywordDemo" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.PizzaShop" />
+        <item itemvalue="Application.For" />
+        <item itemvalue="Application.DoWhile" />
+        <item itemvalue="Application.SwitchProblem" />
+        <item itemvalue="Application.Switch" />
+        <item itemvalue="Application.IfElseLadder" />
       </list>
     </recent_temporary>
   </component>
@@ -976,6 +987,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/LabelledBlock.java</url>
+          <line>3</line>
+          <properties class="core_java_udemy.LabelledBlock" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/Switch.java</url>
+          <line>3</line>
+          <properties class="core_java_udemy.Switch" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
