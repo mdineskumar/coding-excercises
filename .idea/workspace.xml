@@ -4,41 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="iterative statements">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/WrapClassesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p1/p3/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/com/dines/trainings/java/SumOfTwoNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/JDK6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/JDK7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/JDK8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/JDKMultiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/MultiLevelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/SingleIneritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/dines/inheirtance/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/dines/inheirtance/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/dines/inheirtance/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/dines/inheirtance/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/dines/inheirtance/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/emc/EMBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/emc/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/emc/Organizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/emc/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/emc/Venue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/hierarchical_heritance/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/hierarchical_heritance/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/hierarchical_heritance/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/hierarchical_heritance/OverridingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/hierarchical_heritance/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/inheritanceconcepts/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/inheritanceconcepts/ChildClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/inheritanceconcepts/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/inheritanceconcepts/SuperClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/inheritanceconcepts/Test.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="inheritance">
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/abstract_class/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/abstract_class/FiveSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/abstract_class/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/abstract_class/ThreeSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/bonusprograms/AbstractAndFinalComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/finalconcepts/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/finalconcepts/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/interfaces/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/interfaces/Honda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/interfaces/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/interfaces/abstract_classes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/moreprograms/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/moreprograms/CircleTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/abstraction/moreprograms/MyCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p1/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p1/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p2/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p2/C.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +68,9 @@
     "Application.A.executor": "Run",
     "Application.AggregationExample.executor": "Run",
     "Application.AggregationExampleWithInterfaces.executor": "Debug",
+    "Application.B.executor": "Run",
     "Application.BMICalculator.executor": "Run",
+    "Application.BMW.executor": "Run",
     "Application.BacktrackingQuestions.executor": "Run",
     "Application.BestTimeToBuyStock.executor": "Debug",
     "Application.C.executor": "Run",
@@ -140,6 +123,8 @@
     "Application.WeatherUI.executor": "Run",
     "Application.WrapClassesDemo.executor": "Run",
     "Application.algomaster_lld.polymorphism.payment_system.Main.executor": "Run",
+    "Application.core_java_udemy.abstraction.Test.executor": "Run",
+    "Application.core_java_udemy.abstraction.interfaces.Test.executor": "Run",
     "Application.core_java_udemy.inheritance.com.dines.inheirtance.Test.executor": "Run",
     "Application.datastructure.arrays.Solution.executor": "Debug",
     "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
@@ -189,24 +174,27 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="core_java_udemy.abstraction.abstract_class" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="designpattern.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core_java_udemy.abstraction.moreprograms" />
       <recent name="core_java_udemy.inheritance.com.dines.inheirtance" />
       <recent name="core_java_udemy.inheritance.hierarchical_heritance" />
       <recent name="core_java_udemy.inheritance" />
       <recent name="core_java_udemy" />
-      <recent name="designpattern.decorator.udemy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.core_java_udemy.inheritance.com.dines.inheirtance.Test">
-    <configuration name="ChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.inheritance.inheritanceconcepts.ChildClass" />
+  <component name="RunManager" selected="Application.B">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.abstraction.finalconcepts.A" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.inheritance.inheritanceconcepts.*" />
+          <option name="PATTERN" value="core_java_udemy.abstraction.finalconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDKMultiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.inheritance.JDKMultiTest" />
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.abstraction.finalconcepts.B" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.inheritance.*" />
+          <option name="PATTERN" value="core_java_udemy.abstraction.finalconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverridingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.inheritance.hierarchical_heritance.OverridingTest" />
+    <configuration name="BMW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.abstraction.abstract_class.BMW" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.inheritance.hierarchical_heritance.*" />
+          <option name="PATTERN" value="core_java_udemy.abstraction.abstract_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.inheritance.inheritanceconcepts.Test" />
+    <configuration name="core_java_udemy.abstraction.abstract_class.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.abstraction.abstract_class.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.inheritance.inheritanceconcepts.*" />
+          <option name="PATTERN" value="core_java_udemy.abstraction.abstract_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +241,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="core_java_udemy.inheritance.com.dines.inheirtance.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.inheritance.com.dines.inheirtance.Test" />
+    <configuration name="core_java_udemy.abstraction.interfaces.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.abstraction.interfaces.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.inheritance.com.dines.inheirtance.*" />
+          <option name="PATTERN" value="core_java_udemy.abstraction.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.core_java_udemy.inheritance.com.dines.inheirtance.Test" />
-        <item itemvalue="Application.ChildClass" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.OverridingTest" />
-        <item itemvalue="Application.JDKMultiTest" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.core_java_udemy.abstraction.interfaces.Test" />
+        <item itemvalue="Application.core_java_udemy.abstraction.abstract_class.Test" />
+        <item itemvalue="Application.BMW" />
       </list>
     </recent_temporary>
   </component>
@@ -334,14 +322,6 @@
       <workItem from="1748536424553" duration="6057000" />
       <workItem from="1748542846777" duration="570000" />
       <workItem from="1749037090723" duration="1961000" />
-    </task>
-    <task id="LOCAL-00003" summary="rearrange classes">
-      <option name="closed" value="true" />
-      <created>1734370349983</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1734370349983</updated>
     </task>
     <task id="LOCAL-00004" summary="rearrange classes">
       <option name="closed" value="true" />
@@ -727,7 +707,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749640829992</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="inheritance">
+      <option name="closed" value="true" />
+      <created>1749806986856</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1749806986856</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -745,7 +733,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="my subway testcases" />
     <MESSAGE value="chapter 10 finished" />
     <MESSAGE value="leetcode question 4" />
     <MESSAGE value="recursion multiplication example" />
@@ -770,7 +757,8 @@
     <MESSAGE value="command design pattern" />
     <MESSAGE value="decorator design pattern" />
     <MESSAGE value="iterative statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterative statements" />
+    <MESSAGE value="inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="inheritance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1058,6 +1046,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/abstraction/interfaces/Test.java</url>
+          <line>3</line>
+          <properties class="core_java_udemy.abstraction.interfaces.Test" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
