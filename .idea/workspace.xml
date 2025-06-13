@@ -5,9 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="iterative statements">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p1/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/WrapClassesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p1/p3/E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/com/dines/trainings/java/SumOfTwoNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/JDK6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/JDK7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/JDK8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/JDKMultiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/MultiLevelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/SingleIneritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/dines/inheirtance/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/dines/inheirtance/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/dines/inheirtance/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/dines/inheirtance/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/dines/inheirtance/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/emc/EMBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/emc/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/emc/Organizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/emc/Participant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/com/emc/Venue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/hierarchical_heritance/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/hierarchical_heritance/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/hierarchical_heritance/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/hierarchical_heritance/OverridingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/hierarchical_heritance/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/inheritanceconcepts/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/inheritanceconcepts/ChildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/inheritanceconcepts/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/inheritanceconcepts/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/inheritance/inheritanceconcepts/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p1/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p1/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p2/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/access_modifiers/p2/C.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +90,8 @@
     "Application.BMICalculator.executor": "Run",
     "Application.BacktrackingQuestions.executor": "Run",
     "Application.BestTimeToBuyStock.executor": "Debug",
+    "Application.C.executor": "Run",
+    "Application.ChildClass.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.ComputerManufacturerTest.executor": "Run",
     "Application.DecodeStringDemo.executor": "Run",
@@ -71,13 +104,16 @@
     "Application.HashtableDemo.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.IfElseLadder.executor": "Run",
+    "Application.JDKMultiTest.executor": "Run",
     "Application.LabelledBlock.executor": "Run",
     "Application.LetterCombinationPhoneNumber.executor": "Debug",
     "Application.LoadTester.executor": "Debug",
     "Application.Main.executor": "Run",
     "Application.MathOperationsDemo.executor": "Run",
     "Application.MergedTwoSortedList.executor": "Run",
+    "Application.MultiLevelTest.executor": "Run",
     "Application.NonStaticMembersDemo.executor": "Run",
+    "Application.OverridingTest.executor": "Run",
     "Application.PaymentApp.executor": "Run",
     "Application.Permutation.executor": "Debug",
     "Application.Person.executor": "Run",
@@ -90,6 +126,7 @@
     "Application.SingletonTest.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Subsets.executor": "Debug",
+    "Application.SumOfTwoNumber.executor": "Run",
     "Application.Switch.executor": "Run",
     "Application.SwitchDemo.executor": "Run",
     "Application.SwitchProblem.executor": "Run",
@@ -101,7 +138,9 @@
     "Application.UIVIew.executor": "Run",
     "Application.UnitTester.executor": "Run",
     "Application.WeatherUI.executor": "Run",
+    "Application.WrapClassesDemo.executor": "Run",
     "Application.algomaster_lld.polymorphism.payment_system.Main.executor": "Run",
+    "Application.core_java_udemy.inheritance.com.dines.inheirtance.Test.executor": "Run",
     "Application.datastructure.arrays.Solution.executor": "Debug",
     "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
     "Application.leetcode.question13.Solution.executor": "Run",
@@ -154,20 +193,20 @@
       <recent name="designpattern.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core_java_udemy.inheritance.com.dines.inheirtance" />
+      <recent name="core_java_udemy.inheritance.hierarchical_heritance" />
+      <recent name="core_java_udemy.inheritance" />
       <recent name="core_java_udemy" />
       <recent name="designpattern.decorator.udemy" />
-      <recent name="designpattern.templatemethod.assignment" />
-      <recent name="designpattern.templatemethod" />
-      <recent name="designpattern.abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.access_modifiers.p1.A" />
+  <component name="RunManager" selected="Application.core_java_udemy.inheritance.com.dines.inheirtance.Test">
+    <configuration name="ChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.inheritance.inheritanceconcepts.ChildClass" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.access_modifiers.p1.*" />
+          <option name="PATTERN" value="core_java_udemy.inheritance.inheritanceconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.access_modifiers.p2.C" />
+    <configuration name="JDKMultiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.inheritance.JDKMultiTest" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.access_modifiers.p2.*" />
+          <option name="PATTERN" value="core_java_udemy.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.DoWhile" />
+    <configuration name="OverridingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.inheritance.hierarchical_heritance.OverridingTest" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.*" />
+          <option name="PATTERN" value="core_java_udemy.inheritance.hierarchical_heritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.For" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.inheritance.inheritanceconcepts.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.*" />
+          <option name="PATTERN" value="core_java_udemy.inheritance.inheritanceconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.SwitchProblem" />
+    <configuration name="core_java_udemy.inheritance.com.dines.inheirtance.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.inheritance.com.dines.inheirtance.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.*" />
+          <option name="PATTERN" value="core_java_udemy.inheritance.com.dines.inheirtance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C" />
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.For" />
-        <item itemvalue="Application.DoWhile" />
-        <item itemvalue="Application.SwitchProblem" />
+        <item itemvalue="Application.core_java_udemy.inheritance.com.dines.inheirtance.Test" />
+        <item itemvalue="Application.ChildClass" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.OverridingTest" />
+        <item itemvalue="Application.JDKMultiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1010,6 +1049,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/inheritance/MultiLevelTest.java</url>
+          <line>5</line>
+          <properties class="core_java_udemy.inheritance.MultiLevelTest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

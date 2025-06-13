@@ -1,6 +1,7 @@
 package core_java_udemy.access_modifiers.p2;
 
 import core_java_udemy.access_modifiers.p1.A;
+import core_java_udemy.access_modifiers.p1.p3.E;
 
 public class C extends A {
 
@@ -13,5 +14,8 @@ public class C extends A {
         C cObject = new C();
         System.out.println(cObject.c);
         System.out.println(cObject.d);
+
+        E eObj = new E();
+        eObj.e1();
     }
 }
