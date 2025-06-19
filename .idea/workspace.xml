@@ -5,20 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="abstraction">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/assertions/AssertDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mostwanted/ArrayIndexOutofBoundDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mostwanted/ClassCastDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mostwanted/IllegalArgumentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mostwanted/StackOverflow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mostwanted/StaticBlockInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/JoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/MutliThreaded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/MutliThreadedCurrentThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/MutliThreadedThreadPriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/SingleThreaded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/runnable/CheckProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/yield/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/yield/YieldDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/garbagecollection/GCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/localinnerclasses/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/nonstaticinnerclasses/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/staticinnerclasses/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/DisplayMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/block/DisplayMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/block/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/block/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/classlevel/DisplayMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/classlevel/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/classlevel/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/daemonthread/DaemonThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/daemonthread/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/deadlock/DeadlockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/deadlock/FirstResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/deadlock/SecondResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadcommunication/MainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadcommunication/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadgroups/CustomThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadgroups/ThreadGroupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadgroups/ThreadGroupMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +92,8 @@
     "Application.Client.executor": "Run",
     "Application.CompileTimeBinding.executor": "Run",
     "Application.ComputerManufacturerTest.executor": "Run",
+    "Application.DaemonThreadDemo.executor": "Run",
+    "Application.DeadlockDemo.executor": "Run",
     "Application.DecodeStringDemo.executor": "Run",
     "Application.Demo.executor": "Run",
     "Application.DoWhile.executor": "Run",
@@ -90,6 +101,7 @@
     "Application.FindGuitarTester.executor": "Run",
     "Application.FindInstrumentTester.executor": "Debug",
     "Application.For.executor": "Run",
+    "Application.GCDemo.executor": "Run",
     "Application.HashtableDemo.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.IfElseLadder.executor": "Run",
@@ -100,12 +112,14 @@
     "Application.LetterCombinationPhoneNumber.executor": "Debug",
     "Application.LoadTester.executor": "Debug",
     "Application.Main.executor": "Run",
+    "Application.MainThread.executor": "Run",
     "Application.MathOperationsDemo.executor": "Run",
     "Application.MergedTwoSortedList.executor": "Run",
     "Application.MultiLevelTest.executor": "Run",
     "Application.MutliThreaded.executor": "Run",
     "Application.MutliThreadedCurrentThread.executor": "Run",
     "Application.NonStaticMembersDemo.executor": "Run",
+    "Application.Outer.executor": "Run",
     "Application.Overriding.executor": "Run",
     "Application.OverridingTest.executor": "Run",
     "Application.PaymentApp.executor": "Run",
@@ -132,6 +146,8 @@
     "Application.TestEnumSingleton.executor": "Run",
     "Application.TestSolution.executor": "Debug",
     "Application.ThisKeywordDemo.executor": "Run",
+    "Application.ThreadGroupDemo.executor": "Run",
+    "Application.ThreadGroupMethods.executor": "Run",
     "Application.TwoPointersSlidingWindow.executor": "Run",
     "Application.UIVIew.executor": "Run",
     "Application.UnitTester.executor": "Run",
@@ -142,6 +158,9 @@
     "Application.core_java_udemy.abstraction.Test.executor": "Run",
     "Application.core_java_udemy.abstraction.interfaces.Test.executor": "Run",
     "Application.core_java_udemy.inheritance.com.dines.inheirtance.Test.executor": "Run",
+    "Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer.executor": "Run",
+    "Application.core_java_udemy.mutlithreading.synchronization.block.Test.executor": "Run",
+    "Application.core_java_udemy.mutlithreading.synchronization.classlevel.Test.executor": "Run",
     "Application.core_java_udemy.polymorphism.interfaces.RunTimeBinding.executor": "Run",
     "Application.datastructure.arrays.Solution.executor": "Debug",
     "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
@@ -160,7 +179,7 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DM2719/Downloads/coding/src/core_java_udemy/polymorphism/interfaces",
+    "last_opened_file_path": "C:/Users/DM2719/Downloads/coding/src/core_java_udemy/mutlithreading/synchronization/block",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -180,6 +199,8 @@
       <recent name="headfirst_ooad.chapter5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DM2719\Downloads\coding\src\core_java_udemy\mutlithreading\synchronization\block" />
+      <recent name="C:\Users\DM2719\Downloads\coding\src\core_java_udemy\mutlithreading\synchronization\classlevel" />
       <recent name="C:\Users\DM2719\Downloads\coding\src\core_java_udemy\polymorphism\interfaces" />
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter7" />
       <recent name="$PROJECT_DIR$/src/headfirst_ooad/chapter5" />
@@ -201,20 +222,20 @@
       <recent name="designpattern.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core_java_udemy.mutlithreading.synchronization.deadlock" />
       <recent name="core_java_udemy.mutlithreading" />
       <recent name="core_java_udemy.polymorphism" />
       <recent name="core_java_udemy.abstraction.moreprograms" />
       <recent name="core_java_udemy.inheritance.com.dines.inheirtance" />
-      <recent name="core_java_udemy.inheritance.hierarchical_heritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.YieldDemo">
-    <configuration name="CheckProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.runnable.CheckProcessor" />
+  <component name="RunManager" selected="Application.core_java_udemy.innerclasses.localinnerclasses.Outer">
+    <configuration name="DeadlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.synchronization.deadlock.DeadlockDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.mutlithreading.runnable.*" />
+          <option name="PATTERN" value="core_java_udemy.mutlithreading.synchronization.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.JoinDemo" />
+    <configuration name="GCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.garbagecollection.GCDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.mutlithreading.*" />
+          <option name="PATTERN" value="core_java_udemy.garbagecollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutliThreadedCurrentThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.MutliThreadedCurrentThread" />
+    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.innerclasses.staticinnerclasses.Outer" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.mutlithreading.*" />
+          <option name="PATTERN" value="core_java_udemy.innerclasses.staticinnerclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,12 +269,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutliThreadedThreadPriority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.MutliThreadedThreadPriority" />
+    <configuration name="core_java_udemy.innerclasses.localinnerclasses.Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.innerclasses.localinnerclasses.Outer" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.mutlithreading.*" />
+          <option name="PATTERN" value="core_java_udemy.innerclasses.localinnerclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,12 +282,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YieldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.yield.YieldDemo" />
+    <configuration name="core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.mutlithreading.yield.*" />
+          <option name="PATTERN" value="core_java_udemy.innerclasses.nonstaticinnerclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,19 +296,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CheckProcessor" />
-      <item itemvalue="Application.YieldDemo" />
-      <item itemvalue="Application.JoinDemo" />
-      <item itemvalue="Application.MutliThreadedCurrentThread" />
-      <item itemvalue="Application.MutliThreadedThreadPriority" />
+      <item itemvalue="Application.Outer" />
+      <item itemvalue="Application.core_java_udemy.innerclasses.localinnerclasses.Outer" />
+      <item itemvalue="Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" />
+      <item itemvalue="Application.DeadlockDemo" />
+      <item itemvalue="Application.GCDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.YieldDemo" />
-        <item itemvalue="Application.CheckProcessor" />
-        <item itemvalue="Application.MutliThreadedThreadPriority" />
-        <item itemvalue="Application.MutliThreadedCurrentThread" />
-        <item itemvalue="Application.JoinDemo" />
+        <item itemvalue="Application.core_java_udemy.innerclasses.localinnerclasses.Outer" />
+        <item itemvalue="Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" />
+        <item itemvalue="Application.Outer" />
+        <item itemvalue="Application.GCDemo" />
+        <item itemvalue="Application.DeadlockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -350,6 +371,7 @@
       <workItem from="1748542846777" duration="570000" />
       <workItem from="1749037090723" duration="1961000" />
       <workItem from="1750074219882" duration="492000" />
+      <workItem from="1750333959708" duration="1965000" />
     </task>
     <task id="LOCAL-00005" summary="rearrange classes">
       <option name="closed" value="true" />
@@ -1083,6 +1105,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/Test.java</url>
+          <line>3</line>
+          <properties class="core_java_udemy.mutlithreading.synchronization.Test" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadgroups/ThreadGroupDemo.java</url>
+          <line>3</line>
+          <properties class="core_java_udemy.mutlithreading.synchronization.threadgroups.ThreadGroupDemo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
