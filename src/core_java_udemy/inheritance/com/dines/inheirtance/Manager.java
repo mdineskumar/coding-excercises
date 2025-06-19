@@ -1,7 +1,5 @@
 package core_java_udemy.inheritance.com.dines.inheirtance;
 
-import core_java_udemy.inheritance.com.emc.EMBase;
-
 public class Manager extends Employee {
 
     double salary;
