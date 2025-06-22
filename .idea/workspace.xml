@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="abstraction">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/garbagecollection/GCDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/localinnerclasses/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/nonstaticinnerclasses/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/staticinnerclasses/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/DisplayMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/block/DisplayMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/block/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/block/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/classlevel/DisplayMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/classlevel/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/classlevel/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/daemonthread/DaemonThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/daemonthread/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/deadlock/DeadlockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/deadlock/FirstResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/deadlock/SecondResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadcommunication/MainThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadcommunication/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadgroups/CustomThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadgroups/ThreadGroupDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadgroups/ThreadGroupMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/anonymousinnerclasses/AnonymousRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/anonymousinnerclasses/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/anonymousinnerclasses/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/anonymousinnerclasses/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/staticinnerclasses/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/staticinnerclasses/Outer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +59,7 @@
     "Application.A.executor": "Run",
     "Application.AggregationExample.executor": "Run",
     "Application.AggregationExampleWithInterfaces.executor": "Debug",
+    "Application.AnonymousRunnable.executor": "Run",
     "Application.ArrayIndexOutofBoundDemo.executor": "Run",
     "Application.AssertDemo.executor": "Run",
     "Application.AutomaticPromotion.executor": "Run",
@@ -229,13 +212,13 @@
       <recent name="core_java_udemy.inheritance.com.dines.inheirtance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.core_java_udemy.innerclasses.localinnerclasses.Outer">
-    <configuration name="DeadlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.synchronization.deadlock.DeadlockDemo" />
+  <component name="RunManager" selected="Application.JoinDemo">
+    <configuration name="AnonymousRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.innerclasses.anonymousinnerclasses.AnonymousRunnable" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.mutlithreading.synchronization.deadlock.*" />
+          <option name="PATTERN" value="core_java_udemy.innerclasses.anonymousinnerclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,12 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.garbagecollection.GCDemo" />
+    <configuration name="JoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.JoinDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.garbagecollection.*" />
+          <option name="PATTERN" value="core_java_udemy.mutlithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,12 +239,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.innerclasses.staticinnerclasses.Outer" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.innerclasses.anonymousinnerclasses.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.innerclasses.staticinnerclasses.*" />
+          <option name="PATTERN" value="core_java_udemy.innerclasses.anonymousinnerclasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YieldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.yield.YieldDemo" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core_java_udemy.mutlithreading.yield.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,33 +278,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core_java_udemy.innerclasses.nonstaticinnerclasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Outer" />
+      <item itemvalue="Application.AnonymousRunnable" />
+      <item itemvalue="Application.JoinDemo" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.YieldDemo" />
       <item itemvalue="Application.core_java_udemy.innerclasses.localinnerclasses.Outer" />
-      <item itemvalue="Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" />
-      <item itemvalue="Application.DeadlockDemo" />
-      <item itemvalue="Application.GCDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JoinDemo" />
+        <item itemvalue="Application.YieldDemo" />
+        <item itemvalue="Application.AnonymousRunnable" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.core_java_udemy.innerclasses.localinnerclasses.Outer" />
-        <item itemvalue="Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" />
-        <item itemvalue="Application.Outer" />
-        <item itemvalue="Application.GCDemo" />
-        <item itemvalue="Application.DeadlockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -1046,7 +1029,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
           <line>60</line>
-          <properties class="headfirst_ooad.chapter9.UnitTester" method="main">
+          <properties class="headfirst_ooad.chapter9.UnitTester">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -1064,7 +1047,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/LabelledBlock.java</url>
           <line>3</line>
-          <properties class="core_java_udemy.LabelledBlock" method="main">
+          <properties class="core_java_udemy.LabelledBlock">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -1073,7 +1056,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/Switch.java</url>
           <line>3</line>
-          <properties class="core_java_udemy.Switch" method="main">
+          <properties class="core_java_udemy.Switch">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -1082,7 +1065,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/For.java</url>
           <line>3</line>
-          <properties class="core_java_udemy.For" method="main">
+          <properties class="core_java_udemy.For">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -1091,7 +1074,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/inheritance/MultiLevelTest.java</url>
           <line>5</line>
-          <properties class="core_java_udemy.inheritance.MultiLevelTest" method="main">
+          <properties class="core_java_udemy.inheritance.MultiLevelTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -1100,7 +1083,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/abstraction/interfaces/Test.java</url>
           <line>3</line>
-          <properties class="core_java_udemy.abstraction.interfaces.Test" method="main">
+          <properties class="core_java_udemy.abstraction.interfaces.Test">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -1109,7 +1092,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/Test.java</url>
           <line>3</line>
-          <properties class="core_java_udemy.mutlithreading.synchronization.Test" method="main">
+          <properties class="core_java_udemy.mutlithreading.synchronization.Test">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
