@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="abstraction">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/garbagecollection/GCDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/localinnerclasses/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/nonstaticinnerclasses/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/innerclasses/staticinnerclasses/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/DisplayMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/block/DisplayMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/block/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/block/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/classlevel/DisplayMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/classlevel/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/classlevel/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/daemonthread/DaemonThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/daemonthread/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/deadlock/DeadlockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/deadlock/FirstResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/deadlock/SecondResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadcommunication/MainThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadcommunication/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadgroups/CustomThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadgroups/ThreadGroupDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/synchronization/threadgroups/ThreadGroupMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreams/ScannerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreams/serialization/DeserializationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreams/serialization/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreams/serialization/SerializationDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +77,7 @@
     "Application.DeadlockDemo.executor": "Run",
     "Application.DecodeStringDemo.executor": "Run",
     "Application.Demo.executor": "Run",
+    "Application.DeserializationDemo.executor": "Run",
     "Application.DoWhile.executor": "Run",
     "Application.FactoryTest.executor": "Run",
     "Application.FindGuitarTester.executor": "Run",
@@ -132,12 +114,15 @@
     "Application.ReflectionProblem.executor": "Run",
     "Application.RemoveDuplicates.executor": "Debug",
     "Application.RunTimeBinding.executor": "Run",
+    "Application.ScannerDemo.executor": "Run",
+    "Application.SerializationDemo.executor": "Run",
     "Application.SingleThreaded.executor": "Run",
     "Application.SingletonTest.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.StackOverflow.executor": "Run",
     "Application.StaticBlockInit.executor": "Run",
     "Application.Subsets.executor": "Debug",
+    "Application.SumCalculator.executor": "Run",
     "Application.SumOfTwoNumber.executor": "Run",
     "Application.Switch.executor": "Run",
     "Application.SwitchDemo.executor": "Run",
@@ -214,6 +199,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="core_java_udemy.iostreams.serialization" />
       <recent name="core_java_udemy.polymorphism.compiletimebinding" />
       <recent name="core_java_udemy.polymorphism.runtimebinding" />
       <recent name="core_java_udemy.abstraction.abstract_class" />
@@ -229,13 +215,13 @@
       <recent name="core_java_udemy.inheritance.com.dines.inheirtance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.core_java_udemy.innerclasses.localinnerclasses.Outer">
-    <configuration name="DeadlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.synchronization.deadlock.DeadlockDemo" />
+  <component name="RunManager" selected="Application.SumCalculator">
+    <configuration name="DeserializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.iostreams.serialization.DeserializationDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.mutlithreading.synchronization.deadlock.*" />
+          <option name="PATTERN" value="core_java_udemy.iostreams.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,12 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.garbagecollection.GCDemo" />
+    <configuration name="ScannerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.iostreams.ScannerDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.garbagecollection.*" />
+          <option name="PATTERN" value="core_java_udemy.iostreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,12 +242,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.innerclasses.staticinnerclasses.Outer" />
+    <configuration name="SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.iostreams.serialization.SerializationDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.innerclasses.staticinnerclasses.*" />
+          <option name="PATTERN" value="core_java_udemy.iostreams.serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.iostreams.SumCalculator" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core_java_udemy.iostreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,33 +281,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core_java_udemy.innerclasses.nonstaticinnerclasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Outer" />
+      <item itemvalue="Application.DeserializationDemo" />
+      <item itemvalue="Application.ScannerDemo" />
+      <item itemvalue="Application.SerializationDemo" />
+      <item itemvalue="Application.SumCalculator" />
       <item itemvalue="Application.core_java_udemy.innerclasses.localinnerclasses.Outer" />
-      <item itemvalue="Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" />
-      <item itemvalue="Application.DeadlockDemo" />
-      <item itemvalue="Application.GCDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumCalculator" />
+        <item itemvalue="Application.ScannerDemo" />
+        <item itemvalue="Application.DeserializationDemo" />
+        <item itemvalue="Application.SerializationDemo" />
         <item itemvalue="Application.core_java_udemy.innerclasses.localinnerclasses.Outer" />
-        <item itemvalue="Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer" />
-        <item itemvalue="Application.Outer" />
-        <item itemvalue="Application.GCDemo" />
-        <item itemvalue="Application.DeadlockDemo" />
       </list>
     </recent_temporary>
   </component>
