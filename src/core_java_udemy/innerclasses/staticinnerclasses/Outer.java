@@ -7,6 +7,7 @@ public class Outer {
     }
 
     static class Inner{
+        int i;
         static void f1(){
             System.out.println("Inner static method");
         }
@@ -21,6 +22,7 @@ public class Outer {
         Outer.Inner.f1();
 
         Outer.Inner obj = new Outer.Inner();
+
         obj.f2();
     }
 }
