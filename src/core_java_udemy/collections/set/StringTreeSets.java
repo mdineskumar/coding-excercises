@@ -1,5 +1,7 @@
 package core_java_udemy.collections.set;
 
+import core_java_udemy.collections.comparator.StringComparator;
+
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -8,7 +10,8 @@ public class StringTreeSets {
         Set<String> set = new TreeSet<>();
 
         set.add("absc");
-        set.add("aaxq");
+        set.add("aaxqqs");
+        set.add("zyxqqwertytyurzzzzzwsas");
         set.add("zyxqqwerty");
         set.add("zyxqqwertytyur");
 

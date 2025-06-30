@@ -4,15 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="arrays">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/comparator/SBComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/list/LinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/set/DifferentSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/set/HashSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/set/RandomDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/set/StringTreeSets.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Collection framework">
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/comparator/StringComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/enums/Databases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/enums/PaymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/enums/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/sortingobjects/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/sortingobjects/EmployeeNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/sortingobjects/SortingObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/anonymous/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/basics/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/basics/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/basics/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/basics/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/defaultmethods/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/defaultmethods/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/defaultmethods/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/defaultmethods/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/interfaces/MyRunnableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/interfaces/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/parameters/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/parameters/SumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/collections/list/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/list/ArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/collections/set/StringTreeSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/set/StringTreeSets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +38,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -132,6 +146,7 @@
     "Application.SingleThreaded.executor": "Run",
     "Application.SingletonTest.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.SortingObjectTest.executor": "Run",
     "Application.StackOverflow.executor": "Run",
     "Application.StaticBlockInit.executor": "Run",
     "Application.StringTreeSets.executor": "Run",
@@ -142,7 +157,7 @@
     "Application.Switch.executor": "Run",
     "Application.SwitchDemo.executor": "Run",
     "Application.SwitchProblem.executor": "Run",
-    "Application.Test.executor": "Debug",
+    "Application.Test.executor": "Run",
     "Application.TestEnumSingleton.executor": "Run",
     "Application.TestSolution.executor": "Debug",
     "Application.ThisKeywordDemo.executor": "Run",
@@ -160,6 +175,10 @@
     "Application.core_java_udemy.abstraction.interfaces.Test.executor": "Run",
     "Application.core_java_udemy.inheritance.com.dines.inheirtance.Test.executor": "Run",
     "Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer.executor": "Run",
+    "Application.core_java_udemy.java8features.Test.executor": "Run",
+    "Application.core_java_udemy.java8features.lambdas.Test.executor": "Run",
+    "Application.core_java_udemy.java8features.lambdas.anonymous.Test.executor": "Run",
+    "Application.core_java_udemy.java8features.lambdas.defaultmethods.Test.executor": "Run",
     "Application.core_java_udemy.mutlithreading.synchronization.block.Test.executor": "Run",
     "Application.core_java_udemy.mutlithreading.synchronization.classlevel.Test.executor": "Run",
     "Application.core_java_udemy.polymorphism.interfaces.RunTimeBinding.executor": "Run",
@@ -215,29 +234,30 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="core_java_udemy.java8features.lambdas.interfaces" />
+      <recent name="core_java_udemy.java8features.lambdas.parameters" />
+      <recent name="core_java_udemy.java8features.lambdas.basics" />
       <recent name="core_java_udemy.iostreams.serialization" />
       <recent name="core_java_udemy.polymorphism.compiletimebinding" />
-      <recent name="core_java_udemy.polymorphism.runtimebinding" />
-      <recent name="core_java_udemy.abstraction.abstract_class" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="designpattern.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core_java_udemy.java8features.lambdas.anonymous" />
       <recent name="core_java_udemy.mutlithreading.synchronization.deadlock" />
       <recent name="core_java_udemy.mutlithreading" />
       <recent name="core_java_udemy.polymorphism" />
       <recent name="core_java_udemy.abstraction.moreprograms" />
-      <recent name="core_java_udemy.inheritance.com.dines.inheirtance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LIDemo">
-    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.list.ArrayListDemo" />
+  <component name="RunManager" selected="Application.core_java_udemy.java8features.lambdas.defaultmethods.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.enums.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.collections.list.*" />
+          <option name="PATTERN" value="core_java_udemy.collections.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DifferentSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.set.DifferentSets" />
+    <configuration name="core_java_udemy.java8features.lambdas.anonymous.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java8features.lambdas.anonymous.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.collections.set.*" />
+          <option name="PATTERN" value="core_java_udemy.java8features.lambdas.anonymous.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.set.HashSetDemo" />
+    <configuration name="core_java_udemy.java8features.lambdas.basics.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java8features.lambdas.basics.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.collections.set.*" />
+          <option name="PATTERN" value="core_java_udemy.java8features.lambdas.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,12 +291,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LIDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.list.LIDemo" />
+    <configuration name="core_java_udemy.java8features.lambdas.defaultmethods.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java8features.lambdas.defaultmethods.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.collections.list.*" />
+          <option name="PATTERN" value="core_java_udemy.java8features.lambdas.defaultmethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,12 +304,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTreeSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.set.StringTreeSets" />
+    <configuration name="core_java_udemy.java8features.lambdas.interfaces.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java8features.lambdas.interfaces.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.collections.set.*" />
+          <option name="PATTERN" value="core_java_udemy.java8features.lambdas.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,19 +318,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LIDemo" />
-      <item itemvalue="Application.ArrayListDemo" />
-      <item itemvalue="Application.DifferentSets" />
-      <item itemvalue="Application.HashSetDemo" />
-      <item itemvalue="Application.StringTreeSets" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.core_java_udemy.java8features.lambdas.anonymous.Test" />
+      <item itemvalue="Application.core_java_udemy.java8features.lambdas.basics.Test" />
+      <item itemvalue="Application.core_java_udemy.java8features.lambdas.defaultmethods.Test" />
+      <item itemvalue="Application.core_java_udemy.java8features.lambdas.interfaces.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LIDemo" />
-        <item itemvalue="Application.StringTreeSets" />
-        <item itemvalue="Application.DifferentSets" />
-        <item itemvalue="Application.ArrayListDemo" />
-        <item itemvalue="Application.HashSetDemo" />
+        <item itemvalue="Application.core_java_udemy.java8features.lambdas.defaultmethods.Test" />
+        <item itemvalue="Application.core_java_udemy.java8features.lambdas.anonymous.Test" />
+        <item itemvalue="Application.core_java_udemy.java8features.lambdas.interfaces.Test" />
+        <item itemvalue="Application.core_java_udemy.java8features.lambdas.basics.Test" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -381,14 +401,7 @@
       <workItem from="1750919928994" duration="1488000" />
       <workItem from="1750929226140" duration="4000" />
       <workItem from="1751002488624" duration="664000" />
-    </task>
-    <task id="LOCAL-00007" summary="search tool with aggragation, encapsulation and abstracting">
-      <option name="closed" value="true" />
-      <created>1734531985854</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1734531985854</updated>
+      <workItem from="1751263198139" duration="4720000" />
     </task>
     <task id="LOCAL-00008" summary="apply ooad">
       <option name="closed" value="true" />
@@ -774,7 +787,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750829817349</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Collection framework">
+      <option name="closed" value="true" />
+      <created>1751263232619</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1751263232619</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,7 +813,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="recursion loop through list example" />
     <MESSAGE value="recursion loop through list example 2" />
     <MESSAGE value="recursion isPalindrome" />
     <MESSAGE value="recursion findMax" />
@@ -817,7 +837,8 @@
     <MESSAGE value="abstraction" />
     <MESSAGE value="serialization and deserialization" />
     <MESSAGE value="arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
+    <MESSAGE value="Collection framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1057,6 +1078,11 @@
           <line>43</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/defaultmethods/Test.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
           <line>60</line>
@@ -1155,6 +1181,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/interfaces/Test.java</url>
+          <line>5</line>
+          <properties class="core_java_udemy.java8features.lambdas.Test">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
