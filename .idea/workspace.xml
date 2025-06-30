@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="arrays">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/list/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/list/ListMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/objectmethods/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/objectmethods/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/comparator/SBComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/list/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/set/DifferentSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/set/HashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/set/RandomDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/set/StringTreeSets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/collections/list/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/list/ArrayListDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +84,7 @@
     "Application.DecodeStringDemo.executor": "Run",
     "Application.Demo.executor": "Run",
     "Application.DeserializationDemo.executor": "Run",
+    "Application.DifferentSets.executor": "Run",
     "Application.DoWhile.executor": "Run",
     "Application.FactoryTest.executor": "Run",
     "Application.FindGuitarTester.executor": "Run",
@@ -88,14 +92,17 @@
     "Application.FiveWithZero.executor": "Run",
     "Application.For.executor": "Run",
     "Application.GCDemo.executor": "Run",
+    "Application.HashSetDemo.executor": "Run",
     "Application.HashtableDemo.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.IfElseLadder.executor": "Run",
     "Application.IllegalArgumentDemo.executor": "Run",
     "Application.JDKMultiTest.executor": "Run",
     "Application.JoinDemo.executor": "Run",
+    "Application.LIDemo.executor": "Run",
     "Application.LabelledBlock.executor": "Run",
     "Application.LetterCombinationPhoneNumber.executor": "Debug",
+    "Application.LinkedListDemo.executor": "Run",
     "Application.ListMethods.executor": "Run",
     "Application.LoadTester.executor": "Debug",
     "Application.Main.executor": "Run",
@@ -115,6 +122,7 @@
     "Application.PersonTest.executor": "Run",
     "Application.PizzaShop.executor": "Run",
     "Application.PowerRecursion.executor": "Run",
+    "Application.RandomDemo.executor": "Run",
     "Application.RecursionExample.executor": "Run",
     "Application.ReflectionProblem.executor": "Run",
     "Application.RemoveDuplicates.executor": "Debug",
@@ -126,6 +134,7 @@
     "Application.Solution.executor": "Run",
     "Application.StackOverflow.executor": "Run",
     "Application.StaticBlockInit.executor": "Run",
+    "Application.StringTreeSets.executor": "Run",
     "Application.Subsets.executor": "Debug",
     "Application.SumCalculator.executor": "Run",
     "Application.SumOfElementsDemo.executor": "Run",
@@ -222,7 +231,7 @@
       <recent name="core_java_udemy.inheritance.com.dines.inheirtance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListMethods">
+  <component name="RunManager" selected="Application.LIDemo">
     <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.list.ArrayListDemo" />
       <module name="coding" />
@@ -236,12 +245,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.arrays.CharArray" />
+    <configuration name="DifferentSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.set.DifferentSets" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.arrays.*" />
+          <option name="PATTERN" value="core_java_udemy.collections.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,8 +258,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.list.ListMethods" />
+    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.set.HashSetDemo" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core_java_udemy.collections.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LIDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.list.LIDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -262,25 +284,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfElementsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.arrays.SumOfElementsDemo" />
+    <configuration name="StringTreeSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.set.StringTreeSets" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.objectmethods.Test" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core_java_udemy.objectmethods.*" />
+          <option name="PATTERN" value="core_java_udemy.collections.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,19 +298,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LIDemo" />
       <item itemvalue="Application.ArrayListDemo" />
-      <item itemvalue="Application.ListMethods" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.CharArray" />
-      <item itemvalue="Application.SumOfElementsDemo" />
+      <item itemvalue="Application.DifferentSets" />
+      <item itemvalue="Application.HashSetDemo" />
+      <item itemvalue="Application.StringTreeSets" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListMethods" />
+        <item itemvalue="Application.LIDemo" />
+        <item itemvalue="Application.StringTreeSets" />
+        <item itemvalue="Application.DifferentSets" />
         <item itemvalue="Application.ArrayListDemo" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.CharArray" />
-        <item itemvalue="Application.SumOfElementsDemo" />
+        <item itemvalue="Application.HashSetDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -368,6 +377,10 @@
       <workItem from="1750672917737" duration="13000" />
       <workItem from="1750829676344" duration="1118000" />
       <workItem from="1750831110433" duration="2073000" />
+      <workItem from="1750918273979" duration="1481000" />
+      <workItem from="1750919928994" duration="1488000" />
+      <workItem from="1750929226140" duration="4000" />
+      <workItem from="1751002488624" duration="664000" />
     </task>
     <task id="LOCAL-00007" summary="search tool with aggragation, encapsulation and abstracting">
       <option name="closed" value="true" />
@@ -1133,6 +1146,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/collections/list/LinkedListDemo.java</url>
+          <line>7</line>
+          <properties class="core_java_udemy.collections.list.LinkedListDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
