@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="backtracking">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/reflection/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/reflection/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/reflection/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/variables/Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/variables/IfLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/variables/Loops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/map/HashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/map/IdentityHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/map/LinkedHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/map/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/map/WeakHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/queue/PriorityQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/RotateArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +93,10 @@
     &quot;Application.FindInstrumentTester.executor&quot;: &quot;Debug&quot;,
     &quot;Application.For.executor&quot;: &quot;Run&quot;,
     &quot;Application.GCDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.HashtableDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IdentityHashMapDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.IfElseLadder.executor&quot;: &quot;Run&quot;,
     &quot;Application.IllegalArgumentDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ImmuatableDemo.executor&quot;: &quot;Run&quot;,
@@ -102,6 +104,7 @@
     &quot;Application.JoinDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.LabelledBlock.executor&quot;: &quot;Run&quot;,
     &quot;Application.LetterCombinationPhoneNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LinkedHashMapDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.LoadTester.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Loops.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
@@ -122,10 +125,12 @@
     &quot;Application.PersonTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.PizzaShop.executor&quot;: &quot;Run&quot;,
     &quot;Application.PowerRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PriorityQueueDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReaderAndWriterDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.RecursionExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReflectionProblem.executor&quot;: &quot;Run&quot;,
     &quot;Application.RemoveDuplicates.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RotateArray.executor&quot;: &quot;Debug&quot;,
     &quot;Application.RunTimeBinding.executor&quot;: &quot;Run&quot;,
     &quot;Application.SBDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.SingleThreaded.executor&quot;: &quot;Run&quot;,
@@ -152,6 +157,7 @@
     &quot;Application.TwoPointersSlidingWindow.executor&quot;: &quot;Run&quot;,
     &quot;Application.UIVIew.executor&quot;: &quot;Run&quot;,
     &quot;Application.UnitTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeakHashMapDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.WeatherUI.executor&quot;: &quot;Run&quot;,
     &quot;Application.WrapClassesDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.YieldDemo.executor&quot;: &quot;Run&quot;,
@@ -226,20 +232,20 @@
       <recent name="designpattern.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core_java_udemy.collections.map" />
       <recent name="core_java_udemy.mutlithreading.synchronization.deadlock" />
       <recent name="core_java_udemy.mutlithreading" />
       <recent name="core_java_udemy.polymorphism" />
       <recent name="core_java_udemy.abstraction.moreprograms" />
-      <recent name="core_java_udemy.inheritance.com.dines.inheirtance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="AllPathsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.AllPathsDemo" />
+  <component name="RunManager" selected="Application.RotateArray">
+    <configuration name="IdentityHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.map.IdentityHashMapDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.*" />
+          <option name="PATTERN" value="core_java_udemy.collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BufferedReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.iostream.BufferedReaderDemo" />
+    <configuration name="LinkedHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.map.LinkedHashMapDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.iostream.*" />
+          <option name="PATTERN" value="core_java_udemy.collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.Combination" />
+    <configuration name="PriorityQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.queue.PriorityQueueDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.*" />
+          <option name="PATTERN" value="core_java_udemy.collections.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.variables.Loops" />
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.RotateArray" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.variables.*" />
+          <option name="PATTERN" value="leetcode.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.reflection.Test" />
+    <configuration name="WeakHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.map.WeakHashMapDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.reflection.*" />
+          <option name="PATTERN" value="core_java_udemy.collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,21 +306,29 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Loops" />
-      <item itemvalue="Application.AllPathsDemo" />
-      <item itemvalue="Application.BufferedReaderDemo" />
-      <item itemvalue="Application.Combination" />
+      <item itemvalue="Application.IdentityHashMapDemo" />
+      <item itemvalue="Application.LinkedHashMapDemo" />
+      <item itemvalue="Application.PriorityQueueDemo" />
+      <item itemvalue="Application.RotateArray" />
+      <item itemvalue="Application.WeakHashMapDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Loops" />
-        <item itemvalue="Application.AllPathsDemo" />
-        <item itemvalue="Application.Combination" />
-        <item itemvalue="Application.BufferedReaderDemo" />
+        <item itemvalue="Application.RotateArray" />
+        <item itemvalue="Application.PriorityQueueDemo" />
+        <item itemvalue="Application.WeakHashMapDemo" />
+        <item itemvalue="Application.IdentityHashMapDemo" />
+        <item itemvalue="Application.LinkedHashMapDemo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -371,6 +385,7 @@
       <workItem from="1750598079899" duration="4853000" />
       <workItem from="1751510464800" duration="1837000" />
       <workItem from="1751595819448" duration="2557000" />
+      <workItem from="1751889309300" duration="677000" />
     </task>
     <task id="LOCAL-00008" summary="apply ooad">
       <option name="closed" value="true" />
@@ -1047,6 +1062,16 @@
           <line>4</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/RotateArray.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/RotateArray.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
           <line>60</line>
@@ -1136,6 +1161,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/collections/map/IdentityHashMapDemo.java</url>
+          <line>9</line>
+          <properties class="core_java_udemy.collections.map.IdentityHashMapDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
