@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="RotateArray">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/arraysutil/ArraySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/collectionsutil/CollectionsReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/collectionsutil/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/collectionsutil/SortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/collections/natvigable/NavigableTreeSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/generics/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/generics/AnyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/generics/AnyRunnableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/generics/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/generics/MethodLevelGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/generics/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/generics/MyGenericClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/generics/MyGenericClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/generics/TypeCastingProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/generics/WildCardParams.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Generics">
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Commentable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/StackOverflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/StackoverFlowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Vote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Voteable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/strings/IsSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +28,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -110,6 +106,7 @@
     "Application.IfElseLadder.executor": "Run",
     "Application.IllegalArgumentDemo.executor": "Run",
     "Application.ImmuatableDemo.executor": "Run",
+    "Application.IsSubsequence.executor": "Run",
     "Application.JDKMultiTest.executor": "Run",
     "Application.JoinDemo.executor": "Run",
     "Application.LabelledBlock.executor": "Run",
@@ -202,7 +199,7 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/core_java_udemy/iostream",
+    "last_opened_file_path": "C:/Users/DM2719/Documents/PDEA_FULL_STACK_JAVA_UDEMY/spring-framework/10-spring_aop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -253,7 +250,7 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyGenericClassTest">
+  <component name="RunManager" selected="Application.IsSubsequence">
     <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.arraysutil.ArraySort" />
       <module name="coding" />
@@ -280,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyGenericClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.generics.MyGenericClassTest" />
+    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.strings.IsSubsequence" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.generics.*" />
+          <option name="PATTERN" value="leetcode.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,12 +290,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.collectionsutil.SortedList" />
+    <configuration name="MyGenericClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.generics.MyGenericClassTest" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.collections.collectionsutil.*" />
+          <option name="PATTERN" value="core_java_udemy.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,19 +317,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.IsSubsequence" />
       <item itemvalue="Application.ArraySort" />
       <item itemvalue="Application.CollectionsReverse" />
       <item itemvalue="Application.MyGenericClassTest" />
-      <item itemvalue="Application.SortedList" />
       <item itemvalue="Application.TypeCastingProblems" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsSubsequence" />
         <item itemvalue="Application.MyGenericClassTest" />
         <item itemvalue="Application.TypeCastingProblems" />
         <item itemvalue="Application.ArraySort" />
         <item itemvalue="Application.CollectionsReverse" />
-        <item itemvalue="Application.SortedList" />
       </list>
     </recent_temporary>
   </component>
@@ -401,6 +398,8 @@
       <workItem from="1751595819448" duration="2557000" />
       <workItem from="1751889309300" duration="2315000" />
       <workItem from="1751956106006" duration="3397000" />
+      <workItem from="1751964267491" duration="38000" />
+      <workItem from="1751966155896" duration="7106000" />
     </task>
     <task id="LOCAL-00009" summary="my Board thing">
       <option name="closed" value="true" />
@@ -1086,6 +1085,21 @@
           <url>file://$PROJECT_DIR$/src/leetcode/arrays/RotateArray.java</url>
           <line>34</line>
           <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/strings/IsSubsequence.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/strings/IsSubsequence.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/strings/IsSubsequence.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
