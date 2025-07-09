@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Generics">
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Commentable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/StackOverflow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/StackoverFlowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Vote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Voteable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/strings/IsSubsequence.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Stackoverflow lowlevel design">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/bit_manipulation/SingleNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +132,7 @@
     "Application.RotateArray.executor": "Debug",
     "Application.RunTimeBinding.executor": "Run",
     "Application.SBDemo.executor": "Run",
+    "Application.SingleNumber.executor": "Run",
     "Application.SingleThreaded.executor": "Run",
     "Application.SingletonTest.executor": "Run",
     "Application.Solution.executor": "Run",
@@ -250,26 +241,13 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IsSubsequence">
+  <component name="RunManager" selected="Application.SingleNumber">
     <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.arraysutil.ArraySort" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="core_java_udemy.collections.arraysutil.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionsReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.collectionsutil.CollectionsReverse" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core_java_udemy.collections.collectionsutil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,6 +281,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.bit_manipulation.SingleNumber" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.bit_manipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypeCastingProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java_udemy.generics.TypeCastingProblems" />
       <module name="coding" />
@@ -317,19 +308,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SingleNumber" />
       <item itemvalue="Application.IsSubsequence" />
       <item itemvalue="Application.ArraySort" />
-      <item itemvalue="Application.CollectionsReverse" />
       <item itemvalue="Application.MyGenericClassTest" />
       <item itemvalue="Application.TypeCastingProblems" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.IsSubsequence" />
         <item itemvalue="Application.MyGenericClassTest" />
         <item itemvalue="Application.TypeCastingProblems" />
         <item itemvalue="Application.ArraySort" />
-        <item itemvalue="Application.CollectionsReverse" />
       </list>
     </recent_temporary>
   </component>
@@ -399,15 +390,8 @@
       <workItem from="1751889309300" duration="2315000" />
       <workItem from="1751956106006" duration="3397000" />
       <workItem from="1751964267491" duration="38000" />
-      <workItem from="1751966155896" duration="7106000" />
-    </task>
-    <task id="LOCAL-00009" summary="my Board thing">
-      <option name="closed" value="true" />
-      <created>1734775677318</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1734775677318</updated>
+      <workItem from="1751966155896" duration="7203000" />
+      <workItem from="1752060518583" duration="1931000" />
     </task>
     <task id="LOCAL-00010" summary="hashtable separate chaining">
       <option name="closed" value="true" />
@@ -793,7 +777,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751890753312</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Stackoverflow lowlevel design">
+      <option name="closed" value="true" />
+      <created>1751977984707</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1751977984708</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,7 +803,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="recursion isPalindrome" />
     <MESSAGE value="recursion findMax" />
     <MESSAGE value="interfaces - algomaster lld" />
     <MESSAGE value="inheritance added" />
@@ -836,7 +827,8 @@
     <MESSAGE value="strings" />
     <MESSAGE value="BufferedReaderDemo" />
     <MESSAGE value="RotateArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="RotateArray" />
+    <MESSAGE value="Stackoverflow lowlevel design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stackoverflow lowlevel design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
