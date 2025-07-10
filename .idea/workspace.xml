@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="backtracking">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/regular_expression/CharactersAndQuantifiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/regular_expression/EmailValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/regular_expression/PatternAndMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/regular_expression/PhoneNoValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/regular_expression/SplitDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/regular_expression/StringEmailValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/regular_expression/TextFileFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/regular_expression/textFiles/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflowclone/StackOverflowClone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflowclone/StackOverflowCloneDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflowclone/entities/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflowclone/entities/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflowclone/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/StackoverFlowDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/StackoverFlowDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algomaster_lld/stackoverflow/Tag.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +139,8 @@
     "Application.Solution.executor": "Run",
     "Application.SplitDemo.executor": "Run",
     "Application.StackOverflow.executor": "Run",
+    "Application.StackOverflowCloneDemo.executor": "Run",
+    "Application.StackoverFlowDemo.executor": "Run",
     "Application.StaticBlockInit.executor": "Run",
     "Application.StringDemo.executor": "Run",
     "Application.StringEmailValidator.executor": "Run",
@@ -190,6 +193,7 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/dines/Documents/cse_resources/coding/src/algomaster_lld/stackoverflowclone",
     "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/core_java_udemy/iostream",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -205,10 +209,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="algomaster_lld.stackoverflowclone.entities" />
+      <recent name="algomaster_lld.stackoverflowclone" />
       <recent name="core_java_udemy.reflection" />
       <recent name="designpattern.adapter.assignment" />
       <recent name="designpattern.adapter" />
-      <recent name="headfirst_ooad.chapter5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/core_java_udemy/iostream" />
@@ -241,20 +246,7 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SplitDemo">
-    <configuration name="EmailValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.regular_expression.EmailValidator" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core_java_udemy.regular_expression.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StackOverflowCloneDemo">
     <configuration name="PhoneNoValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java_udemy.regular_expression.PhoneNoValidator" />
       <module name="coding" />
@@ -281,12 +273,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringEmailValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.regular_expression.StringEmailValidator" />
+    <configuration name="StackOverflowCloneDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algomaster_lld.stackoverflowclone.StackOverflowCloneDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.regular_expression.*" />
+          <option name="PATTERN" value="algomaster_lld.stackoverflowclone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackoverFlowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algomaster_lld.stackoverflow.StackoverFlowDemo" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algomaster_lld.stackoverflow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,19 +313,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EmailValidator" />
       <item itemvalue="Application.PhoneNoValidator" />
       <item itemvalue="Application.SplitDemo" />
-      <item itemvalue="Application.StringEmailValidator" />
+      <item itemvalue="Application.StackOverflowCloneDemo" />
+      <item itemvalue="Application.StackoverFlowDemo" />
       <item itemvalue="Application.TextFileFinder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackOverflowCloneDemo" />
+        <item itemvalue="Application.StackoverFlowDemo" />
         <item itemvalue="Application.SplitDemo" />
         <item itemvalue="Application.TextFileFinder" />
         <item itemvalue="Application.PhoneNoValidator" />
-        <item itemvalue="Application.StringEmailValidator" />
-        <item itemvalue="Application.EmailValidator" />
       </list>
     </recent_temporary>
   </component>
@@ -1054,6 +1059,11 @@
           <url>file://$PROJECT_DIR$/src/core_java_udemy/immutable/string/StringReversal.java</url>
           <line>4</line>
           <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algomaster_lld/stackoverflow/StackOverflow.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
