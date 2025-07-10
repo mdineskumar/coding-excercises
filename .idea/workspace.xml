@@ -4,14 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Stackoverflowclone">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/concurrentcollections/ArrayListProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/concurrentcollections/ArraySetProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/concurrentcollections/BlockingQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/concurrentcollections/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/concurrentcollections/OrderConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/concurrentcollections/OrderProducer.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="concurrent collections">
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/functions/FunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/parameters/SumImple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/methodref/MethodRefDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/methodref/constructors/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/methodref/constructors/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/methodref/constructors/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/optional/OptionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/predicates/LengthOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/predicates/PredicatesHandson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/predicates/joins/PredicateJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/streams/FilterEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/streams/UpperToLowerCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/anonymous/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/anonymous/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/basics/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/basics/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/basics/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/basics/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/defaultmethods/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/defaultmethods/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/defaultmethods/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/defaultmethods/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/defaultmethods/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/defaultmethods/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/defaultmethods/X.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/defaultmethods/X.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/interfaces/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/interfaces/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/parameters/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/parameters/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/parameters/SumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java8features/lambdas/parameters/SumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +39,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -93,9 +109,11 @@
     "Application.FactoryTest.executor": "Run",
     "Application.FileInputStreamDemo.executor": "Run",
     "Application.FileOutputStreamDemo.executor": "Run",
+    "Application.FilterEvenNumbers.executor": "Run",
     "Application.FindGuitarTester.executor": "Run",
     "Application.FindInstrumentTester.executor": "Debug",
     "Application.For.executor": "Run",
+    "Application.FunctionTest.executor": "Run",
     "Application.GCDemo.executor": "Run",
     "Application.HashtableDemo.executor": "Run",
     "Application.HelloWorld.executor": "Run",
@@ -105,6 +123,7 @@
     "Application.JDKMultiTest.executor": "Run",
     "Application.JoinDemo.executor": "Run",
     "Application.LabelledBlock.executor": "Run",
+    "Application.LengthOfString.executor": "Run",
     "Application.LetterCombinationPhoneNumber.executor": "Debug",
     "Application.LoadTester.executor": "Debug",
     "Application.Loops.executor": "Run",
@@ -112,11 +131,13 @@
     "Application.MainThread.executor": "Run",
     "Application.MathOperationsDemo.executor": "Run",
     "Application.MergedTwoSortedList.executor": "Run",
+    "Application.MethodRefDemo.executor": "Run",
     "Application.MultiLevelTest.executor": "Run",
     "Application.MutliThreaded.executor": "Run",
     "Application.MutliThreadedCurrentThread.executor": "Run",
     "Application.MyImmutable.executor": "Run",
     "Application.NonStaticMembersDemo.executor": "Run",
+    "Application.OptionalDemo.executor": "Run",
     "Application.Outer.executor": "Run",
     "Application.Overriding.executor": "Run",
     "Application.OverridingTest.executor": "Run",
@@ -128,6 +149,8 @@
     "Application.PhoneNoValidator.executor": "Run",
     "Application.PizzaShop.executor": "Run",
     "Application.PowerRecursion.executor": "Run",
+    "Application.PredicateJoin.executor": "Run",
+    "Application.PredicatesHandson.executor": "Run",
     "Application.ReaderAndWriterDemo.executor": "Run",
     "Application.RecursionExample.executor": "Run",
     "Application.ReflectionProblem.executor": "Run",
@@ -163,6 +186,7 @@
     "Application.TwoPointersSlidingWindow.executor": "Run",
     "Application.UIVIew.executor": "Run",
     "Application.UnitTester.executor": "Run",
+    "Application.UpperToLowerCase.executor": "Run",
     "Application.WeatherUI.executor": "Run",
     "Application.WrapClassesDemo.executor": "Run",
     "Application.YieldDemo.executor": "Run",
@@ -172,6 +196,7 @@
     "Application.core_java_udemy.immutable.string.StringMethods.executor": "Run",
     "Application.core_java_udemy.inheritance.com.dines.inheirtance.Test.executor": "Run",
     "Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer.executor": "Run",
+    "Application.core_java_udemy.java8features.lambdas.anonymous.Test.executor": "Run",
     "Application.core_java_udemy.mutlithreading.synchronization.block.Test.executor": "Run",
     "Application.core_java_udemy.mutlithreading.synchronization.classlevel.Test.executor": "Run",
     "Application.core_java_udemy.polymorphism.interfaces.RunTimeBinding.executor": "Run",
@@ -193,7 +218,7 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/Users/dines/Documents/cse_resources/coding/src/algomaster_lld/stackoverflowclone",
+    "last_directory_selection": "/Users/dines/Documents/cse_resources/coding/src/core_java_udemy/java8features/predicates",
     "last_opened_file_path": "/Users/dines/Documents/cse_resources/coding/src/core_java_udemy/iostream",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -246,13 +271,13 @@
       <recent name="core_java_udemy.polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BlockingQueueDemo">
-    <configuration name="ArrayListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.concurrentcollections.ArrayListProblem" />
+  <component name="RunManager" selected="Application.OptionalDemo">
+    <configuration name="FilterEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java8features.streams.FilterEvenNumbers" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.concurrentcollections.*" />
+          <option name="PATTERN" value="core_java_udemy.java8features.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,12 +285,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.concurrentcollections.BlockingQueueDemo" />
+    <configuration name="MethodRefDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java8features.methodref.MethodRefDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.concurrentcollections.*" />
+          <option name="PATTERN" value="core_java_udemy.java8features.methodref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcurrentHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.concurrentcollections.ConcurrentHashMapDemo" />
+    <configuration name="OptionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java8features.optional.OptionalDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.concurrentcollections.*" />
+          <option name="PATTERN" value="core_java_udemy.java8features.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOverflowCloneDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algomaster_lld.stackoverflowclone.StackOverflowCloneDemo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java8features.methodref.constructors.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algomaster_lld.stackoverflowclone.*" />
+          <option name="PATTERN" value="core_java_udemy.java8features.methodref.constructors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +324,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackoverFlowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algomaster_lld.stackoverflow.StackoverFlowDemo" />
+    <configuration name="UpperToLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java8features.streams.UpperToLowerCase" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algomaster_lld.stackoverflow.*" />
+          <option name="PATTERN" value="core_java_udemy.java8features.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,19 +338,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayListProblem" />
-      <item itemvalue="Application.BlockingQueueDemo" />
-      <item itemvalue="Application.ConcurrentHashMapDemo" />
-      <item itemvalue="Application.StackOverflowCloneDemo" />
-      <item itemvalue="Application.StackoverFlowDemo" />
+      <item itemvalue="Application.FilterEvenNumbers" />
+      <item itemvalue="Application.MethodRefDemo" />
+      <item itemvalue="Application.OptionalDemo" />
+      <item itemvalue="Application.UpperToLowerCase" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BlockingQueueDemo" />
-        <item itemvalue="Application.ConcurrentHashMapDemo" />
-        <item itemvalue="Application.ArrayListProblem" />
-        <item itemvalue="Application.StackOverflowCloneDemo" />
-        <item itemvalue="Application.StackoverFlowDemo" />
+        <item itemvalue="Application.OptionalDemo" />
+        <item itemvalue="Application.FilterEvenNumbers" />
+        <item itemvalue="Application.UpperToLowerCase" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MethodRefDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -384,14 +409,6 @@
       <workItem from="1750598079899" duration="4853000" />
       <workItem from="1751510464800" duration="1837000" />
       <workItem from="1751595819448" duration="2557000" />
-    </task>
-    <task id="LOCAL-00009" summary="my Board thing">
-      <option name="closed" value="true" />
-      <created>1734775677318</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1734775677318</updated>
     </task>
     <task id="LOCAL-00010" summary="hashtable separate chaining">
       <option name="closed" value="true" />
@@ -777,7 +794,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752118462284</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="concurrent collections">
+      <option name="closed" value="true" />
+      <created>1752123897547</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1752123897547</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,7 +820,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="recursion isPalindrome" />
     <MESSAGE value="recursion findMax" />
     <MESSAGE value="interfaces - algomaster lld" />
     <MESSAGE value="inheritance added" />
@@ -820,7 +844,8 @@
     <MESSAGE value="strings" />
     <MESSAGE value="BufferedReaderDemo" />
     <MESSAGE value="Stackoverflowclone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stackoverflowclone" />
+    <MESSAGE value="concurrent collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="concurrent collections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
