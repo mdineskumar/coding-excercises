@@ -2,6 +2,7 @@ package algomaster_lld.stackoverflow;
 
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 public class Question implements Commentable, Voteable{
     String id;
@@ -11,12 +12,18 @@ public class Question implements Commentable, Voteable{
 
     User author;
 
+    //I think no need
     List<Answer> answers;
     List<Comment> comments;
     List<Tag> tags;
     List<Vote> votes;
 
     public Question(User user, String title, String content, List<Tag> tags){
+        this.id = UUID.randomUUID().toString();
+        this.author = user;
+        this.title = title;
+        this.content = content;
+        this.tags = tags;
 
     }
 

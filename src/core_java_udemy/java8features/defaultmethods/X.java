@@ -1,4 +1,4 @@
-package core_java_udemy.java8features.lambdas.defaultmethods;
+package core_java_udemy.java8features.defaultmethods;
 
 public interface X {
     default void m2(){

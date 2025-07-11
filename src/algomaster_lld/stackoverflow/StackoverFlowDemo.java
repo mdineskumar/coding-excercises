@@ -23,8 +23,9 @@ public class StackoverFlowDemo {
 
 
         //Charlie comment on question
-        Comment comment = stackOverflow.addComment(charlie.getId(), (Commentable) bobAnswer,"Great Question!");
+        Comment comment = stackOverflow.addComment(charlie.getId(), (Commentable) javaQuestion,"Great Question!");
 
+        //
 
 
     }

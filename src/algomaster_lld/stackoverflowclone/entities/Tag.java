@@ -1,13 +1,14 @@
-package algomaster_lld.stackoverflow;
+package algomaster_lld.stackoverflowclone.entities;
 
 import java.util.UUID;
 
 public class Tag {
-    String id;
-    String name;
-    public Tag(String name){
-        this.name = name;
+    private String id;
+    private String name;
+
+    public Tag(String name) {
         this.id = UUID.randomUUID().toString();
+        this.name = name;
     }
 
     public String getId() {

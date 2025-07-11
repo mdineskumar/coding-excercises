@@ -2,6 +2,7 @@ package algomaster_lld.stackoverflow;
 
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 public class Answer implements Voteable{
     String id;
@@ -16,10 +17,10 @@ public class Answer implements Voteable{
     List<Vote> votes;
 
     public Answer(User user, Question question, String content) {
+        this.id = UUID.randomUUID().toString();
         this.author = user;
         this.question = question;
         this.content = content;
-
     }
 
     public void addComment(String comment){
