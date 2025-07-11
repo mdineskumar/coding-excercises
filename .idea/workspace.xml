@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Stackoverflow lowlevel design">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/bit_manipulation/SingleNumber.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="bit manipulation - xor">
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/jvmarchitecture/classloading/MultipleObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/jvmarchitecture/classloading/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/jvmarchitecture/classloading/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +115,7 @@
     "Application.MathOperationsDemo.executor": "Run",
     "Application.MergedTwoSortedList.executor": "Run",
     "Application.MultiLevelTest.executor": "Run",
+    "Application.MultipleObjects.executor": "Run",
     "Application.MutliThreaded.executor": "Run",
     "Application.MutliThreadedCurrentThread.executor": "Run",
     "Application.MyGenericClassTest.executor": "Run",
@@ -132,7 +139,7 @@
     "Application.RotateArray.executor": "Debug",
     "Application.RunTimeBinding.executor": "Run",
     "Application.SBDemo.executor": "Run",
-    "Application.SingleNumber.executor": "Run",
+    "Application.SingleNumber.executor": "Debug",
     "Application.SingleThreaded.executor": "Run",
     "Application.SingletonTest.executor": "Run",
     "Application.Solution.executor": "Run",
@@ -241,20 +248,7 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingleNumber">
-    <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.collections.arraysutil.ArraySort" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core_java_udemy.collections.arraysutil.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MultipleObjects">
     <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.strings.IsSubsequence" />
       <module name="coding" />
@@ -268,12 +262,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyGenericClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.generics.MyGenericClassTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.producerconsumer_problem.Main" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.generics.*" />
+          <option name="PATTERN" value="core_java_udemy.mutlithreading.producerconsumer_problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultipleObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.jvmarchitecture.classloading.MultipleObjects" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core_java_udemy.jvmarchitecture.classloading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,12 +301,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeCastingProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.generics.TypeCastingProblems" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.jvmarchitecture.classloading.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.generics.*" />
+          <option name="PATTERN" value="core_java_udemy.jvmarchitecture.classloading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,19 +315,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MultipleObjects" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Application.SingleNumber" />
       <item itemvalue="Application.IsSubsequence" />
-      <item itemvalue="Application.ArraySort" />
-      <item itemvalue="Application.MyGenericClassTest" />
-      <item itemvalue="Application.TypeCastingProblems" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleObjects" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.IsSubsequence" />
-        <item itemvalue="Application.MyGenericClassTest" />
-        <item itemvalue="Application.TypeCastingProblems" />
-        <item itemvalue="Application.ArraySort" />
       </list>
     </recent_temporary>
   </component>
@@ -391,15 +398,8 @@
       <workItem from="1751956106006" duration="3397000" />
       <workItem from="1751964267491" duration="38000" />
       <workItem from="1751966155896" duration="7203000" />
-      <workItem from="1752060518583" duration="1931000" />
-    </task>
-    <task id="LOCAL-00010" summary="hashtable separate chaining">
-      <option name="closed" value="true" />
-      <created>1735803051218</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1735803051218</updated>
+      <workItem from="1752060518583" duration="2286000" />
+      <workItem from="1752232198423" duration="2644000" />
     </task>
     <task id="LOCAL-00011" summary="ooad chapter9">
       <option name="closed" value="true" />
@@ -785,7 +785,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751977984708</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="bit manipulation - xor">
+      <option name="closed" value="true" />
+      <created>1752062687487</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1752062687487</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -803,7 +811,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="recursion findMax" />
     <MESSAGE value="interfaces - algomaster lld" />
     <MESSAGE value="inheritance added" />
     <MESSAGE value="MergedTwoSortedList leetcode questions" />
@@ -828,7 +835,8 @@
     <MESSAGE value="BufferedReaderDemo" />
     <MESSAGE value="RotateArray" />
     <MESSAGE value="Stackoverflow lowlevel design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stackoverflow lowlevel design" />
+    <MESSAGE value="bit manipulation - xor" />
+    <option name="LAST_COMMIT_MESSAGE" value="bit manipulation - xor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1093,6 +1101,11 @@
           <line>26</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/bit_manipulation/SingleNumber.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
           <line>60</line>
@@ -1218,6 +1231,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/jvmarchitecture/classloading/MultipleObjects.java</url>
+          <line>3</line>
+          <properties class="core_java_udemy.jvmarchitecture.classloading.MultipleObjects" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
