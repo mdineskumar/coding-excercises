@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="class loader">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/immutablecollections/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/privatemethods/SendNotifications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/privatemethods/SendNotificationsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/streamingapi/StreamingAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/trywithresources/MyWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/trywithresources/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="class loader" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +192,7 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DM2719/Documents/PDEA_FULL_STACK_JAVA_UDEMY/spring-framework/10-spring_aop",
+    "last_opened_file_path": "C:/Users/DM2719/Downloads/coding",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -209,7 +201,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
