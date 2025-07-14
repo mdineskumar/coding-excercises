@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="bit manipulation - xor">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/jvmarchitecture/classloading/MultipleObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/jvmarchitecture/classloading/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/jvmarchitecture/classloading/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Producer.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="class loader">
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/immutablecollections/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/privatemethods/SendNotifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/privatemethods/SendNotificationsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/streamingapi/StreamingAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/trywithresources/MyWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/trywithresources/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +138,8 @@
     "Application.RotateArray.executor": "Debug",
     "Application.RunTimeBinding.executor": "Run",
     "Application.SBDemo.executor": "Run",
+    "Application.SafeVarargs.executor": "Run",
+    "Application.SendNotificationsImpl.executor": "Run",
     "Application.SingleNumber.executor": "Debug",
     "Application.SingleThreaded.executor": "Run",
     "Application.SingletonTest.executor": "Run",
@@ -146,6 +147,7 @@
     "Application.SortedList.executor": "Run",
     "Application.StackOverflow.executor": "Run",
     "Application.StaticBlockInit.executor": "Run",
+    "Application.StreamingAPI.executor": "Run",
     "Application.StringDemo.executor": "Run",
     "Application.StringMethods.executor": "Run",
     "Application.StringPoolDemo.executor": "Run",
@@ -176,6 +178,7 @@
     "Application.core_java_udemy.immutable.string.StringMethods.executor": "Run",
     "Application.core_java_udemy.inheritance.com.dines.inheirtance.Test.executor": "Run",
     "Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer.executor": "Run",
+    "Application.core_java_udemy.java9features.trywithresources.Test.executor": "Run",
     "Application.core_java_udemy.mutlithreading.synchronization.block.Test.executor": "Run",
     "Application.core_java_udemy.mutlithreading.synchronization.classlevel.Test.executor": "Run",
     "Application.core_java_udemy.polymorphism.interfaces.RunTimeBinding.executor": "Run",
@@ -206,12 +209,13 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="core_java_udemy.java9features.privatemethods" />
       <recent name="core_java_udemy.reflection" />
       <recent name="designpattern.adapter.assignment" />
       <recent name="designpattern.adapter" />
@@ -248,13 +252,13 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultipleObjects">
-    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.strings.IsSubsequence" />
+  <component name="RunManager" selected="Application.StreamingAPI">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java9features.immutablecollections.Demo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.strings.*" />
+          <option name="PATTERN" value="core_java_udemy.java9features.immutablecollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.producerconsumer_problem.Main" />
+    <configuration name="SafeVarargs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java9features.sagevarargs.SafeVarargs" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.mutlithreading.producerconsumer_problem.*" />
+          <option name="PATTERN" value="core_java_udemy.java9features.sagevarargs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.jvmarchitecture.classloading.MultipleObjects" />
+    <configuration name="SendNotificationsImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java9features.privatemethods.SendNotificationsImpl" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.jvmarchitecture.classloading.*" />
+          <option name="PATTERN" value="core_java_udemy.java9features.privatemethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.bit_manipulation.SingleNumber" />
+    <configuration name="StreamingAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java9features.streamingapi.StreamingAPI" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.bit_manipulation.*" />
+          <option name="PATTERN" value="core_java_udemy.java9features.streamingapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,12 +305,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.jvmarchitecture.classloading.Test" />
+    <configuration name="core_java_udemy.java9features.trywithresources.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java9features.trywithresources.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.jvmarchitecture.classloading.*" />
+          <option name="PATTERN" value="core_java_udemy.java9features.trywithresources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,19 +319,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MultipleObjects" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.SingleNumber" />
-      <item itemvalue="Application.IsSubsequence" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.SafeVarargs" />
+      <item itemvalue="Application.SendNotificationsImpl" />
+      <item itemvalue="Application.StreamingAPI" />
+      <item itemvalue="Application.core_java_udemy.java9features.trywithresources.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultipleObjects" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.IsSubsequence" />
+        <item itemvalue="Application.StreamingAPI" />
+        <item itemvalue="Application.SafeVarargs" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.core_java_udemy.java9features.trywithresources.Test" />
+        <item itemvalue="Application.SendNotificationsImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -400,14 +404,7 @@
       <workItem from="1751966155896" duration="7203000" />
       <workItem from="1752060518583" duration="2286000" />
       <workItem from="1752232198423" duration="2644000" />
-    </task>
-    <task id="LOCAL-00011" summary="ooad chapter9">
-      <option name="closed" value="true" />
-      <created>1735973508185</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1735973508185</updated>
+      <workItem from="1752471454962" duration="6134000" />
     </task>
     <task id="LOCAL-00012" summary="write own tests on unit class">
       <option name="closed" value="true" />
@@ -793,7 +790,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752062687487</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="class loader">
+      <option name="closed" value="true" />
+      <created>1752473387690</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1752473387690</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,7 +816,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="interfaces - algomaster lld" />
     <MESSAGE value="inheritance added" />
     <MESSAGE value="MergedTwoSortedList leetcode questions" />
     <MESSAGE value="aggregation theory and code examples" />
@@ -836,7 +840,8 @@
     <MESSAGE value="RotateArray" />
     <MESSAGE value="Stackoverflow lowlevel design" />
     <MESSAGE value="bit manipulation - xor" />
-    <option name="LAST_COMMIT_MESSAGE" value="bit manipulation - xor" />
+    <MESSAGE value="class loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="class loader" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1240,6 +1245,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/java9features/immutablecollections/Demo.java</url>
+          <line>7</line>
+          <properties class="core_java_udemy.java9features.immutablecollections.Demo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="111" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
