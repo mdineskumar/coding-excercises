@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="small changes">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java10features/VarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/ProductOfArrayExceptSelf.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="product of array except self">
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java10features/CollectorsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java10features/VarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java10features/VarDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,7 @@
     "Application.ClassCastDemo.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.CollectionsReverse.executor": "Run",
+    "Application.CollectorsDemo.executor": "Run",
     "Application.Combination.executor": "Run",
     "Application.CompileTimeBinding.executor": "Run",
     "Application.ComputerManufacturerTest.executor": "Run",
@@ -250,13 +251,13 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductOfArrayExceptSelf">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java9features.immutablecollections.Demo" />
+  <component name="RunManager" selected="Application.VarDemo">
+    <configuration name="CollectorsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java10features.CollectorsDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.java9features.immutablecollections.*" />
+          <option name="PATTERN" value="core_java_udemy.java10features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,19 +318,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CollectorsDemo" />
       <item itemvalue="Application.ProductOfArrayExceptSelf" />
       <item itemvalue="Application.VarDemo" />
-      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.SafeVarargs" />
       <item itemvalue="Application.StreamingAPI" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductOfArrayExceptSelf" />
         <item itemvalue="Application.VarDemo" />
+        <item itemvalue="Application.CollectorsDemo" />
+        <item itemvalue="Application.ProductOfArrayExceptSelf" />
         <item itemvalue="Application.StreamingAPI" />
         <item itemvalue="Application.SafeVarargs" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -406,15 +407,8 @@
       <workItem from="1752500389475" duration="11000" />
       <workItem from="1752555031425" duration="24000" />
       <workItem from="1752555065508" duration="5000" />
-      <workItem from="1752565911869" duration="9452000" />
-    </task>
-    <task id="LOCAL-00013" summary="updated tests on unit class">
-      <option name="closed" value="true" />
-      <created>1735976645292</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1735976645292</updated>
+      <workItem from="1752565911869" duration="10261000" />
+      <workItem from="1752648674456" duration="690000" />
     </task>
     <task id="LOCAL-00014" summary="updated tests on unit class">
       <option name="closed" value="true" />
@@ -800,7 +794,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752482207759</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="product of array except self">
+      <option name="closed" value="true" />
+      <created>1752581522206</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1752581522206</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -818,7 +820,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MergedTwoSortedList leetcode questions" />
     <MESSAGE value="aggregation theory and code examples" />
     <MESSAGE value="backtracking theory" />
     <MESSAGE value="LetterCombinationPhoneNumber solutions" />
@@ -843,7 +844,8 @@
     <MESSAGE value="bit manipulation - xor" />
     <MESSAGE value="class loader" />
     <MESSAGE value="small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
+    <MESSAGE value="product of array except self" />
+    <option name="LAST_COMMIT_MESSAGE" value="product of array except self" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
