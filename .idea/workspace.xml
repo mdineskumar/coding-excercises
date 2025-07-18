@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="bit manipulation - xor">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/jvmarchitecture/classloading/MultipleObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/jvmarchitecture/classloading/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/jvmarchitecture/classloading/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/mutlithreading/producerconsumer_problem/Producer.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="design hashmap">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hashtable/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hashtable/MyHashMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,10 +110,11 @@
     "Application.MathOperationsDemo.executor": "Run",
     "Application.MergedTwoSortedList.executor": "Run",
     "Application.MultiLevelTest.executor": "Run",
-    "Application.MultipleObjects.executor": "Run",
+    "Application.MultipleObjects.executor": "Debug",
     "Application.MutliThreaded.executor": "Run",
     "Application.MutliThreadedCurrentThread.executor": "Run",
     "Application.MyGenericClassTest.executor": "Run",
+    "Application.MyHashMapDemo.executor": "Run",
     "Application.MyImmutable.executor": "Run",
     "Application.NavigableTreeSetDemo.executor": "Run",
     "Application.NonStaticMembersDemo.executor": "Run",
@@ -248,20 +244,7 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultipleObjects">
-    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.strings.IsSubsequence" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyHashMapDemo">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java_udemy.mutlithreading.producerconsumer_problem.Main" />
       <module name="coding" />
@@ -281,6 +264,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="core_java_udemy.jvmarchitecture.classloading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hashtable.MyHashMapDemo" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,29 +311,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MyHashMapDemo" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MultipleObjects" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.SingleNumber" />
-      <item itemvalue="Application.IsSubsequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyHashMapDemo" />
         <item itemvalue="Application.MultipleObjects" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.IsSubsequence" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -400,6 +388,7 @@
       <workItem from="1751966155896" duration="7203000" />
       <workItem from="1752060518583" duration="2286000" />
       <workItem from="1752232198423" duration="2644000" />
+      <workItem from="1752848365805" duration="7505000" />
     </task>
     <task id="LOCAL-00011" summary="ooad chapter9">
       <option name="closed" value="true" />
@@ -811,7 +800,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="interfaces - algomaster lld" />
     <MESSAGE value="inheritance added" />
     <MESSAGE value="MergedTwoSortedList leetcode questions" />
     <MESSAGE value="aggregation theory and code examples" />
@@ -836,7 +824,8 @@
     <MESSAGE value="RotateArray" />
     <MESSAGE value="Stackoverflow lowlevel design" />
     <MESSAGE value="bit manipulation - xor" />
-    <option name="LAST_COMMIT_MESSAGE" value="bit manipulation - xor" />
+    <MESSAGE value="design hashmap" />
+    <option name="LAST_COMMIT_MESSAGE" value="design hashmap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1105,6 +1094,31 @@
           <url>file://$PROJECT_DIR$/src/leetcode/bit_manipulation/SingleNumber.java</url>
           <line>47</line>
           <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMap.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMap.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMap.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMap.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMapDemo.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
