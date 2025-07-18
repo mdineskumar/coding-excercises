@@ -16,8 +16,24 @@ public class ChatServer {
             DataInputStream dis = new DataInputStream(socket.getInputStream());
             DataOutputStream dos = new DataOutputStream(socket.getOutputStream());
 
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            String messageReceived = "", messageToSend="";
+            while(true){
+                messageReceived = dis.readUTF();
 
+                System.out.println("Client says "+messageReceived);
+                if(messageReceived!=null && messageReceived.equals("exit")){
+                    break;
+                }
+                messageToSend=br.readLine();
+                dos.writeUTF(messageToSend);
+                dos.flush();
+            }
+
+            br.close();
+            dos.close();
+            dis.close();
+            socket.close();
 
 
         } catch (IOException e) {

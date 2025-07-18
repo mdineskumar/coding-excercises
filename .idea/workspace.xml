@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="java 10 features">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/java11features/StringAPIUpdates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/networking/basics/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/networking/basics/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/networking/chat/ChatServer.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="CHat">
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/networking/chat/ChatClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/networking/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/networking/chat/ChatServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +70,8 @@
     "Application.BestTimeToBuyStock.executor": "Debug",
     "Application.BufferedReaderDemo.executor": "Run",
     "Application.C.executor": "Run",
+    "Application.ChatClient.executor": "Run",
+    "Application.ChatServer.executor": "Run",
     "Application.CheckProcessor.executor": "Run",
     "Application.ChildClass.executor": "Run",
     "Application.ClassCastDemo.executor": "Run",
@@ -255,13 +255,13 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.basics.Client" />
+  <component name="RunManager" selected="Application.ChatClient">
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.chat.ChatClient" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.networking.basics.*" />
+          <option name="PATTERN" value="core_java_udemy.networking.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,12 +269,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectorsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java10features.CollectorsDemo" />
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.chat.ChatServer" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.java10features.*" />
+          <option name="PATTERN" value="core_java_udemy.networking.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.basics.Client" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core_java_udemy.networking.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,33 +321,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java10features.VarDemo" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core_java_udemy.java10features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.ChatClient" />
+      <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.CollectorsDemo" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.StringAPIUpdates" />
-      <item itemvalue="Application.VarDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.StringAPIUpdates" />
-        <item itemvalue="Application.VarDemo" />
-        <item itemvalue="Application.CollectorsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -412,15 +412,8 @@
       <workItem from="1752555031425" duration="24000" />
       <workItem from="1752555065508" duration="5000" />
       <workItem from="1752565911869" duration="10261000" />
-      <workItem from="1752648674456" duration="3160000" />
-    </task>
-    <task id="LOCAL-00015" summary="two sum first draft">
-      <option name="closed" value="true" />
-      <created>1735998331082</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1735998331082</updated>
+      <workItem from="1752648674456" duration="3214000" />
+      <workItem from="1752750196662" duration="559000" />
     </task>
     <task id="LOCAL-00016" summary="two sum optimize">
       <option name="closed" value="true" />
@@ -806,7 +799,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752649479164</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="CHat">
+      <option name="closed" value="true" />
+      <created>1752652848545</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1752652848545</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -824,7 +825,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="backtracking theory" />
     <MESSAGE value="LetterCombinationPhoneNumber solutions" />
     <MESSAGE value="leetcode solutions:&#10;- best time to buy stock&#10;- remove duplicates" />
     <MESSAGE value="backtracking&#10;- subsets problem - need to recheck" />
@@ -849,7 +849,8 @@
     <MESSAGE value="small changes" />
     <MESSAGE value="product of array except self" />
     <MESSAGE value="java 10 features" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 10 features" />
+    <MESSAGE value="CHat" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHat" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
