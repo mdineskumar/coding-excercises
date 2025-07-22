@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="CHat">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/networking/chat/ChatClient.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Chat server">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/twopointers/MergeSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/networking/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/networking/chat/ChatServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +110,7 @@
     "Application.Main.executor": "Run",
     "Application.MainThread.executor": "Run",
     "Application.MathOperationsDemo.executor": "Run",
+    "Application.MergeSortedArray.executor": "Debug",
     "Application.MergedTwoSortedList.executor": "Run",
     "Application.MultiLevelTest.executor": "Run",
     "Application.MultipleObjects.executor": "Run",
@@ -203,7 +203,7 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DM2719/eclipse-workspace/PatientBilling",
+    "last_opened_file_path": "C:/Users/DM2719/Documents/PDEA_FULL_STACK_JAVA_UDEMY/springboot-fundamentals/productrestapi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -255,7 +255,7 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChatClient">
+  <component name="RunManager" selected="Application.MergeSortedArray">
     <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.chat.ChatClient" />
       <module name="coding" />
@@ -295,6 +295,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.twopointers.MergeSortedArray" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.twopointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.basics.Server" />
       <module name="coding" />
@@ -308,33 +321,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringAPIUpdates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java11features.StringAPIUpdates" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core_java_udemy.java11features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.MergeSortedArray" />
       <item itemvalue="Application.ChatClient" />
       <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Server" />
-      <item itemvalue="Application.StringAPIUpdates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.ChatClient" />
         <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.StringAPIUpdates" />
       </list>
     </recent_temporary>
   </component>
@@ -414,14 +414,8 @@
       <workItem from="1752565911869" duration="10261000" />
       <workItem from="1752648674456" duration="3214000" />
       <workItem from="1752750196662" duration="559000" />
-    </task>
-    <task id="LOCAL-00016" summary="two sum optimize">
-      <option name="closed" value="true" />
-      <created>1736017483423</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1736017483423</updated>
+      <workItem from="1752837549378" duration="724000" />
+      <workItem from="1753180348803" duration="3657000" />
     </task>
     <task id="LOCAL-00017" summary="implement programming by contract">
       <option name="closed" value="true" />
@@ -807,7 +801,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752652848545</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Chat server">
+      <option name="closed" value="true" />
+      <created>1752837602376</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1752837602377</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -825,7 +827,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LetterCombinationPhoneNumber solutions" />
     <MESSAGE value="leetcode solutions:&#10;- best time to buy stock&#10;- remove duplicates" />
     <MESSAGE value="backtracking&#10;- subsets problem - need to recheck" />
     <MESSAGE value="backtracking&#10;- subsets problem - finished" />
@@ -850,7 +851,8 @@
     <MESSAGE value="product of array except self" />
     <MESSAGE value="java 10 features" />
     <MESSAGE value="CHat" />
-    <option name="LAST_COMMIT_MESSAGE" value="CHat" />
+    <MESSAGE value="Chat server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chat server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1129,6 +1131,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/arrays/ProductOfArrayExceptSelf.java</url>
           <line>51</line>
           <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/twopointers/MergeSortedArray.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
