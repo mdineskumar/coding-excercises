@@ -19,7 +19,7 @@ public class SafeVarargs {
     @java.lang.SafeVarargs
     private void myMethod(List<String>...l){
         Object [] objects = l;
-        //objects[0] = Arrays.asList(1,2);
+        objects[0] = Arrays.asList(1,2);
 
         //dirty heap pooling
         String name = (String)l[0].get(0);
