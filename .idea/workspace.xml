@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Chat server">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/twopointers/MergeSortedArray.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="MergedSortedArray - two-pointer">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/strings/ValidPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +110,7 @@
     "Application.Main.executor": "Run",
     "Application.MainThread.executor": "Run",
     "Application.MathOperationsDemo.executor": "Run",
-    "Application.MergeSortedArray.executor": "Debug",
+    "Application.MergeSortedArray.executor": "Run",
     "Application.MergedTwoSortedList.executor": "Run",
     "Application.MultiLevelTest.executor": "Run",
     "Application.MultipleObjects.executor": "Run",
@@ -170,6 +170,7 @@
     "Application.TypeCastingProblems.executor": "Run",
     "Application.UIVIew.executor": "Run",
     "Application.UnitTester.executor": "Run",
+    "Application.ValidPalindrome.executor": "Debug",
     "Application.VarDemo.executor": "Run",
     "Application.WeakHashMapDemo.executor": "Run",
     "Application.WeatherUI.executor": "Run",
@@ -255,7 +256,7 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedArray">
+  <component name="RunManager" selected="Application.ValidPalindrome">
     <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.chat.ChatClient" />
       <module name="coding" />
@@ -308,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.basics.Server" />
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.strings.ValidPalindrome" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.networking.basics.*" />
+          <option name="PATTERN" value="leetcode.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,19 +323,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ValidPalindrome" />
       <item itemvalue="Application.MergeSortedArray" />
       <item itemvalue="Application.ChatClient" />
       <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.ChatClient" />
         <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -415,15 +416,8 @@
       <workItem from="1752648674456" duration="3214000" />
       <workItem from="1752750196662" duration="559000" />
       <workItem from="1752837549378" duration="724000" />
-      <workItem from="1753180348803" duration="3657000" />
-    </task>
-    <task id="LOCAL-00017" summary="implement programming by contract">
-      <option name="closed" value="true" />
-      <created>1736133501879</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1736133501879</updated>
+      <workItem from="1753180348803" duration="3994000" />
+      <workItem from="1753692363525" duration="1201000" />
     </task>
     <task id="LOCAL-00018" summary="string has all unique characters.">
       <option name="closed" value="true" />
@@ -809,7 +803,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752837602377</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="MergedSortedArray - two-pointer">
+      <option name="closed" value="true" />
+      <created>1753184304303</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1753184304303</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,7 +829,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="leetcode solutions:&#10;- best time to buy stock&#10;- remove duplicates" />
     <MESSAGE value="backtracking&#10;- subsets problem - need to recheck" />
     <MESSAGE value="backtracking&#10;- subsets problem - finished" />
     <MESSAGE value="design pattern&#10;- singleton" />
@@ -852,7 +853,8 @@
     <MESSAGE value="java 10 features" />
     <MESSAGE value="CHat" />
     <MESSAGE value="Chat server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat server" />
+    <MESSAGE value="MergedSortedArray - two-pointer" />
+    <option name="LAST_COMMIT_MESSAGE" value="MergedSortedArray - two-pointer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1136,6 +1138,16 @@
           <url>file://$PROJECT_DIR$/src/leetcode/twopointers/MergeSortedArray.java</url>
           <line>60</line>
           <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/strings/ValidPalindrome.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/strings/ValidPalindrome.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
