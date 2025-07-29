@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="MergedSortedArray - two-pointer">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/strings/ValidPalindrome.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="isPalindrome">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/bit_manipulation/NumberofOneBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,6 +120,7 @@
     "Application.MyImmutable.executor": "Run",
     "Application.NavigableTreeSetDemo.executor": "Run",
     "Application.NonStaticMembersDemo.executor": "Run",
+    "Application.NumberofOneBits.executor": "Debug",
     "Application.Outer.executor": "Run",
     "Application.Overriding.executor": "Run",
     "Application.OverridingTest.executor": "Run",
@@ -256,7 +257,7 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidPalindrome">
+  <component name="RunManager" selected="Application.NumberofOneBits">
     <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.chat.ChatClient" />
       <module name="coding" />
@@ -283,12 +284,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.basics.Client" />
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.twopointers.MergeSortedArray" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.networking.basics.*" />
+          <option name="PATTERN" value="leetcode.twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,12 +297,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.twopointers.MergeSortedArray" />
+    <configuration name="NumberofOneBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.bit_manipulation.NumberofOneBits" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.twopointers.*" />
+          <option name="PATTERN" value="leetcode.bit_manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,19 +324,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NumberofOneBits" />
       <item itemvalue="Application.ValidPalindrome" />
       <item itemvalue="Application.MergeSortedArray" />
       <item itemvalue="Application.ChatClient" />
       <item itemvalue="Application.ChatServer" />
-      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberofOneBits" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.ChatClient" />
         <item itemvalue="Application.ChatServer" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -417,15 +418,8 @@
       <workItem from="1752750196662" duration="559000" />
       <workItem from="1752837549378" duration="724000" />
       <workItem from="1753180348803" duration="3994000" />
-      <workItem from="1753692363525" duration="1201000" />
-    </task>
-    <task id="LOCAL-00018" summary="string has all unique characters.">
-      <option name="closed" value="true" />
-      <created>1736158433995</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1736158433995</updated>
+      <workItem from="1753692363525" duration="2454000" />
+      <workItem from="1753783090361" duration="2190000" />
     </task>
     <task id="LOCAL-00019" summary="maximum point in card leetcode 1423">
       <option name="closed" value="true" />
@@ -811,7 +805,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753184304303</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="isPalindrome">
+      <option name="closed" value="true" />
+      <created>1753705912241</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1753705912241</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -829,7 +831,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="backtracking&#10;- subsets problem - need to recheck" />
     <MESSAGE value="backtracking&#10;- subsets problem - finished" />
     <MESSAGE value="design pattern&#10;- singleton" />
     <MESSAGE value="abstract factory design pattern finished" />
@@ -854,7 +855,8 @@
     <MESSAGE value="CHat" />
     <MESSAGE value="Chat server" />
     <MESSAGE value="MergedSortedArray - two-pointer" />
-    <option name="LAST_COMMIT_MESSAGE" value="MergedSortedArray - two-pointer" />
+    <MESSAGE value="isPalindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="isPalindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1148,6 +1150,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/strings/ValidPalindrome.java</url>
           <line>55</line>
           <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/bit_manipulation/NumberofOneBits.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
