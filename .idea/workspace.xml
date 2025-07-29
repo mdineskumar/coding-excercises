@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="design hashmap">
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/ParkingLotDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/ParkingTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/fee/FeeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/fee/FlatRateFeeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/fee/VehicleBasedFeeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/parkingspot/BikeParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/parkingspot/CompactSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/parkingspot/LargeSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/parkingspot/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/parkingspot/ParkingSpotType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/vehicle/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/vehicle/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/vehicle/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/vehicle/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/parkinglot/vehicle/VehicleType.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="design parking lot lld">
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/RunnableThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/RunnableThreadExampleDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java9features/privatemethods/SendNotificationsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/privatemethods/SendNotificationsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/java9features/sagevarargs/SafeVarargs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/java9features/sagevarargs/SafeVarargs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +135,7 @@
     "Application.RemoveDuplicates.executor": "Debug",
     "Application.RotateArray.executor": "Debug",
     "Application.RunTimeBinding.executor": "Run",
+    "Application.RunnableThreadExampleDemo.executor": "Run",
     "Application.SBDemo.executor": "Run",
     "Application.SafeVarargs.executor": "Run",
     "Application.SingleNumber.executor": "Debug",
@@ -214,6 +197,7 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/dines/Documents/cse_resources/coding/src/interview",
     "last_opened_file_path": "C:/Users/DM2719/Documents/PDEA_FULL_STACK_JAVA_UDEMY/spring-framework/10-spring_aop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -266,20 +250,7 @@
       <recent name="core_java_udemy.polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParkingLotDemo">
-    <configuration name="MultipleObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.jvmarchitecture.classloading.MultipleObjects" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core_java_udemy.jvmarchitecture.classloading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RunnableThreadExampleDemo">
     <configuration name="MyHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hashtable.MyHashMapDemo" />
       <module name="coding" />
@@ -299,6 +270,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algomaster_lld.parkinglot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnableThreadExampleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.RunnableThreadExampleDemo" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.threadsandlocks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,19 +317,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.RunnableThreadExampleDemo" />
       <item itemvalue="Application.ParkingLotDemo" />
       <item itemvalue="Application.SafeVarargs" />
       <item itemvalue="Application.StreamingAPI" />
       <item itemvalue="Application.MyHashMapDemo" />
-      <item itemvalue="Application.MultipleObjects" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunnableThreadExampleDemo" />
         <item itemvalue="Application.ParkingLotDemo" />
         <item itemvalue="Application.SafeVarargs" />
         <item itemvalue="Application.StreamingAPI" />
         <item itemvalue="Application.MyHashMapDemo" />
-        <item itemvalue="Application.MultipleObjects" />
       </list>
     </recent_temporary>
   </component>
@@ -412,6 +396,7 @@
       <workItem from="1752232198423" duration="2644000" />
       <workItem from="1752848365805" duration="7626000" />
       <workItem from="1752896129577" duration="9625000" />
+      <workItem from="1753801030683" duration="325000" />
     </task>
     <task id="LOCAL-00012" summary="write own tests on unit class">
       <option name="closed" value="true" />
