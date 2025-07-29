@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="design parking lot lld">
-      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/RunnableThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/RunnableThreadExampleDemo.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="implement runnable interface">
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/extendingthreadclass/ExampleB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/extendingthreadclass/ThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/locks/LockedATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/locks/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/locks/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/synchronization/instancemethods/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/synchronization/instancemethods/MyObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/synchronization/instancemethods/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/synchronization/staticmethods/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/synchronization/staticmethods/MyObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/synchronization/staticmethods/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/synchronization/synchronizedblocks/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/synchronization/synchronizedblocks/MyObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/threadsandlocks/RunnableThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/runnableinterface/RunnableThreadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/threadsandlocks/RunnableThreadExampleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/runnableinterface/RunnableThreadExampleDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +96,7 @@
     "Application.DecodeStringDemo.executor": "Run",
     "Application.Demo.executor": "Run",
     "Application.DoWhile.executor": "Run",
+    "Application.ExampleB.executor": "Run",
     "Application.FactoryTest.executor": "Run",
     "Application.FileInputStreamDemo.executor": "Run",
     "Application.FileOutputStreamDemo.executor": "Run",
@@ -182,6 +196,7 @@
     "Application.core_java_udemy.string.Test.executor": "Run",
     "Application.datastructure.arrays.Solution.executor": "Debug",
     "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
+    "Application.interview.threadsandlocks.synchronization.staticmethods.Test.executor": "Run",
     "Application.leetcode.question13.Solution.executor": "Run",
     "Application.vehicledemo.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -235,6 +250,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="interview.threadsandlocks.runnableinterface" />
       <recent name="core_java_udemy.polymorphism.compiletimebinding" />
       <recent name="core_java_udemy.polymorphism.runtimebinding" />
       <recent name="core_java_udemy.abstraction.abstract_class" />
@@ -243,33 +259,20 @@
       <recent name="designpattern.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="interview.threadsandlocks.synchronization.staticmethods" />
       <recent name="algomaster_lld.parkinglot.vehicle" />
       <recent name="core_java_udemy.collections.map" />
       <recent name="core_java_udemy.mutlithreading.synchronization.deadlock" />
       <recent name="core_java_udemy.mutlithreading" />
-      <recent name="core_java_udemy.polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunnableThreadExampleDemo">
-    <configuration name="MyHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hashtable.MyHashMapDemo" />
+  <component name="RunManager" selected="Application.interview.threadsandlocks.locks.Test">
+    <configuration name="ExampleB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.extendingthreadclass.ExampleB" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingLotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algomaster_lld.parkinglot.ParkingLotDemo" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algomaster_lld.parkinglot.*" />
+          <option name="PATTERN" value="interview.threadsandlocks.extendingthreadclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,11 +281,11 @@
       </method>
     </configuration>
     <configuration name="RunnableThreadExampleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.RunnableThreadExampleDemo" />
+      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.runnableinterface.RunnableThreadExampleDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.threadsandlocks.*" />
+          <option name="PATTERN" value="interview.threadsandlocks.runnableinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,12 +293,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SafeVarargs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java9features.sagevarargs.SafeVarargs" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.synchronization.instancemethods.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.java9features.sagevarargs.*" />
+          <option name="PATTERN" value="interview.threadsandlocks.synchronization.instancemethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,12 +306,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamingAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.java9features.streamingapi.StreamingAPI" />
+    <configuration name="interview.threadsandlocks.locks.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.locks.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.java9features.streamingapi.*" />
+          <option name="PATTERN" value="interview.threadsandlocks.locks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="interview.threadsandlocks.synchronization.staticmethods.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.synchronization.staticmethods.Test" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.threadsandlocks.synchronization.staticmethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,19 +333,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ExampleB" />
       <item itemvalue="Application.RunnableThreadExampleDemo" />
-      <item itemvalue="Application.ParkingLotDemo" />
-      <item itemvalue="Application.SafeVarargs" />
-      <item itemvalue="Application.StreamingAPI" />
-      <item itemvalue="Application.MyHashMapDemo" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.interview.threadsandlocks.locks.Test" />
+      <item itemvalue="Application.interview.threadsandlocks.synchronization.staticmethods.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.interview.threadsandlocks.locks.Test" />
+        <item itemvalue="Application.interview.threadsandlocks.synchronization.staticmethods.Test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ExampleB" />
         <item itemvalue="Application.RunnableThreadExampleDemo" />
-        <item itemvalue="Application.ParkingLotDemo" />
-        <item itemvalue="Application.SafeVarargs" />
-        <item itemvalue="Application.StreamingAPI" />
-        <item itemvalue="Application.MyHashMapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -396,15 +412,7 @@
       <workItem from="1752232198423" duration="2644000" />
       <workItem from="1752848365805" duration="7626000" />
       <workItem from="1752896129577" duration="9625000" />
-      <workItem from="1753801030683" duration="325000" />
-    </task>
-    <task id="LOCAL-00012" summary="write own tests on unit class">
-      <option name="closed" value="true" />
-      <created>1735975038579</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1735975038579</updated>
+      <workItem from="1753801030683" duration="3314000" />
     </task>
     <task id="LOCAL-00013" summary="updated tests on unit class">
       <option name="closed" value="true" />
@@ -790,7 +798,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752855895522</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="implement runnable interface">
+      <option name="closed" value="true" />
+      <created>1753801429686</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1753801429687</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -808,7 +824,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="inheritance added" />
     <MESSAGE value="MergedTwoSortedList leetcode questions" />
     <MESSAGE value="aggregation theory and code examples" />
     <MESSAGE value="backtracking theory" />
@@ -833,7 +848,8 @@
     <MESSAGE value="Stackoverflow lowlevel design" />
     <MESSAGE value="bit manipulation - xor" />
     <MESSAGE value="design hashmap" />
-    <option name="LAST_COMMIT_MESSAGE" value="design hashmap" />
+    <MESSAGE value="implement runnable interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement runnable interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

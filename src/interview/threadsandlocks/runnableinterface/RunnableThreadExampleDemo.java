@@ -1,4 +1,4 @@
-package interview.threadsandlocks;
+package interview.threadsandlocks.runnableinterface;
 
 public class RunnableThreadExampleDemo {
     public static void main(String[] args) {

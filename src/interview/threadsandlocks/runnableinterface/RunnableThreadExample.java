@@ -1,4 +1,4 @@
-package interview.threadsandlocks;
+package interview.threadsandlocks.runnableinterface;
 
 public class RunnableThreadExample implements Runnable{
     public int count = 0;
