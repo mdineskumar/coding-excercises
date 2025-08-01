@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="implement runnable interface">
-      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/producerconsumer/ConsumerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/producerconsumer/ProducerConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/producerconsumer/ProducerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/questions/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/questions/FizzBuzzMultiThreaded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/questions/NumberThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/questions/Test.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="hammingWeight">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/BestTimeToBuyAndSellStockTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="AnnotationType" />
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -57,179 +51,181 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.A.executor": "Run",
-    "Application.AggregationExample.executor": "Run",
-    "Application.AggregationExampleWithInterfaces.executor": "Debug",
-    "Application.AllPathsDemo.executor": "Run",
-    "Application.AnonymousRunnable.executor": "Run",
-    "Application.ArrayIndexOutofBoundDemo.executor": "Run",
-    "Application.ArraySort.executor": "Run",
-    "Application.AssertDemo.executor": "Run",
-    "Application.AutomaticPromotion.executor": "Run",
-    "Application.B.executor": "Run",
-    "Application.BMICalculator.executor": "Run",
-    "Application.BMW.executor": "Run",
-    "Application.BacktrackingQuestions.executor": "Run",
-    "Application.BestTimeToBuyStock.executor": "Debug",
-    "Application.BufferedReaderDemo.executor": "Run",
-    "Application.C.executor": "Run",
-    "Application.CheckProcessor.executor": "Run",
-    "Application.ChildClass.executor": "Run",
-    "Application.ClassCastDemo.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.CollectionsReverse.executor": "Run",
-    "Application.Combination.executor": "Run",
-    "Application.CompileTimeBinding.executor": "Run",
-    "Application.ComputerManufacturerTest.executor": "Run",
-    "Application.DaemonThreadDemo.executor": "Run",
-    "Application.DeadlockDemo.executor": "Run",
-    "Application.DecodeStringDemo.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.DoWhile.executor": "Run",
-    "Application.ExampleB.executor": "Run",
-    "Application.FactoryTest.executor": "Run",
-    "Application.FileInputStreamDemo.executor": "Run",
-    "Application.FileOutputStreamDemo.executor": "Run",
-    "Application.FindGuitarTester.executor": "Run",
-    "Application.FindInstrumentTester.executor": "Debug",
-    "Application.FizzBuzz.executor": "Run",
-    "Application.FizzBuzzMultiThreaded.executor": "Run",
-    "Application.For.executor": "Run",
-    "Application.GCDemo.executor": "Run",
-    "Application.HashMapDemo.executor": "Run",
-    "Application.HashtableDemo.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.IdentityHashMapDemo.executor": "Run",
-    "Application.IfElseLadder.executor": "Run",
-    "Application.IllegalArgumentDemo.executor": "Run",
-    "Application.ImmuatableDemo.executor": "Run",
-    "Application.IsSubsequence.executor": "Run",
-    "Application.JDKMultiTest.executor": "Run",
-    "Application.JoinDemo.executor": "Run",
-    "Application.LabelledBlock.executor": "Run",
-    "Application.LetterCombinationPhoneNumber.executor": "Debug",
-    "Application.LinkedHashMapDemo.executor": "Run",
-    "Application.LoadTester.executor": "Debug",
-    "Application.Loops.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainThread.executor": "Run",
-    "Application.MathOperationsDemo.executor": "Run",
-    "Application.MergedTwoSortedList.executor": "Run",
-    "Application.MultiLevelTest.executor": "Run",
-    "Application.MultipleObjects.executor": "Debug",
-    "Application.MutliThreaded.executor": "Run",
-    "Application.MutliThreadedCurrentThread.executor": "Run",
-    "Application.MyGenericClassTest.executor": "Run",
-    "Application.MyHashMapDemo.executor": "Run",
-    "Application.MyImmutable.executor": "Run",
-    "Application.NavigableTreeSetDemo.executor": "Run",
-    "Application.NonStaticMembersDemo.executor": "Run",
-    "Application.Outer.executor": "Run",
-    "Application.Overriding.executor": "Run",
-    "Application.OverridingTest.executor": "Run",
-    "Application.ParkingLotDemo.executor": "Run",
-    "Application.PaymentApp.executor": "Run",
-    "Application.Permutation.executor": "Debug",
-    "Application.Person.executor": "Run",
-    "Application.PersonTest.executor": "Run",
-    "Application.PizzaShop.executor": "Run",
-    "Application.PowerRecursion.executor": "Run",
-    "Application.PriorityQueueDemo.executor": "Run",
-    "Application.ProducerConsumerExample.executor": "Run",
-    "Application.ReaderAndWriterDemo.executor": "Run",
-    "Application.RecursionExample.executor": "Run",
-    "Application.ReflectionProblem.executor": "Run",
-    "Application.RemoveDuplicates.executor": "Debug",
-    "Application.RotateArray.executor": "Debug",
-    "Application.RunTimeBinding.executor": "Run",
-    "Application.RunnableThreadExampleDemo.executor": "Run",
-    "Application.SBDemo.executor": "Run",
-    "Application.SafeVarargs.executor": "Run",
-    "Application.SingleNumber.executor": "Debug",
-    "Application.SingleThreaded.executor": "Run",
-    "Application.SingletonTest.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.SortedList.executor": "Run",
-    "Application.StackOverflow.executor": "Run",
-    "Application.StaticBlockInit.executor": "Run",
-    "Application.StreamingAPI.executor": "Run",
-    "Application.StringDemo.executor": "Run",
-    "Application.StringMethods.executor": "Run",
-    "Application.StringPoolDemo.executor": "Run",
-    "Application.StringReversal.executor": "Run",
-    "Application.StringTokenizerDemo.executor": "Run",
-    "Application.Subsets.executor": "Debug",
-    "Application.SumOfTwoNumber.executor": "Run",
-    "Application.Switch.executor": "Run",
-    "Application.SwitchDemo.executor": "Run",
-    "Application.SwitchProblem.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestEnumSingleton.executor": "Run",
-    "Application.TestSolution.executor": "Debug",
-    "Application.ThisKeywordDemo.executor": "Run",
-    "Application.ThreadGroupDemo.executor": "Run",
-    "Application.ThreadGroupMethods.executor": "Run",
-    "Application.TwoPointersSlidingWindow.executor": "Run",
-    "Application.TypeCastingProblems.executor": "Run",
-    "Application.UIVIew.executor": "Run",
-    "Application.UnitTester.executor": "Run",
-    "Application.WeakHashMapDemo.executor": "Run",
-    "Application.WeatherUI.executor": "Run",
-    "Application.WrapClassesDemo.executor": "Run",
-    "Application.YieldDemo.executor": "Run",
-    "Application.algomaster_lld.polymorphism.payment_system.Main.executor": "Run",
-    "Application.core_java_udemy.abstraction.Test.executor": "Run",
-    "Application.core_java_udemy.abstraction.interfaces.Test.executor": "Run",
-    "Application.core_java_udemy.immutable.string.StringMethods.executor": "Run",
-    "Application.core_java_udemy.inheritance.com.dines.inheirtance.Test.executor": "Run",
-    "Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer.executor": "Run",
-    "Application.core_java_udemy.mutlithreading.synchronization.block.Test.executor": "Run",
-    "Application.core_java_udemy.mutlithreading.synchronization.classlevel.Test.executor": "Run",
-    "Application.core_java_udemy.polymorphism.interfaces.RunTimeBinding.executor": "Run",
-    "Application.core_java_udemy.string.Test.executor": "Run",
-    "Application.datastructure.arrays.Solution.executor": "Debug",
-    "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
-    "Application.interview.threadsandlocks.Test.executor": "Run",
-    "Application.interview.threadsandlocks.locks.Test.executor": "Run",
-    "Application.interview.threadsandlocks.synchronization.staticmethods.Test.executor": "Run",
-    "Application.leetcode.question13.Solution.executor": "Run",
-    "Application.vehicledemo.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/Users/dines/Documents/cse_resources/coding/src/interview",
-    "last_opened_file_path": "C:/Users/DM2719/Documents/PDEA_FULL_STACK_JAVA_UDEMY/spring-framework/10-spring_aop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AggregationExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AggregationExampleWithInterfaces.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AllPathsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnonymousRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayIndexOutofBoundDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AssertDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutomaticPromotion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BMICalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BMW.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BacktrackingQuestions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BestTimeToBuyAndSellStockTwo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BestTimeToBuyStock.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BufferedReaderDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckProcessor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChildClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassCastDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectionsReverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Combination.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompileTimeBinding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComputerManufacturerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DaemonThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadlockDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecodeStringDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoWhile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileInputStreamDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileOutputStreamDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindGuitarTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindInstrumentTester.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.For.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GCDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashtableDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IdentityHashMapDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IfElseLadder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IllegalArgumentDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmuatableDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JDKMultiTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LabelledBlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LetterCombinationPhoneNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LinkedHashMapDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoadTester.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Loops.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MathOperationsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergedTwoSortedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiLevelTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultipleObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MutliThreaded.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MutliThreadedCurrentThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyGenericClassTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyImmutable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NavigableTreeSetDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NonStaticMembersDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberofOneBits.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Overriding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverridingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PaymentApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Permutation.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PersonTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PizzaShop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PowerRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PriorityQueueDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductOfArrayExceptSelf.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReaderAndWriterDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecursionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReflectionProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RotateArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RunTimeBinding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SBDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SafeVarargs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SendNotificationsImpl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingleNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingleThreaded.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackOverflow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticBlockInit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamingAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringAPIUpdates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringPoolDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringReversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringTokenizerDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subsets.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SumOfTwoNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Switch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestEnumSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSolution.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThisKeywordDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadGroupDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadGroupMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoPointersSlidingWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TypeCastingProblems.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UIVIew.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnitTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidPalindrome.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.VarDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeakHashMapDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeatherUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapClassesDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.YieldDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.algomaster_lld.polymorphism.payment_system.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.core_java_udemy.abstraction.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.core_java_udemy.abstraction.interfaces.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.core_java_udemy.immutable.string.StringMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.core_java_udemy.inheritance.com.dines.inheirtance.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.core_java_udemy.java9features.trywithresources.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.core_java_udemy.mutlithreading.synchronization.block.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.core_java_udemy.mutlithreading.synchronization.classlevel.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.core_java_udemy.polymorphism.interfaces.RunTimeBinding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.core_java_udemy.string.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.datastructure.arrays.Solution.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.datastructure.twopointers_slidingwindow.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.leetcode.question13.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.vehicledemo.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DM2719/Documents/PDEA_FULL_STACK_JAVA_UDEMY/springboot-fundamentals/productrestapi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="algomaster_lld.parkinglot.fee" />
-      <recent name="algomaster_lld.parkinglot" />
+      <recent name="core_java_udemy.java9features.privatemethods" />
       <recent name="core_java_udemy.reflection" />
       <recent name="designpattern.adapter.assignment" />
       <recent name="designpattern.adapter" />
+      <recent name="headfirst_ooad.chapter5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/core_java_udemy/iostream" />
@@ -247,8 +243,6 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="interview.threadsandlocks.questions" />
-      <recent name="interview.threadsandlocks.runnableinterface" />
       <recent name="core_java_udemy.polymorphism.compiletimebinding" />
       <recent name="core_java_udemy.polymorphism.runtimebinding" />
       <recent name="core_java_udemy.abstraction.abstract_class" />
@@ -257,20 +251,20 @@
       <recent name="designpattern.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="interview.threadsandlocks" />
-      <recent name="interview.threadsandlocks.synchronization.staticmethods" />
-      <recent name="algomaster_lld.parkinglot.vehicle" />
       <recent name="core_java_udemy.collections.map" />
       <recent name="core_java_udemy.mutlithreading.synchronization.deadlock" />
+      <recent name="core_java_udemy.mutlithreading" />
+      <recent name="core_java_udemy.polymorphism" />
+      <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerConsumerExample">
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.questions.FizzBuzz" />
+  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStockTwo">
+    <configuration name="BestTimeToBuyAndSellStockTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.BestTimeToBuyAndSellStockTwo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.threadsandlocks.questions.*" />
+          <option name="PATTERN" value="leetcode.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,12 +272,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzMultiThreaded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.questions.FizzBuzzMultiThreaded" />
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.chat.ChatClient" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.threadsandlocks.questions.*" />
+          <option name="PATTERN" value="core_java_udemy.networking.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,12 +285,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.producerconsumer.ProducerConsumerExample" />
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.twopointers.MergeSortedArray" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.threadsandlocks.producerconsumer.*" />
+          <option name="PATTERN" value="leetcode.twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.questions.Test" />
+    <configuration name="NumberofOneBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.bit_manipulation.NumberofOneBits" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.threadsandlocks.questions.*" />
+          <option name="PATTERN" value="leetcode.bit_manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="interview.threadsandlocks.locks.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.threadsandlocks.locks.Test" />
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.strings.ValidPalindrome" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.threadsandlocks.locks.*" />
+          <option name="PATTERN" value="leetcode.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,21 +325,29 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FizzBuzz" />
-      <item itemvalue="Application.FizzBuzzMultiThreaded" />
-      <item itemvalue="Application.ProducerConsumerExample" />
-      <item itemvalue="Application.interview.threadsandlocks.Test" />
-      <item itemvalue="Application.interview.threadsandlocks.locks.Test" />
+      <item itemvalue="Application.BestTimeToBuyAndSellStockTwo" />
+      <item itemvalue="Application.NumberofOneBits" />
+      <item itemvalue="Application.ValidPalindrome" />
+      <item itemvalue="Application.MergeSortedArray" />
+      <item itemvalue="Application.ChatClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProducerConsumerExample" />
-        <item itemvalue="Application.interview.threadsandlocks.Test" />
-        <item itemvalue="Application.FizzBuzzMultiThreaded" />
-        <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.interview.threadsandlocks.locks.Test" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStockTwo" />
+        <item itemvalue="Application.NumberofOneBits" />
+        <item itemvalue="Application.ValidPalindrome" />
+        <item itemvalue="Application.MergeSortedArray" />
+        <item itemvalue="Application.ChatClient" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -408,58 +410,20 @@
       <workItem from="1751966155896" duration="7203000" />
       <workItem from="1752060518583" duration="2286000" />
       <workItem from="1752232198423" duration="2644000" />
-      <workItem from="1752848365805" duration="7626000" />
-      <workItem from="1752896129577" duration="9625000" />
-      <workItem from="1753801030683" duration="4262000" />
-      <workItem from="1753894107875" duration="6947000" />
-    </task>
-    <task id="LOCAL-00014" summary="updated tests on unit class">
-      <option name="closed" value="true" />
-      <created>1735996902151</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1735996902151</updated>
-    </task>
-    <task id="LOCAL-00015" summary="two sum first draft">
-      <option name="closed" value="true" />
-      <created>1735998331082</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1735998331082</updated>
-    </task>
-    <task id="LOCAL-00016" summary="two sum optimize">
-      <option name="closed" value="true" />
-      <created>1736017483423</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1736017483423</updated>
-    </task>
-    <task id="LOCAL-00017" summary="implement programming by contract">
-      <option name="closed" value="true" />
-      <created>1736133501879</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1736133501879</updated>
-    </task>
-    <task id="LOCAL-00018" summary="string has all unique characters.">
-      <option name="closed" value="true" />
-      <created>1736158433995</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1736158433995</updated>
-    </task>
-    <task id="LOCAL-00019" summary="maximum point in card leetcode 1423">
-      <option name="closed" value="true" />
-      <created>1736258556920</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1736258556920</updated>
+      <workItem from="1752471454962" duration="6134000" />
+      <workItem from="1752500389475" duration="11000" />
+      <workItem from="1752555031425" duration="24000" />
+      <workItem from="1752555065508" duration="5000" />
+      <workItem from="1752565911869" duration="10261000" />
+      <workItem from="1752648674456" duration="3214000" />
+      <workItem from="1752750196662" duration="559000" />
+      <workItem from="1752837549378" duration="724000" />
+      <workItem from="1753180348803" duration="3994000" />
+      <workItem from="1753692363525" duration="2454000" />
+      <workItem from="1753783090361" duration="3108000" />
+      <workItem from="1753790892661" duration="99000" />
+      <workItem from="1753863558676" duration="9000" />
+      <workItem from="1753864637482" duration="2029000" />
     </task>
     <task id="LOCAL-00020" summary="my subway testcases">
       <option name="closed" value="true" />
@@ -781,31 +745,79 @@
       <option name="project" value="LOCAL" />
       <updated>1752062687487</updated>
     </task>
-    <task id="LOCAL-00060" summary="design hashmap">
+    <task id="LOCAL-00060" summary="class loader">
       <option name="closed" value="true" />
-      <created>1752855895522</created>
+      <created>1752473387690</created>
       <option name="number" value="00060" />
       <option name="presentableId" value="LOCAL-00060" />
       <option name="project" value="LOCAL" />
-      <updated>1752855895522</updated>
+      <updated>1752473387690</updated>
     </task>
-    <task id="LOCAL-00061" summary="implement runnable interface">
+    <task id="LOCAL-00061" summary="small changes">
       <option name="closed" value="true" />
-      <created>1753801429686</created>
+      <created>1752482207759</created>
       <option name="number" value="00061" />
       <option name="presentableId" value="LOCAL-00061" />
       <option name="project" value="LOCAL" />
-      <updated>1753801429687</updated>
+      <updated>1752482207759</updated>
     </task>
-    <task id="LOCAL-00062" summary="implement runnable interface">
+    <task id="LOCAL-00062" summary="product of array except self">
       <option name="closed" value="true" />
-      <created>1753804627542</created>
+      <created>1752581522206</created>
       <option name="number" value="00062" />
       <option name="presentableId" value="LOCAL-00062" />
       <option name="project" value="LOCAL" />
-      <updated>1753804627542</updated>
+      <updated>1752581522206</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="java 10 features">
+      <option name="closed" value="true" />
+      <created>1752649479163</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1752649479164</updated>
+    </task>
+    <task id="LOCAL-00064" summary="CHat">
+      <option name="closed" value="true" />
+      <created>1752652848545</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1752652848545</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Chat server">
+      <option name="closed" value="true" />
+      <created>1752837602376</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1752837602377</updated>
+    </task>
+    <task id="LOCAL-00066" summary="MergedSortedArray - two-pointer">
+      <option name="closed" value="true" />
+      <created>1753184304303</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1753184304303</updated>
+    </task>
+    <task id="LOCAL-00067" summary="isPalindrome">
+      <option name="closed" value="true" />
+      <created>1753705912241</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1753705912241</updated>
+    </task>
+    <task id="LOCAL-00068" summary="hammingWeight">
+      <option name="closed" value="true" />
+      <created>1753788346481</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1753788346482</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -823,13 +835,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MergedTwoSortedList leetcode questions" />
-    <MESSAGE value="aggregation theory and code examples" />
-    <MESSAGE value="backtracking theory" />
-    <MESSAGE value="LetterCombinationPhoneNumber solutions" />
-    <MESSAGE value="leetcode solutions:&#10;- best time to buy stock&#10;- remove duplicates" />
-    <MESSAGE value="backtracking&#10;- subsets problem - need to recheck" />
-    <MESSAGE value="backtracking&#10;- subsets problem - finished" />
     <MESSAGE value="design pattern&#10;- singleton" />
     <MESSAGE value="abstract factory design pattern finished" />
     <MESSAGE value="template method design pattern" />
@@ -846,9 +851,16 @@
     <MESSAGE value="RotateArray" />
     <MESSAGE value="Stackoverflow lowlevel design" />
     <MESSAGE value="bit manipulation - xor" />
-    <MESSAGE value="design hashmap" />
-    <MESSAGE value="implement runnable interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement runnable interface" />
+    <MESSAGE value="class loader" />
+    <MESSAGE value="small changes" />
+    <MESSAGE value="product of array except self" />
+    <MESSAGE value="java 10 features" />
+    <MESSAGE value="CHat" />
+    <MESSAGE value="Chat server" />
+    <MESSAGE value="MergedSortedArray - two-pointer" />
+    <MESSAGE value="isPalindrome" />
+    <MESSAGE value="hammingWeight" />
+    <option name="LAST_COMMIT_MESSAGE" value="hammingWeight" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1119,29 +1131,39 @@
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMap.java</url>
-          <line>87</line>
-          <option name="timeStamp" value="111" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMap.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/ProductOfArrayExceptSelf.java</url>
+          <line>27</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMap.java</url>
-          <line>118</line>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMap.java</url>
-          <line>128</line>
-          <option name="timeStamp" value="114" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMapDemo.java</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/ProductOfArrayExceptSelf.java</url>
+          <line>51</line>
           <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/twopointers/MergeSortedArray.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/strings/ValidPalindrome.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/strings/ValidPalindrome.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/bit_manipulation/NumberofOneBits.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/BestTimeToBuyAndSellStockTwo.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
@@ -1279,9 +1301,18 @@
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/algomaster_lld/parkinglot/ParkingLotDemo.java</url>
-          <line>70</line>
-          <properties class="algomaster_lld.parkinglot.ParkingLotDemo" method="main">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/java9features/immutablecollections/Demo.java</url>
+          <line>7</line>
+          <properties class="core_java_udemy.java9features.immutablecollections.Demo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/core_java_udemy/java11features/StringAPIUpdates.java</url>
+          <line>5</line>
+          <properties class="core_java_udemy.java11features.StringAPIUpdates" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
