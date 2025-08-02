@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="hammingWeight">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/BestTimeToBuyAndSellStockTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hashtable/NumberOfGoodPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/threadsandlocks/questions/FizzBuzzMultiThreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/threadsandlocks/questions/FizzBuzzMultiThreaded.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,174 +52,176 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.A.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AggregationExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AggregationExampleWithInterfaces.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.AllPathsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnonymousRunnable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayIndexOutofBoundDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraySort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AssertDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AutomaticPromotion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.B.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BMICalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BMW.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BacktrackingQuestions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BestTimeToBuyAndSellStockTwo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BestTimeToBuyStock.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BufferedReaderDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChatClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChatServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckProcessor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChildClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassCastDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionsReverse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectorsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Combination.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompileTimeBinding.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComputerManufacturerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DaemonThreadDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeadlockDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DecodeStringDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoWhile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileInputStreamDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileOutputStreamDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindGuitarTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindInstrumentTester.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.For.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GCDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashtableDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IdentityHashMapDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IfElseLadder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IllegalArgumentDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImmuatableDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JDKMultiTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LabelledBlock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LetterCombinationPhoneNumber.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LinkedHashMapDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoadTester.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Loops.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MathOperationsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergedTwoSortedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiLevelTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultipleObjects.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MutliThreaded.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MutliThreadedCurrentThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyGenericClassTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyImmutable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NavigableTreeSetDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NonStaticMembersDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberofOneBits.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Outer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Overriding.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OverridingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PaymentApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Permutation.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PersonTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PizzaShop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PowerRecursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PriorityQueueDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductOfArrayExceptSelf.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReaderAndWriterDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RecursionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReflectionProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RotateArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RunTimeBinding.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SBDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SafeVarargs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SendNotificationsImpl.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Server.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingleNumber.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SingleThreaded.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackOverflow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticBlockInit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamingAPI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringAPIUpdates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringPoolDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringReversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringTokenizerDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Subsets.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SumOfTwoNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Switch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestEnumSingleton.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestSolution.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThisKeywordDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadGroupDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadGroupMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoPointersSlidingWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TypeCastingProblems.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UIVIew.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnitTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidPalindrome.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.VarDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WeakHashMapDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WeatherUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WrapClassesDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.YieldDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.algomaster_lld.polymorphism.payment_system.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.abstraction.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.abstraction.interfaces.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.immutable.string.StringMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.inheritance.com.dines.inheirtance.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.java9features.trywithresources.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.mutlithreading.synchronization.block.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.mutlithreading.synchronization.classlevel.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.polymorphism.interfaces.RunTimeBinding.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.string.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.datastructure.arrays.Solution.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.datastructure.twopointers_slidingwindow.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.leetcode.question13.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.vehicledemo.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DM2719/Documents/PDEA_FULL_STACK_JAVA_UDEMY/springboot-fundamentals/productrestapi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.A.executor": "Run",
+    "Application.AggregationExample.executor": "Run",
+    "Application.AggregationExampleWithInterfaces.executor": "Debug",
+    "Application.AllPathsDemo.executor": "Run",
+    "Application.AnonymousRunnable.executor": "Run",
+    "Application.ArrayIndexOutofBoundDemo.executor": "Run",
+    "Application.ArraySort.executor": "Run",
+    "Application.AssertDemo.executor": "Run",
+    "Application.AutomaticPromotion.executor": "Run",
+    "Application.B.executor": "Run",
+    "Application.BMICalculator.executor": "Run",
+    "Application.BMW.executor": "Run",
+    "Application.BacktrackingQuestions.executor": "Run",
+    "Application.BestTimeToBuyAndSellStockTwo.executor": "Debug",
+    "Application.BestTimeToBuyStock.executor": "Debug",
+    "Application.BufferedReaderDemo.executor": "Run",
+    "Application.C.executor": "Run",
+    "Application.ChatClient.executor": "Run",
+    "Application.ChatServer.executor": "Run",
+    "Application.CheckProcessor.executor": "Run",
+    "Application.ChildClass.executor": "Run",
+    "Application.ClassCastDemo.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.CollectionsReverse.executor": "Run",
+    "Application.CollectorsDemo.executor": "Run",
+    "Application.Combination.executor": "Run",
+    "Application.CompileTimeBinding.executor": "Run",
+    "Application.ComputerManufacturerTest.executor": "Run",
+    "Application.DaemonThreadDemo.executor": "Run",
+    "Application.DeadlockDemo.executor": "Run",
+    "Application.DecodeStringDemo.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.DoWhile.executor": "Run",
+    "Application.FactoryTest.executor": "Run",
+    "Application.FileInputStreamDemo.executor": "Run",
+    "Application.FileOutputStreamDemo.executor": "Run",
+    "Application.FindGuitarTester.executor": "Run",
+    "Application.FindInstrumentTester.executor": "Debug",
+    "Application.For.executor": "Run",
+    "Application.GCDemo.executor": "Run",
+    "Application.HashMapDemo.executor": "Run",
+    "Application.HashtableDemo.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.IdentityHashMapDemo.executor": "Run",
+    "Application.IfElseLadder.executor": "Run",
+    "Application.IllegalArgumentDemo.executor": "Run",
+    "Application.ImmuatableDemo.executor": "Run",
+    "Application.IsSubsequence.executor": "Run",
+    "Application.JDKMultiTest.executor": "Run",
+    "Application.JoinDemo.executor": "Run",
+    "Application.LabelledBlock.executor": "Run",
+    "Application.LetterCombinationPhoneNumber.executor": "Debug",
+    "Application.LinkedHashMapDemo.executor": "Run",
+    "Application.LoadTester.executor": "Debug",
+    "Application.Loops.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainThread.executor": "Run",
+    "Application.MathOperationsDemo.executor": "Run",
+    "Application.MergeSortedArray.executor": "Run",
+    "Application.MergedTwoSortedList.executor": "Run",
+    "Application.MultiLevelTest.executor": "Run",
+    "Application.MultipleObjects.executor": "Run",
+    "Application.MutliThreaded.executor": "Run",
+    "Application.MutliThreadedCurrentThread.executor": "Run",
+    "Application.MyGenericClassTest.executor": "Run",
+    "Application.MyHashMapDemo.executor": "Debug",
+    "Application.MyImmutable.executor": "Run",
+    "Application.NavigableTreeSetDemo.executor": "Run",
+    "Application.NonStaticMembersDemo.executor": "Run",
+    "Application.NumberOfGoodPairs.executor": "Debug",
+    "Application.NumberofOneBits.executor": "Debug",
+    "Application.Outer.executor": "Run",
+    "Application.Overriding.executor": "Run",
+    "Application.OverridingTest.executor": "Run",
+    "Application.PaymentApp.executor": "Run",
+    "Application.Permutation.executor": "Debug",
+    "Application.Person.executor": "Run",
+    "Application.PersonTest.executor": "Run",
+    "Application.PizzaShop.executor": "Run",
+    "Application.PowerRecursion.executor": "Run",
+    "Application.PriorityQueueDemo.executor": "Run",
+    "Application.ProductOfArrayExceptSelf.executor": "Debug",
+    "Application.ReaderAndWriterDemo.executor": "Run",
+    "Application.RecursionExample.executor": "Run",
+    "Application.ReflectionProblem.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Debug",
+    "Application.RotateArray.executor": "Debug",
+    "Application.RunTimeBinding.executor": "Run",
+    "Application.SBDemo.executor": "Run",
+    "Application.SafeVarargs.executor": "Run",
+    "Application.SendNotificationsImpl.executor": "Run",
+    "Application.Server.executor": "Run",
+    "Application.SingleNumber.executor": "Debug",
+    "Application.SingleThreaded.executor": "Run",
+    "Application.SingletonTest.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.SortedList.executor": "Run",
+    "Application.StackOverflow.executor": "Run",
+    "Application.StaticBlockInit.executor": "Run",
+    "Application.StreamingAPI.executor": "Run",
+    "Application.StringAPIUpdates.executor": "Run",
+    "Application.StringDemo.executor": "Run",
+    "Application.StringMethods.executor": "Run",
+    "Application.StringPoolDemo.executor": "Run",
+    "Application.StringReversal.executor": "Run",
+    "Application.StringTokenizerDemo.executor": "Run",
+    "Application.Subsets.executor": "Debug",
+    "Application.SumOfTwoNumber.executor": "Run",
+    "Application.Switch.executor": "Run",
+    "Application.SwitchDemo.executor": "Run",
+    "Application.SwitchProblem.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestEnumSingleton.executor": "Run",
+    "Application.TestSolution.executor": "Debug",
+    "Application.ThisKeywordDemo.executor": "Run",
+    "Application.ThreadGroupDemo.executor": "Run",
+    "Application.ThreadGroupMethods.executor": "Run",
+    "Application.TwoPointersSlidingWindow.executor": "Run",
+    "Application.TypeCastingProblems.executor": "Run",
+    "Application.UIVIew.executor": "Run",
+    "Application.UnitTester.executor": "Run",
+    "Application.ValidPalindrome.executor": "Debug",
+    "Application.VarDemo.executor": "Run",
+    "Application.WeakHashMapDemo.executor": "Run",
+    "Application.WeatherUI.executor": "Run",
+    "Application.WrapClassesDemo.executor": "Run",
+    "Application.YieldDemo.executor": "Run",
+    "Application.algomaster_lld.polymorphism.payment_system.Main.executor": "Run",
+    "Application.core_java_udemy.abstraction.Test.executor": "Run",
+    "Application.core_java_udemy.abstraction.interfaces.Test.executor": "Run",
+    "Application.core_java_udemy.immutable.string.StringMethods.executor": "Run",
+    "Application.core_java_udemy.inheritance.com.dines.inheirtance.Test.executor": "Run",
+    "Application.core_java_udemy.innerclasses.nonstaticinnerclasses.Outer.executor": "Run",
+    "Application.core_java_udemy.java9features.trywithresources.Test.executor": "Run",
+    "Application.core_java_udemy.mutlithreading.synchronization.block.Test.executor": "Run",
+    "Application.core_java_udemy.mutlithreading.synchronization.classlevel.Test.executor": "Run",
+    "Application.core_java_udemy.polymorphism.interfaces.RunTimeBinding.executor": "Run",
+    "Application.core_java_udemy.string.Test.executor": "Run",
+    "Application.datastructure.arrays.Solution.executor": "Debug",
+    "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
+    "Application.leetcode.question13.Solution.executor": "Run",
+    "Application.vehicledemo.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DM2719/Documents/PDEA_FULL_STACK_JAVA_UDEMY/springboot-fundamentals/productrestapi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="core_java_udemy.java9features.privatemethods" />
@@ -258,7 +261,7 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStockTwo">
+  <component name="RunManager" selected="Application.NumberOfGoodPairs">
     <configuration name="BestTimeToBuyAndSellStockTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.arrays.BestTimeToBuyAndSellStockTwo" />
       <module name="coding" />
@@ -272,12 +275,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.networking.chat.ChatClient" />
+    <configuration name="MyHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hashtable.MyHashMapDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.networking.chat.*" />
+          <option name="PATTERN" value="leetcode.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,12 +288,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.twopointers.MergeSortedArray" />
+    <configuration name="NumberOfGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hashtable.NumberOfGoodPairs" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.twopointers.*" />
+          <option name="PATTERN" value="leetcode.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,19 +328,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MyHashMapDemo" />
+      <item itemvalue="Application.NumberOfGoodPairs" />
       <item itemvalue="Application.BestTimeToBuyAndSellStockTwo" />
       <item itemvalue="Application.NumberofOneBits" />
       <item itemvalue="Application.ValidPalindrome" />
-      <item itemvalue="Application.MergeSortedArray" />
-      <item itemvalue="Application.ChatClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfGoodPairs" />
+        <item itemvalue="Application.MyHashMapDemo" />
         <item itemvalue="Application.BestTimeToBuyAndSellStockTwo" />
         <item itemvalue="Application.NumberofOneBits" />
         <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.MergeSortedArray" />
-        <item itemvalue="Application.ChatClient" />
       </list>
     </recent_temporary>
   </component>
@@ -1164,6 +1167,46 @@
           <url>file://$PROJECT_DIR$/src/leetcode/arrays/BestTimeToBuyAndSellStockTwo.java</url>
           <line>9</line>
           <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMap.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/MyHashMap.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/NumberOfGoodPairs.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/NumberOfGoodPairs.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/NumberOfGoodPairs.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/NumberOfGoodPairs.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/NumberOfGoodPairs.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hashtable/NumberOfGoodPairs.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>

@@ -31,7 +31,7 @@ public class FizzBuzzMultiThreaded extends Thread {
                 if(current > max) {
                     return;
                 }
-
+                //it decide which thread can take turn to print
                 if((current % 3 == 0) == div3 && (current % 5 == 0) == div5){
                     print();
                     current++;
