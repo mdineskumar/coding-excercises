@@ -1,4 +1,4 @@
-package leetcode.sorting;
+package leetcode.sorting.bubblesort;
 
 import java.util.Arrays;
 
