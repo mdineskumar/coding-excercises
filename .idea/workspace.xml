@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="java test">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/NumberOfZeroFilledSubarrays.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="NumberOfZeroFilledSubarrays leetcode solution">
+      <change afterPath="$PROJECT_DIR$/src/javatest/Question12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/Question13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/Question14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/Question16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/Question19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javatest/Question20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +142,7 @@
     "Application.PriorityQueueDemo.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Debug",
     "Application.Question11.executor": "Run",
+    "Application.Question16.executor": "Run",
     "Application.Question3.executor": "Run",
     "Application.ReaderAndWriterDemo.executor": "Run",
     "Application.RecursionExample.executor": "Run",
@@ -186,6 +192,8 @@
     "Application.YieldDemo.executor": "Run",
     "Application.algomaster_lld.polymorphism.payment_system.Main.executor": "Run",
     "Application.array_output.executor": "Run",
+    "Application.array_output1.executor": "Run",
+    "Application.conversion.executor": "Run",
     "Application.core_java_udemy.abstraction.Test.executor": "Run",
     "Application.core_java_udemy.abstraction.interfaces.Test.executor": "Run",
     "Application.core_java_udemy.immutable.string.StringMethods.executor": "Run",
@@ -198,8 +206,10 @@
     "Application.core_java_udemy.string.Test.executor": "Run",
     "Application.datastructure.arrays.Solution.executor": "Debug",
     "Application.datastructure.twopointers_slidingwindow.Solution.executor": "Run",
+    "Application.evaluate.executor": "Run",
     "Application.increment.executor": "Run",
     "Application.leetcode.question13.Solution.executor": "Run",
+    "Application.multidimention_array.executor": "Run",
     "Application.output.executor": "Run",
     "Application.vehicledemo.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -267,20 +277,7 @@
       <recent name="core_java_udemy.abstraction.moreprograms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfZeroFilledSubarrays">
-    <configuration name="NumberOfZeroFilledSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.NumberOfZeroFilledSubarrays" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.conversion">
     <configuration name="Output" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javatest.Output" />
       <module name="coding" />
@@ -294,8 +291,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutputC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javatest.OutputC" />
+    <configuration name="Question16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javatest.Question16" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -307,8 +304,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javatest.Question11" />
+    <configuration name="array_output1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javatest.array_output1" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -320,8 +317,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String_demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javatest.String_demo" />
+    <configuration name="conversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javatest.conversion" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="evaluate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javatest.evaluate" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -334,19 +344,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NumberOfZeroFilledSubarrays" />
+      <item itemvalue="Application.Question16" />
+      <item itemvalue="Application.array_output1" />
+      <item itemvalue="Application.conversion" />
+      <item itemvalue="Application.evaluate" />
       <item itemvalue="Application.Output" />
-      <item itemvalue="Application.OutputC" />
-      <item itemvalue="Application.Question11" />
-      <item itemvalue="Application.String_demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberOfZeroFilledSubarrays" />
-        <item itemvalue="Application.Question11" />
-        <item itemvalue="Application.String_demo" />
-        <item itemvalue="Application.OutputC" />
+        <item itemvalue="Application.conversion" />
         <item itemvalue="Application.Output" />
+        <item itemvalue="Application.Question16" />
+        <item itemvalue="Application.array_output1" />
+        <item itemvalue="Application.evaluate" />
       </list>
     </recent_temporary>
   </component>
@@ -435,15 +445,7 @@
       <workItem from="1753864637482" duration="2029000" />
       <workItem from="1753942336977" duration="11000" />
       <workItem from="1754077923884" duration="894000" />
-      <workItem from="1754287790243" duration="6411000" />
-    </task>
-    <task id="LOCAL-00021" summary="chapter 10 finished">
-      <option name="closed" value="true" />
-      <created>1737275457839</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1737275457839</updated>
+      <workItem from="1754287790243" duration="9310000" />
     </task>
     <task id="LOCAL-00022" summary="leetcode question 4">
       <option name="closed" value="true" />
@@ -829,7 +831,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754078772040</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="NumberOfZeroFilledSubarrays leetcode solution">
+      <option name="closed" value="true" />
+      <created>1754295249446</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1754295249446</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -847,7 +857,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="template method design pattern" />
     <MESSAGE value="adapter design pattern" />
     <MESSAGE value="flyweight design pattern" />
     <MESSAGE value="command design pattern" />
@@ -872,7 +881,8 @@
     <MESSAGE value="hammingWeight" />
     <MESSAGE value="best time to buy and sell stock" />
     <MESSAGE value="java test" />
-    <option name="LAST_COMMIT_MESSAGE" value="java test" />
+    <MESSAGE value="NumberOfZeroFilledSubarrays leetcode solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="NumberOfZeroFilledSubarrays leetcode solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1352,7 +1362,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/arrays/NumberOfZeroFilledSubarrays.java</url>
-          <line>77</line>
+          <line>83</line>
           <properties class="leetcode.arrays.NumberOfZeroFilledSubarrays" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
