@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 public class SelectionSort {
     public static void sort(int[] nums) {
-
-
         //why n - 1 -> only left 1 element to find smallest
         for (int i = 0; i < nums.length - 1; i++) {
             //take first element as smallest
