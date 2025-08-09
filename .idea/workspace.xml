@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="SelectionSort">
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="InsertionSort">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/bit_manipulation/CountingBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/sorting/insertionsort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sorting/insertionsort/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +82,7 @@
     "Application.Combination.executor": "Run",
     "Application.CompileTimeBinding.executor": "Run",
     "Application.ComputerManufacturerTest.executor": "Run",
+    "Application.CountingBits.executor": "Run",
     "Application.DaemonThreadDemo.executor": "Run",
     "Application.DeadlockDemo.executor": "Run",
     "Application.DecodeStringDemo.executor": "Run",
@@ -264,7 +265,7 @@
       <recent name="core_java_udemy.polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
+  <component name="RunManager" selected="Application.CountingBits">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.sorting.bubblesort.BubbleSort" />
       <module name="coding" />
@@ -278,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sorting.insertionsort.InsertionSort" />
+    <configuration name="CountingBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.bit_manipulation.CountingBits" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.sorting.insertionsort.*" />
+          <option name="PATTERN" value="leetcode.bit_manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hashtable.MyHashMapDemo" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.sorting.insertionsort.InsertionSort" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hashtable.*" />
+          <option name="PATTERN" value="leetcode.sorting.insertionsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,19 +332,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CountingBits" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.SelectionSort" />
-      <item itemvalue="Application.MyHashMapDemo" />
       <item itemvalue="Application.NumberOfGoodPairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountingBits" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.NumberOfGoodPairs" />
-        <item itemvalue="Application.MyHashMapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -424,15 +425,8 @@
       <workItem from="1753864637482" duration="2029000" />
       <workItem from="1754192967038" duration="2805000" />
       <workItem from="1754201498528" duration="680000" />
-      <workItem from="1754326922659" duration="7509000" />
-    </task>
-    <task id="LOCAL-00026" summary="recursion multiplication example">
-      <option name="closed" value="true" />
-      <created>1741195941572</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1741195941572</updated>
+      <workItem from="1754326922659" duration="7902000" />
+      <workItem from="1754662391542" duration="312000" />
     </task>
     <task id="LOCAL-00027" summary="recursion loop through list example">
       <option name="closed" value="true" />
@@ -818,7 +812,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754455122431</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="InsertionSort">
+      <option name="closed" value="true" />
+      <created>1754618194350</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1754618194350</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -836,7 +838,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="decorator design pattern" />
     <MESSAGE value="iterative statements" />
     <MESSAGE value="inheritance" />
     <MESSAGE value="abstraction" />
@@ -861,7 +862,8 @@
     <MESSAGE value="bubble sort implementation&#10;selection sort implementation&#10;insertion sort not implemented" />
     <MESSAGE value="CallCenter - object oriented design" />
     <MESSAGE value="SelectionSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="SelectionSort" />
+    <MESSAGE value="InsertionSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="InsertionSort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
