@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="InsertionSort">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/bit_manipulation/CountingBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlist/IntersectionOfTwoLinkedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +103,7 @@
     "Application.IllegalArgumentDemo.executor": "Run",
     "Application.ImmuatableDemo.executor": "Run",
     "Application.InsertionSort.executor": "Debug",
+    "Application.IntersectionOfTwoLinkedLists.executor": "Debug",
     "Application.IsSubsequence.executor": "Run",
     "Application.JDKMultiTest.executor": "Run",
     "Application.JoinDemo.executor": "Run",
@@ -265,7 +266,7 @@
       <recent name="core_java_udemy.polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountingBits">
+  <component name="RunManager" selected="Application.IntersectionOfTwoLinkedLists">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.sorting.bubblesort.BubbleSort" />
       <module name="coding" />
@@ -305,12 +306,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hashtable.NumberOfGoodPairs" />
+    <configuration name="IntersectionOfTwoLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlist.IntersectionOfTwoLinkedLists" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hashtable.*" />
+          <option name="PATTERN" value="leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,19 +333,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.IntersectionOfTwoLinkedLists" />
       <item itemvalue="Application.CountingBits" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.SelectionSort" />
-      <item itemvalue="Application.NumberOfGoodPairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfTwoLinkedLists" />
         <item itemvalue="Application.CountingBits" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.NumberOfGoodPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -1232,6 +1233,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/sorting/insertionsort/InsertionSort.java</url>
           <line>8</line>
           <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/linkedlist/IntersectionOfTwoLinkedLists.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
