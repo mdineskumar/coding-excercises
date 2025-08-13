@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="CountingBits">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sorting/mergesort/MergeSort.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="InsertionSort">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlist/IntersectionOfTwoLinkedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +103,7 @@
     "Application.IllegalArgumentDemo.executor": "Run",
     "Application.ImmuatableDemo.executor": "Run",
     "Application.InsertionSort.executor": "Debug",
+    "Application.IntersectionOfTwoLinkedLists.executor": "Debug",
     "Application.IsSubsequence.executor": "Run",
     "Application.JDKMultiTest.executor": "Run",
     "Application.JoinDemo.executor": "Run",
@@ -114,7 +115,6 @@
     "Application.Main.executor": "Run",
     "Application.MainThread.executor": "Run",
     "Application.MathOperationsDemo.executor": "Run",
-    "Application.MergeSort.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.MergedTwoSortedList.executor": "Run",
     "Application.MultiLevelTest.executor": "Run",
@@ -266,7 +266,7 @@
       <recent name="core_java_udemy.polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.IntersectionOfTwoLinkedLists">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.sorting.bubblesort.BubbleSort" />
       <module name="coding" />
@@ -306,12 +306,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sorting.mergesort.MergeSort" />
+    <configuration name="IntersectionOfTwoLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlist.IntersectionOfTwoLinkedLists" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.sorting.mergesort.*" />
+          <option name="PATTERN" value="leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,7 +333,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.IntersectionOfTwoLinkedLists" />
       <item itemvalue="Application.CountingBits" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.BubbleSort" />
@@ -341,7 +341,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.IntersectionOfTwoLinkedLists" />
         <item itemvalue="Application.CountingBits" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
@@ -427,8 +427,15 @@
       <workItem from="1754192967038" duration="2805000" />
       <workItem from="1754201498528" duration="680000" />
       <workItem from="1754326922659" duration="7902000" />
-      <workItem from="1754662391542" duration="1745000" />
-      <workItem from="1755055878179" duration="1360000" />
+      <workItem from="1754662391542" duration="312000" />
+    </task>
+    <task id="LOCAL-00027" summary="recursion loop through list example">
+      <option name="closed" value="true" />
+      <created>1741197663679</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1741197663679</updated>
     </task>
     <task id="LOCAL-00028" summary="recursion loop through list example">
       <option name="closed" value="true" />
@@ -814,15 +821,7 @@
       <option name="project" value="LOCAL" />
       <updated>1754618194350</updated>
     </task>
-    <task id="LOCAL-00076" summary="CountingBits">
-      <option name="closed" value="true" />
-      <created>1754763565289</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1754763565289</updated>
-    </task>
-    <option name="localTasksCounter" value="77" />
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -840,6 +839,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="iterative statements" />
     <MESSAGE value="inheritance" />
     <MESSAGE value="abstraction" />
     <MESSAGE value="anonymous class" />
@@ -864,8 +864,7 @@
     <MESSAGE value="CallCenter - object oriented design" />
     <MESSAGE value="SelectionSort" />
     <MESSAGE value="InsertionSort" />
-    <MESSAGE value="CountingBits" />
-    <option name="LAST_COMMIT_MESSAGE" value="CountingBits" />
+    <option name="LAST_COMMIT_MESSAGE" value="InsertionSort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1236,24 +1235,9 @@
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/bit_manipulation/CountingBits.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/bit_manipulation/CountingBits.java</url>
-          <line>8</line>
+          <url>file://$PROJECT_DIR$/src/leetcode/linkedlist/IntersectionOfTwoLinkedLists.java</url>
+          <line>50</line>
           <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/bit_manipulation/CountingBits.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/sorting/mergesort/MergeSort.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
