@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="DesingLinkedList">
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="VirtualThreadsDemo">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/interview/virtualthreads/Demo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/interview/virtualthreads/HighThroughputVirtualThreads.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/interview/virtualthreads/VirtualThreadsDemo.java" afterDir="false" />
@@ -453,15 +454,7 @@
       <workItem from="1755845292332" duration="2772000" />
       <workItem from="1755850031303" duration="4462000" />
       <workItem from="1755860056426" duration="258000" />
-      <workItem from="1755860327560" duration="1374000" />
-    </task>
-    <task id="LOCAL-00030" summary="recursion loop through list example 2">
-      <option name="closed" value="true" />
-      <created>1741459596894</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1741459596894</updated>
+      <workItem from="1755860327560" duration="1987000" />
     </task>
     <task id="LOCAL-00031" summary="recursion isPalindrome">
       <option name="closed" value="true" />
@@ -847,7 +840,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755851150730</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="VirtualThreadsDemo">
+      <option name="closed" value="true" />
+      <created>1755865650065</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1755865650065</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -865,7 +866,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="abstraction" />
     <MESSAGE value="anonymous class" />
     <MESSAGE value="strings" />
     <MESSAGE value="BufferedReaderDemo" />
@@ -890,7 +890,8 @@
     <MESSAGE value="implement iterator design pattern" />
     <MESSAGE value="small changes" />
     <MESSAGE value="DesingLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="DesingLinkedList" />
+    <MESSAGE value="VirtualThreadsDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="VirtualThreadsDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
