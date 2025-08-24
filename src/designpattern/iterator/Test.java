@@ -2,7 +2,7 @@ package designpattern.iterator;
 
 public class Test {
     public static void main(String[] args) {
-        Waitress waitress = new Waitress();
+        Waitress waitress = new Waitress(new PancakeHouseMenu(),new DinerMenu());
         waitress.printMenu();
     }
 }
