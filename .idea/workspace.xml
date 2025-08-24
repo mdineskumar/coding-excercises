@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Iterator Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/composite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/composite/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/composite/Leaf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +270,20 @@
       <recent name="core_java_udemy.polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IncreasingTripletSubsequence">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.composite.Client" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountingBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.bit_manipulation.CountingBits" />
       <module name="coding" />
@@ -319,33 +336,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sorting.selectionsort.SelectionSort" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.sorting.selectionsort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Client" />
       <item itemvalue="Application.IncreasingTripletSubsequence" />
       <item itemvalue="Application.IntersectionOfTwoLinkedLists" />
       <item itemvalue="Application.CountingBits" />
       <item itemvalue="Application.InsertionSort" />
-      <item itemvalue="Application.SelectionSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.IncreasingTripletSubsequence" />
         <item itemvalue="Application.IntersectionOfTwoLinkedLists" />
         <item itemvalue="Application.CountingBits" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -428,22 +432,7 @@
       <workItem from="1754201498528" duration="680000" />
       <workItem from="1754326922659" duration="7902000" />
       <workItem from="1754662391542" duration="312000" />
-    </task>
-    <task id="LOCAL-00027" summary="recursion loop through list example">
-      <option name="closed" value="true" />
-      <created>1741197663679</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1741197663679</updated>
-    </task>
-    <task id="LOCAL-00028" summary="recursion loop through list example">
-      <option name="closed" value="true" />
-      <created>1741197872423</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1741197872423</updated>
+      <workItem from="1755798626033" duration="2540000" />
     </task>
     <task id="LOCAL-00029" summary="recursion loop through list example 2">
       <option name="closed" value="true" />
@@ -821,7 +810,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754618194350</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Iterator Design Pattern">
+      <option name="closed" value="true" />
+      <created>1755798668292</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1755798668293</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Iterator Design Pattern">
+      <option name="closed" value="true" />
+      <created>1755798677514</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1755798677514</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
