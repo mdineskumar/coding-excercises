@@ -6,10 +6,10 @@ import java.util.Set;
 
 public class RemoveDuplicatesFromUnsortedList {
     ListNode removeDuplicate(ListNode head) {
-        ListNode key = head;
+        ListNode key = head; //it same as key
         while(key.next != null) {
 
-            ListNode current = key.next;
+            ListNode current = key.next; //this runner //it checks for duplicates key
 
             while(current.next != null){
                 if(key.val == current.next.val) {
@@ -28,12 +28,13 @@ public class RemoveDuplicatesFromUnsortedList {
 
     //using hashtable
     ListNode removeDuplicateUsingHashTable(ListNode head) {
+        //logic correct but contains() method is wrong use and Hashtable also incorrect we can use Hashset
         Hashtable<Integer, Integer> ht = new Hashtable<>();
         ListNode current = head;
         if(current!=null){
             ht.put(current.val,1);
             while(current.next!=null){
-                if(!ht.contains(current.next.val)) {
+                if(!ht.containsKey(current.next.val)) {
                     ht.put(current.next.val,1);
                     current =current.next;
                 }else{
@@ -43,7 +44,7 @@ public class RemoveDuplicatesFromUnsortedList {
             }
         }
 
-        return null;
+        return head;
     }
 
 
