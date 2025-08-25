@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="RemoveDuplicatesFromUnsortedList">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/linkedlist/RemoveDuplicatesFromUnsortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/linkedlist/RemoveDuplicatesFromUnsortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlist/ReturnKthToLast.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +146,7 @@
     "Application.RecursionExample.executor": "Run",
     "Application.ReflectionProblem.executor": "Run",
     "Application.RemoveDuplicates.executor": "Debug",
-    "Application.RemoveDuplicatesFromUnsortedList.executor": "Run",
+    "Application.RemoveDuplicatesFromUnsortedList.executor": "Debug",
     "Application.RotateArray.executor": "Debug",
     "Application.RunTimeBinding.executor": "Run",
     "Application.SBDemo.executor": "Run",
@@ -272,7 +271,7 @@
       <recent name="core_java_udemy.polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicatesFromUnsortedList">
+  <component name="RunManager" selected="Application.ReturnKthToLast">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.virtualthreads.Demo" />
       <module name="coding" />
@@ -299,8 +298,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlist.MyLinkedList" />
+    <configuration name="RemoveDuplicatesFromUnsortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlist.RemoveDuplicatesFromUnsortedList" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -312,8 +311,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromUnsortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlist.RemoveDuplicatesFromUnsortedList" />
+    <configuration name="ReturnKthToLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlist.ReturnKthToLast" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -341,19 +340,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ReturnKthToLast" />
       <item itemvalue="Application.RemoveDuplicatesFromUnsortedList" />
       <item itemvalue="Application.HighThroughputVirtualThreads" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.VirtualThreadsDemo" />
-      <item itemvalue="Application.MyLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReturnKthToLast" />
         <item itemvalue="Application.RemoveDuplicatesFromUnsortedList" />
         <item itemvalue="Application.HighThroughputVirtualThreads" />
         <item itemvalue="Application.VirtualThreadsDemo" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.MyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -452,15 +451,7 @@
       <workItem from="1755860056426" duration="258000" />
       <workItem from="1755860327560" duration="2292000" />
       <workItem from="1756104945035" duration="5459000" />
-      <workItem from="1756122426464" duration="1480000" />
-    </task>
-    <task id="LOCAL-00034" summary="interfaces - algomaster lld">
-      <option name="closed" value="true" />
-      <created>1743758663580</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1743758663580</updated>
+      <workItem from="1756122426464" duration="2347000" />
     </task>
     <task id="LOCAL-00035" summary="inheritance added">
       <option name="closed" value="true" />
@@ -846,7 +837,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756123346557</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="RemoveDuplicatesFromUnsortedList">
+      <option name="closed" value="true" />
+      <created>1756124271448</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1756124271448</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1301,7 +1300,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/linkedlist/RemoveDuplicatesFromUnsortedList.java</url>
-          <line>30</line>
+          <line>31</line>
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
