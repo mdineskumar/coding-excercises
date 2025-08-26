@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="RemoveDuplicatesFromUnsortedList">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linkedlist/ReturnKthToLast.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="ReturnKthToLast">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/composite/CompositeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/composite/CompositeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/composite/MenuComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/composite/MenuItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/composite/NullIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/composite/Waitress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/composite/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/composite/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +88,7 @@
     "Application.CollectorsDemo.executor": "Run",
     "Application.Combination.executor": "Run",
     "Application.CompileTimeBinding.executor": "Run",
+    "Application.CompositeDemo.executor": "Run",
     "Application.ComputerManufacturerTest.executor": "Run",
     "Application.CountingBits.executor": "Run",
     "Application.DaemonThreadDemo.executor": "Run",
@@ -147,6 +156,7 @@
     "Application.ReflectionProblem.executor": "Run",
     "Application.RemoveDuplicates.executor": "Debug",
     "Application.RemoveDuplicatesFromUnsortedList.executor": "Debug",
+    "Application.ReturnKthToLast.executor": "Run",
     "Application.RotateArray.executor": "Debug",
     "Application.RunTimeBinding.executor": "Run",
     "Application.SBDemo.executor": "Run",
@@ -233,11 +243,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="designpattern.composite" />
       <recent name="interview.objectorienteddesign.callcenter" />
       <recent name="core_java_udemy.java9features.privatemethods" />
       <recent name="core_java_udemy.reflection" />
       <recent name="designpattern.adapter.assignment" />
-      <recent name="designpattern.adapter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/core_java_udemy/iostream" />
@@ -264,20 +274,20 @@
       <recent name="designpattern.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designpattern.composite" />
       <recent name="interview.objectorienteddesign.callcenter" />
       <recent name="core_java_udemy.collections.map" />
       <recent name="core_java_udemy.mutlithreading.synchronization.deadlock" />
       <recent name="core_java_udemy.mutlithreading" />
-      <recent name="core_java_udemy.polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReturnKthToLast">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.virtualthreads.Demo" />
+  <component name="RunManager" selected="Application.CompositeDemo">
+    <configuration name="CompositeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.composite.CompositeDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.virtualthreads.*" />
+          <option name="PATTERN" value="designpattern.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,19 +350,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CompositeDemo" />
       <item itemvalue="Application.ReturnKthToLast" />
       <item itemvalue="Application.RemoveDuplicatesFromUnsortedList" />
       <item itemvalue="Application.HighThroughputVirtualThreads" />
-      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.VirtualThreadsDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompositeDemo" />
         <item itemvalue="Application.ReturnKthToLast" />
         <item itemvalue="Application.RemoveDuplicatesFromUnsortedList" />
         <item itemvalue="Application.HighThroughputVirtualThreads" />
         <item itemvalue="Application.VirtualThreadsDemo" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -451,15 +461,8 @@
       <workItem from="1755860056426" duration="258000" />
       <workItem from="1755860327560" duration="2292000" />
       <workItem from="1756104945035" duration="5459000" />
-      <workItem from="1756122426464" duration="2347000" />
-    </task>
-    <task id="LOCAL-00035" summary="inheritance added">
-      <option name="closed" value="true" />
-      <created>1744638316034</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1744638316034</updated>
+      <workItem from="1756122426464" duration="2672000" />
+      <workItem from="1756194437401" duration="3380000" />
     </task>
     <task id="LOCAL-00036" summary="MergedTwoSortedList leetcode questions">
       <option name="closed" value="true" />
@@ -845,7 +848,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756124271448</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="ReturnKthToLast">
+      <option name="closed" value="true" />
+      <created>1756125098102</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1756125098102</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -863,7 +874,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="strings" />
     <MESSAGE value="BufferedReaderDemo" />
     <MESSAGE value="RotateArray" />
     <MESSAGE value="Stackoverflow lowlevel design" />
@@ -888,7 +898,8 @@
     <MESSAGE value="DesingLinkedList" />
     <MESSAGE value="VirtualThreadsDemo" />
     <MESSAGE value="RemoveDuplicatesFromUnsortedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="RemoveDuplicatesFromUnsortedList" />
+    <MESSAGE value="ReturnKthToLast" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReturnKthToLast" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
