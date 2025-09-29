@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Recursion">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/recursion/DeleteMidElementStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/recursion/ReverseStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/recursion/SortStackDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/recursion/IBHDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/recursion/IBHDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +89,7 @@
     "Application.DaemonThreadDemo.executor": "Run",
     "Application.DeadlockDemo.executor": "Run",
     "Application.DecodeStringDemo.executor": "Run",
+    "Application.DeleteMidElementStackDemo.executor": "Run",
     "Application.Demo.executor": "Run",
     "Application.DoWhile.executor": "Run",
     "Application.FactoryTest.executor": "Run",
@@ -151,6 +154,7 @@
     "Application.RemoveDuplicates.executor": "Debug",
     "Application.RemoveDuplicatesFromUnsortedList.executor": "Debug",
     "Application.ReturnKthToLast.executor": "Run",
+    "Application.ReverseStackDemo.executor": "Debug",
     "Application.RotateArray.executor": "Debug",
     "Application.RunTimeBinding.executor": "Run",
     "Application.SBDemo.executor": "Run",
@@ -162,6 +166,7 @@
     "Application.SingleThreaded.executor": "Run",
     "Application.SingletonTest.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.SortStackDemo.executor": "Debug",
     "Application.SortedList.executor": "Run",
     "Application.StackOverflow.executor": "Run",
     "Application.StaticBlockInit.executor": "Run",
@@ -275,13 +280,13 @@
       <recent name="core_java_udemy.mutlithreading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IBHDemo">
-    <configuration name="CompositeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.composite.CompositeDemo" />
+  <component name="RunManager" selected="Application.ReverseStackDemo">
+    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.recursion.DecodeString" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.composite.*" />
+          <option name="PATTERN" value="leetcode.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,8 +294,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.recursion.DecodeString" />
+    <configuration name="DeleteMidElementStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.recursion.DeleteMidElementStackDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -315,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromUnsortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlist.RemoveDuplicatesFromUnsortedList" />
+    <configuration name="ReverseStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.recursion.ReverseStackDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.linkedlist.*" />
+          <option name="PATTERN" value="leetcode.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,12 +333,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReturnKthToLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlist.ReturnKthToLast" />
+    <configuration name="SortStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.recursion.SortStackDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.linkedlist.*" />
+          <option name="PATTERN" value="leetcode.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,19 +347,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DeleteMidElementStackDemo" />
+      <item itemvalue="Application.ReverseStackDemo" />
+      <item itemvalue="Application.SortStackDemo" />
       <item itemvalue="Application.IBHDemo" />
       <item itemvalue="Application.DecodeString" />
-      <item itemvalue="Application.CompositeDemo" />
-      <item itemvalue="Application.ReturnKthToLast" />
-      <item itemvalue="Application.RemoveDuplicatesFromUnsortedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseStackDemo" />
+        <item itemvalue="Application.DeleteMidElementStackDemo" />
+        <item itemvalue="Application.SortStackDemo" />
         <item itemvalue="Application.IBHDemo" />
         <item itemvalue="Application.DecodeString" />
-        <item itemvalue="Application.CompositeDemo" />
-        <item itemvalue="Application.ReturnKthToLast" />
-        <item itemvalue="Application.RemoveDuplicatesFromUnsortedList" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +461,8 @@
       <workItem from="1756122426464" duration="2672000" />
       <workItem from="1756194437401" duration="3380000" />
       <workItem from="1758786641780" duration="246000" />
-      <workItem from="1758867808526" duration="2444000" />
+      <workItem from="1758867808526" duration="3052000" />
+      <workItem from="1759136207563" duration="4696000" />
     </task>
     <task id="LOCAL-00037" summary="aggregation theory and code examples">
       <option name="closed" value="true" />
@@ -1308,6 +1314,39 @@
           <line>31</line>
           <option name="timeStamp" value="145" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/recursion/DeleteMidElementStackDemo.java</url>
+          <line>6</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/recursion/DeleteMidElementStackDemo.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/recursion/ReverseStackDemo.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/recursion/ReverseStackDemo.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/recursion/ReverseStackDemo.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/recursion/ReverseStackDemo.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
           <line>60</line>
@@ -1460,6 +1499,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/recursion/SortStackDemo.java</url>
+          <line>32</line>
+          <properties class="leetcode.recursion.SortStackDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="146" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
