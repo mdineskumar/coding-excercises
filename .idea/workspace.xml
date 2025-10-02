@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="AirlineManagement System&#10;1. Seat">
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/airlinemanagementsystem/Aircraft.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="AirlineManagement System&#10;1. Seat&#10;2. Aircraft">
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/airlinemanagementsystem/flight/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/airlinemanagementsystem/flight/FlightSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/airlinemanagementsystem/flight/FlightStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -461,15 +464,7 @@
       <workItem from="1758867808526" duration="3052000" />
       <workItem from="1759136207563" duration="6833000" />
       <workItem from="1759206208377" duration="20000" />
-      <workItem from="1759404690738" duration="1584000" />
-    </task>
-    <task id="LOCAL-00039" summary="backtracking theory">
-      <option name="closed" value="true" />
-      <created>1745322752332</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1745322752332</updated>
+      <workItem from="1759404690738" duration="3674000" />
     </task>
     <task id="LOCAL-00040" summary="LetterCombinationPhoneNumber solutions">
       <option name="closed" value="true" />
@@ -855,7 +850,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759406111007</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="AirlineManagement System&#10;1. Seat&#10;2. Aircraft">
+      <option name="closed" value="true" />
+      <created>1759406578736</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1759406578736</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -873,7 +876,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stackoverflow lowlevel design" />
     <MESSAGE value="bit manipulation - xor" />
     <MESSAGE value="class loader" />
     <MESSAGE value="product of array except self" />
@@ -898,7 +900,8 @@
     <MESSAGE value="ReturnKthToLast" />
     <MESSAGE value="Recursion" />
     <MESSAGE value="AirlineManagement System&#10;1. Seat" />
-    <option name="LAST_COMMIT_MESSAGE" value="AirlineManagement System&#10;1. Seat" />
+    <MESSAGE value="AirlineManagement System&#10;1. Seat&#10;2. Aircraft" />
+    <option name="LAST_COMMIT_MESSAGE" value="AirlineManagement System&#10;1. Seat&#10;2. Aircraft" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
