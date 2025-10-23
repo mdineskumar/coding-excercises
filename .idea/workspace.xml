@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="ReverseBits">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/BufferedReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/BufferedReaderDemoTryWIthResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/FileInputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/FileOutputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/ReaderAndWriterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/ScannerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/SumCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/deserialization/DeserializationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/myFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/serialization/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/serialization/SerializationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/stringtokenize/StringTokenizerDemo.java" afterDir="false" />
+    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Java IO">
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-9.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/EmployeeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/MyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/student/MyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/student/StudentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/iostream/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/recursion/DecodeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/recursion/DecodeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coding.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +33,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mdineskumar"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mdineskumar&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mdineskumar/coding-excercises.git",
-    "accountId": "6f6f657b-215a-4a03-83bc-b0b34dcfd2af"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mdineskumar/coding-excercises.git&quot;,
+    &quot;accountId&quot;: &quot;6f6f657b-215a-4a03-83bc-b0b34dcfd2af&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="340WsH1Q2du43zrum3SVRyE7Zgw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,6 +59,7 @@
     "Application.BufferedReaderDemo.executor": "Run",
     "Application.DecodeString.executor": "Debug",
     "Application.DeserializationDemo.executor": "Run",
+    "Application.EmployeeDemo.executor": "Run",
     "Application.FileInputStreamDemo.executor": "Run",
     "Application.FileOutputStreamDemo.executor": "Run",
     "Application.ReaderAndWriterDemo.executor": "Run",
@@ -69,33 +67,43 @@
     "Application.SerializationDemo.executor": "Run",
     "Application.StringTokenizerDemo.executor": "Run",
     "Application.SumCalculator.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DM2719/Downloads/coding/lib/gson-2.13.1.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DM2719\Downloads\coding\lib" />
       <recent name="C:\Users\DM2719\Downloads\coding\src\core_java_udemy\iostreamsecond" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algomaster_lld.solid.srp.employee" />
       <recent name="core_java_udemy.iostreamsecond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumCalculator">
-    <configuration name="BufferedReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.iostreamsecond.BufferedReaderDemo" />
+  <component name="RunManager" selected="Application.EmployeeDemo">
+    <configuration name="DeserializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.iostreamsecond.deserialization.DeserializationDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.iostreamsecond.*" />
+          <option name="PATTERN" value="core_java_udemy.iostreamsecond.deserialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeserializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.iostreamsecond.deserialization.DeserializationDemo" />
+    <configuration name="EmployeeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algomaster_lld.solid.srp.employee.EmployeeDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.iostreamsecond.deserialization.*" />
+          <option name="PATTERN" value="algomaster_lld.solid.srp.employee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,19 +164,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EmployeeDemo" />
       <item itemvalue="Application.DeserializationDemo" />
       <item itemvalue="Application.ScannerDemo" />
       <item itemvalue="Application.SumCalculator" />
-      <item itemvalue="Application.BufferedReaderDemo" />
       <item itemvalue="Application.SerializationDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeDemo" />
         <item itemvalue="Application.SumCalculator" />
         <item itemvalue="Application.ScannerDemo" />
         <item itemvalue="Application.DeserializationDemo" />
         <item itemvalue="Application.SerializationDemo" />
-        <item itemvalue="Application.BufferedReaderDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -188,8 +196,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760351176728</updated>
-      <workItem from="1760351179240" duration="1159000" />
+      <workItem from="1760351179240" duration="1866000" />
+      <workItem from="1760434701171" duration="32000" />
+      <workItem from="1761223525433" duration="2966000" />
     </task>
+    <task id="LOCAL-00001" summary="Java IO">
+      <option name="closed" value="true" />
+      <created>1760361917891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760361917891</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Java IO">
+      <option name="closed" value="true" />
+      <created>1760361936340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760361936340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +224,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ReverseBits" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReverseBits" />
+    <MESSAGE value="Java IO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java IO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

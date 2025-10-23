@@ -1,0 +1,7 @@
+CREATE TABLE EMPLOYEE (
+    employeeId VARCHAR(255) PRIMARY KEY,
+    employeeName VARCHAR(255) NOT NULL,
+    employeeAddress VARCHAR(255),
+    contactNumber VARCHAR(20),
+    employeeType VARCHAR(50)
+);
