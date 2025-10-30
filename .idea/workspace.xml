@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Java IO">
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-9.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/EmployeeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/MyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/TaxCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/employee/info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/student/MyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/srp/student/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coding.iml" afterDir="false" />
-    </list>
+    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Java mysql" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +185,7 @@
       <updated>1760351176728</updated>
       <workItem from="1760351179240" duration="1866000" />
       <workItem from="1760434701171" duration="32000" />
-      <workItem from="1761223525433" duration="2966000" />
+      <workItem from="1761223525433" duration="3267000" />
     </task>
     <task id="LOCAL-00001" summary="Java IO">
       <option name="closed" value="true" />
@@ -216,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760361936340</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Java mysql">
+      <option name="closed" value="true" />
+      <created>1761226734767</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761226734767</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +220,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ReverseBits" />
     <MESSAGE value="Java IO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java IO" />
+    <MESSAGE value="Java mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java mysql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
