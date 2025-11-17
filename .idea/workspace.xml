@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Java mysql">
-      <change afterPath="$PROJECT_DIR$/src/designpattern/builder/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/builder/HttpRequestBuilderPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hashtable/MaxNoOfBalloons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/lecture9/FactorialTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/lecture9/FactorialTaskDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/lecture9/HelloRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/lecture9/JoinExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/lecture9/PausingThreadExecution.java" afterDir="false" />
+    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Builder and Thread">
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/enhancedswitch/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/StringImmutability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/immutable/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/immutable/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/tree/LevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/tree/PreOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/tree/TreeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javalanguage/roadmap/iohandling/NioReadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/garbagecollection/GCDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/garbagecollection/GCDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +65,24 @@
     "Application.FactorialTaskDemo.executor": "Run",
     "Application.FileInputStreamDemo.executor": "Run",
     "Application.FileOutputStreamDemo.executor": "Run",
+    "Application.GCDemo.executor": "Run",
     "Application.JoinExample.executor": "Run",
+    "Application.LevelOrder.executor": "Run",
     "Application.MaxNoOfBalloons.executor": "Run",
+    "Application.NioReadFile.executor": "Run",
     "Application.PausingThreadExecution.executor": "Run",
+    "Application.PreOrderTraversal.executor": "Run",
+    "Application.Project.executor": "Run",
     "Application.ReaderAndWriterDemo.executor": "Run",
     "Application.ScannerDemo.executor": "Run",
     "Application.SerializationDemo.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.StringImmutability.executor": "Run",
     "Application.StringTokenizerDemo.executor": "Run",
     "Application.SumCalculator.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.core_java_udemy.strings.immutable.Test.executor": "Run",
+    "Application.javalanguage.roadmap.iohandling.NioReadFile.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -76,7 +91,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DM2719/Documents/personal-workspace/coding",
+    "last_opened_file_path": "C:/Users/DM2719/Documents/personal-workspace/personal-projects/stackoverflow-api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,13 +113,13 @@
       <recent name="core_java_udemy.iostreamsecond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JoinExample">
-    <configuration name="EmployeeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algomaster_lld.solid.srp.employee.EmployeeDemo" />
+  <component name="RunManager" selected="Application.GCDemo">
+    <configuration name="GCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.garbagecollection.GCDemo" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algomaster_lld.solid.srp.employee.*" />
+          <option name="PATTERN" value="core_java_udemy.garbagecollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialTaskDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.lecture9.FactorialTaskDemo" />
+    <configuration name="Project" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.enhancedswitch.Project" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.lecture9.*" />
+          <option name="PATTERN" value="core_java_udemy.enhancedswitch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.lecture9.JoinExample" />
+    <configuration name="StringImmutability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.strings.StringImmutability" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.lecture9.*" />
+          <option name="PATTERN" value="core_java_udemy.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxNoOfBalloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hashtable.MaxNoOfBalloons" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.strings.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hashtable.*" />
+          <option name="PATTERN" value="core_java_udemy.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PausingThreadExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.lecture9.PausingThreadExecution" />
+    <configuration name="core_java_udemy.strings.immutable.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core_java_udemy.strings.immutable.Test" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.lecture9.*" />
+          <option name="PATTERN" value="core_java_udemy.strings.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,19 +180,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FactorialTaskDemo" />
-      <item itemvalue="Application.JoinExample" />
-      <item itemvalue="Application.PausingThreadExecution" />
-      <item itemvalue="Application.MaxNoOfBalloons" />
-      <item itemvalue="Application.EmployeeDemo" />
+      <item itemvalue="Application.GCDemo" />
+      <item itemvalue="Application.Project" />
+      <item itemvalue="Application.StringImmutability" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.core_java_udemy.strings.immutable.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JoinExample" />
-        <item itemvalue="Application.PausingThreadExecution" />
-        <item itemvalue="Application.FactorialTaskDemo" />
-        <item itemvalue="Application.MaxNoOfBalloons" />
-        <item itemvalue="Application.EmployeeDemo" />
+        <item itemvalue="Application.GCDemo" />
+        <item itemvalue="Application.core_java_udemy.strings.immutable.Test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StringImmutability" />
+        <item itemvalue="Application.Project" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +218,10 @@
       <workItem from="1762167690316" duration="615000" />
       <workItem from="1762254858687" duration="1648000" />
       <workItem from="1762410298201" duration="2674000" />
+      <workItem from="1762854829701" duration="44000" />
+      <workItem from="1762943163818" duration="1441000" />
+      <workItem from="1763370538493" duration="6902000" />
+      <workItem from="1763383088431" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="Java IO">
       <option name="closed" value="true" />
@@ -252,6 +271,19 @@
           <url>file://$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/FileInputStreamDemo.java</url>
           <line>15</line>
           <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/tree/LevelOrder.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/tree/PreOrderTraversal.java</url>
+          <line>62</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="161" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/FileInputStreamDemo.java</url>
