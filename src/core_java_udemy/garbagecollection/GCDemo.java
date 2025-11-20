@@ -8,11 +8,11 @@ public class GCDemo {
     }
 
     public static void main(String[] args) {
-        new GCDemo(1);
-        new GCDemo(2);
-        for (int i = 0; i < 100; i++) {
-//            new GCDemo(i);
-            System.gc();
+//        new GCDemo(1);
+//        new GCDemo(2);
+        for (int i = 0; i < 500000; i++) {
+            new GCDemo(i);
+            //System.gc();
         }
 
     }
