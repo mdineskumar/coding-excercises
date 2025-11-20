@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Builder and Thread">
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/enhancedswitch/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/StringImmutability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/immutable/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core_java_udemy/strings/immutable/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/tree/LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/tree/PreOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/tree/TreeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javalanguage/roadmap/iohandling/NioReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/isp/CannonPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/isp/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/isp/HPPrintNScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/isp/IFax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/isp/IMultiFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/isp/IPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/isp/IScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/isp/XeroxWorkCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/lsp/InHouseProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/lsp/PricingUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/lsp/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core_java_udemy/garbagecollection/GCDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core_java_udemy/garbagecollection/GCDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,6 +59,7 @@
   "keyToString": {
     "Application.BufferedReaderDemo.executor": "Run",
     "Application.DecodeString.executor": "Debug",
+    "Application.Demo.executor": "Run",
     "Application.DeserializationDemo.executor": "Run",
     "Application.EmployeeDemo.executor": "Run",
     "Application.FactorialTaskDemo.executor": "Run",
@@ -72,6 +72,7 @@
     "Application.NioReadFile.executor": "Run",
     "Application.PausingThreadExecution.executor": "Run",
     "Application.PreOrderTraversal.executor": "Run",
+    "Application.PricingUtils.executor": "Run",
     "Application.Project.executor": "Run",
     "Application.ReaderAndWriterDemo.executor": "Run",
     "Application.ScannerDemo.executor": "Run",
@@ -113,7 +114,20 @@
       <recent name="core_java_udemy.iostreamsecond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GCDemo">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algomaster_lld.solid.isp.Demo" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algomaster_lld.solid.isp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core_java_udemy.garbagecollection.GCDemo" />
       <module name="coding" />
@@ -127,25 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Project" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.enhancedswitch.Project" />
+    <configuration name="PricingUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algomaster_lld.solid.lsp.PricingUtils" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core_java_udemy.enhancedswitch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringImmutability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.strings.StringImmutability" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core_java_udemy.strings.*" />
+          <option name="PATTERN" value="algomaster_lld.solid.lsp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,19 +181,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.PricingUtils" />
       <item itemvalue="Application.GCDemo" />
-      <item itemvalue="Application.Project" />
-      <item itemvalue="Application.StringImmutability" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.core_java_udemy.strings.immutable.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.PricingUtils" />
         <item itemvalue="Application.GCDemo" />
         <item itemvalue="Application.core_java_udemy.strings.immutable.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.StringImmutability" />
-        <item itemvalue="Application.Project" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +223,8 @@
       <workItem from="1762943163818" duration="1441000" />
       <workItem from="1763370538493" duration="6902000" />
       <workItem from="1763383088431" duration="1186000" />
+      <workItem from="1763641666519" duration="301000" />
+      <workItem from="1763641989068" duration="2616000" />
     </task>
     <task id="LOCAL-00001" summary="Java IO">
       <option name="closed" value="true" />
