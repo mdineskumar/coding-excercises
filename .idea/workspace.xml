@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="LRUCache">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/trees/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/concurrency/SimpleThreads.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Thread">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/MoveZeroes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,9 +120,11 @@
     "Application.Loops.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainThread.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
     "Application.MathOperationsDemo.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.MergedTwoSortedList.executor": "Run",
+    "Application.MoveZeroes.executor": "Run",
     "Application.MultiLevelTest.executor": "Run",
     "Application.MultipleObjects.executor": "Run",
     "Application.MutliThreaded.executor": "Run",
@@ -277,20 +279,7 @@
       <recent name="core_java_udemy.polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleThreads">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sorting.heapsort.HeapSort" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.sorting.heapsort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MajorityElement">
     <configuration name="IBHDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.recursion.IBHDemo" />
       <module name="coding" />
@@ -304,12 +293,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReturnKthToLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.linkedlist.ReturnKthToLast" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.MajorityElement" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.linkedlist.*" />
+          <option name="PATTERN" value="leetcode.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.MoveZeroes" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,19 +347,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MajorityElement" />
+      <item itemvalue="Application.MoveZeroes" />
       <item itemvalue="Application.SimpleThreads" />
       <item itemvalue="Application.Tree" />
-      <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.IBHDemo" />
-      <item itemvalue="Application.ReturnKthToLast" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.SimpleThreads" />
         <item itemvalue="Application.Tree" />
         <item itemvalue="Application.IBHDemo" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.ReturnKthToLast" />
       </list>
     </recent_temporary>
   </component>
@@ -453,15 +455,8 @@
       <workItem from="1758164669309" duration="3829000" />
       <workItem from="1759716779417" duration="1449000" />
       <workItem from="1760196932599" duration="1169000" />
-      <workItem from="1763607463041" duration="1100000" />
-    </task>
-    <task id="LOCAL-00037" summary="aggregation theory and code examples">
-      <option name="closed" value="true" />
-      <created>1744907913496</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1744907913496</updated>
+      <workItem from="1763607463041" duration="1736000" />
+      <workItem from="1765010814784" duration="4294000" />
     </task>
     <task id="LOCAL-00038" summary="backtracking theory">
       <option name="closed" value="true" />
@@ -847,7 +842,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758166555671</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Thread">
+      <option name="closed" value="true" />
+      <created>1763608583282</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1763608583283</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -865,7 +868,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="RotateArray" />
     <MESSAGE value="Stackoverflow lowlevel design" />
     <MESSAGE value="bit manipulation - xor" />
     <MESSAGE value="class loader" />
@@ -890,7 +892,8 @@
     <MESSAGE value="RemoveDuplicatesFromUnsortedList" />
     <MESSAGE value="HeapSort" />
     <MESSAGE value="LRUCache" />
-    <option name="LAST_COMMIT_MESSAGE" value="LRUCache" />
+    <MESSAGE value="Thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1327,7 +1330,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/recursion/IBHDemo.java</url>
-          <line>13</line>
+          <line>16</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -1335,13 +1338,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/recursion/IBHDemo.java</url>
-          <line>15</line>
+          <line>18</line>
           <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/recursion/IBHDemo.java</url>
-          <line>16</line>
+          <line>19</line>
           <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/MoveZeroes.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/MoveZeroes.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/MoveZeroes.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/headfirst_ooad/chapter9/UnitTester.java</url>
