@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="LSP, ISP">
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/dip/ECommerceMainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/dip/ProductCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/dip/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/dip/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algomaster_lld/solid/dip/SQLProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/FirstMissingPositiveSecondAttempt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,55 +45,57 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BufferedReaderDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DecodeString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeserializationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactorialTaskDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileInputStreamDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileOutputStreamDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GCDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LevelOrder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxNoOfBalloons.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NioReadFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PausingThreadExecution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PreOrderTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PricingUtils.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Project.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReaderAndWriterDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScannerDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SerializationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringImmutability.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringTokenizerDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.strings.immutable.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javalanguage.roadmap.iohandling.NioReadFile.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DM2719/Documents/personal-workspace/personal-projects/stackoverflow-api&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BufferedReaderDemo.executor": "Run",
+    "Application.DecodeString.executor": "Debug",
+    "Application.Demo.executor": "Run",
+    "Application.DeserializationDemo.executor": "Run",
+    "Application.ECommerceMainApplication.executor": "Debug",
+    "Application.EmployeeDemo.executor": "Run",
+    "Application.FactorialTaskDemo.executor": "Run",
+    "Application.FileInputStreamDemo.executor": "Run",
+    "Application.FileOutputStreamDemo.executor": "Run",
+    "Application.FirstMissingPositiveSecondAttempt.executor": "Run",
+    "Application.GCDemo.executor": "Run",
+    "Application.JoinExample.executor": "Run",
+    "Application.LevelOrder.executor": "Run",
+    "Application.MaxNoOfBalloons.executor": "Run",
+    "Application.NioReadFile.executor": "Run",
+    "Application.PausingThreadExecution.executor": "Run",
+    "Application.PreOrderTraversal.executor": "Run",
+    "Application.PricingUtils.executor": "Run",
+    "Application.Project.executor": "Run",
+    "Application.ReaderAndWriterDemo.executor": "Run",
+    "Application.ScannerDemo.executor": "Run",
+    "Application.SerializationDemo.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.StringImmutability.executor": "Run",
+    "Application.StringTokenizerDemo.executor": "Run",
+    "Application.SumCalculator.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.core_java_udemy.strings.immutable.Test.executor": "Run",
+    "Application.javalanguage.roadmap.iohandling.NioReadFile.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DM2719/Documents/personal-workspace/personal-projects/stackoverflow-api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DM2719\Downloads\coding\lib" />
@@ -108,7 +106,7 @@
       <recent name="core_java_udemy.iostreamsecond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ECommerceMainApplication">
+  <component name="RunManager" selected="Application.FirstMissingPositiveSecondAttempt">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algomaster_lld.solid.isp.Demo" />
       <module name="coding" />
@@ -128,6 +126,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algomaster_lld.solid.dip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstMissingPositiveSecondAttempt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.FirstMissingPositiveSecondAttempt" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,33 +172,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="core_java_udemy.strings.immutable.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core_java_udemy.strings.immutable.Test" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core_java_udemy.strings.immutable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.FirstMissingPositiveSecondAttempt" />
       <item itemvalue="Application.ECommerceMainApplication" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.PricingUtils" />
       <item itemvalue="Application.GCDemo" />
-      <item itemvalue="Application.core_java_udemy.strings.immutable.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstMissingPositiveSecondAttempt" />
         <item itemvalue="Application.ECommerceMainApplication" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.PricingUtils" />
         <item itemvalue="Application.GCDemo" />
-        <item itemvalue="Application.core_java_udemy.strings.immutable.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +218,8 @@
       <workItem from="1763641666519" duration="301000" />
       <workItem from="1763641989068" duration="2616000" />
       <workItem from="1764922770429" duration="438000" />
+      <workItem from="1764927082762" duration="506000" />
+      <workItem from="1765363707045" duration="2262000" />
     </task>
     <task id="LOCAL-00001" summary="Java IO">
       <option name="closed" value="true" />
@@ -282,6 +282,26 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/FirstMissingPositiveSecondAttempt.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/FirstMissingPositiveSecondAttempt.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/FirstMissingPositiveSecondAttempt.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/arrays/FirstMissingPositiveSecondAttempt.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/FileInputStreamDemo.java</url>
