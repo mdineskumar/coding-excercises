@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="Thread">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/MoveZeroes.java" afterDir="false" />
+    <list default="true" id="7183b2bc-472e-4435-8c6a-b1b5a3191135" name="Changes" comment="DSA">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/arrays/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,6 +151,7 @@
     "Application.RecursionExample.executor": "Run",
     "Application.ReflectionProblem.executor": "Run",
     "Application.RemoveDuplicates.executor": "Debug",
+    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
     "Application.RemoveDuplicatesFromUnsortedList.executor": "Debug",
     "Application.RotateArray.executor": "Debug",
     "Application.RunTimeBinding.executor": "Run",
@@ -279,20 +279,7 @@
       <recent name="core_java_udemy.polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MajorityElement">
-    <configuration name="IBHDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.recursion.IBHDemo" />
-      <module name="coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveDuplicatesFromSortedArray">
     <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.arrays.MajorityElement" />
       <module name="coding" />
@@ -308,6 +295,19 @@
     </configuration>
     <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.arrays.MoveZeroes" />
+      <module name="coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.RemoveDuplicatesFromSortedArray" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
@@ -349,17 +349,17 @@
     <list>
       <item itemvalue="Application.MajorityElement" />
       <item itemvalue="Application.MoveZeroes" />
+      <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
       <item itemvalue="Application.SimpleThreads" />
       <item itemvalue="Application.Tree" />
-      <item itemvalue="Application.IBHDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.SimpleThreads" />
         <item itemvalue="Application.Tree" />
-        <item itemvalue="Application.IBHDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -456,15 +456,7 @@
       <workItem from="1759716779417" duration="1449000" />
       <workItem from="1760196932599" duration="1169000" />
       <workItem from="1763607463041" duration="1736000" />
-      <workItem from="1765010814784" duration="4294000" />
-    </task>
-    <task id="LOCAL-00038" summary="backtracking theory">
-      <option name="closed" value="true" />
-      <created>1745322164121</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1745322164121</updated>
+      <workItem from="1765010814784" duration="7832000" />
     </task>
     <task id="LOCAL-00039" summary="backtracking theory">
       <option name="closed" value="true" />
@@ -850,7 +842,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763608583283</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="DSA">
+      <option name="closed" value="true" />
+      <created>1765042442047</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1765042442048</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -868,7 +868,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stackoverflow lowlevel design" />
     <MESSAGE value="bit manipulation - xor" />
     <MESSAGE value="class loader" />
     <MESSAGE value="product of array except self" />
@@ -893,7 +892,8 @@
     <MESSAGE value="HeapSort" />
     <MESSAGE value="LRUCache" />
     <MESSAGE value="Thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread" />
+    <MESSAGE value="DSA" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
