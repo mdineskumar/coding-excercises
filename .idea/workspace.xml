@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Singleton">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/greedy/ActivitySelection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/greedy/FractionalKnapsackProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/greedy/JumpGameV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/treev2/TreeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/greedy/MinimumAddToMakeParenthesesValid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delete/CommandLineArguments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delete/Constructors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delete/Operators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delete/ProductOfNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delete/WrapperClass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +64,7 @@
     "Application.JoinExample.executor": "Run",
     "Application.LevelOrder.executor": "Run",
     "Application.MaxNoOfBalloons.executor": "Run",
+    "Application.MinimumAddToMakeParenthesesValid.executor": "Run",
     "Application.NioReadFile.executor": "Run",
     "Application.PausingThreadExecution.executor": "Run",
     "Application.PreOrderTraversal.executor": "Run",
@@ -119,7 +111,7 @@
       <recent name="core_java_udemy.iostreamsecond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FractionalKnapsackProblem">
+  <component name="RunManager" selected="Application.MinimumAddToMakeParenthesesValid">
     <configuration name="ActivitySelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructure.greedy.ActivitySelection" />
       <module name="coding" />
@@ -146,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.strings.GuessWord" />
+    <configuration name="IncreaseingTripletSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.IncreaseingTripletSubsequence" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.strings.*" />
+          <option name="PATTERN" value="leetcode.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncreaseingTripletSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.IncreaseingTripletSubsequence" />
+    <configuration name="MinimumAddToMakeParenthesesValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.greedy.MinimumAddToMakeParenthesesValid" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.arrays.*" />
+          <option name="PATTERN" value="datastructure.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,19 +178,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MinimumAddToMakeParenthesesValid" />
       <item itemvalue="Application.ActivitySelection" />
       <item itemvalue="Application.FractionalKnapsackProblem" />
       <item itemvalue="Application.TreeBuilder" />
       <item itemvalue="Application.IncreaseingTripletSubsequence" />
-      <item itemvalue="Application.GuessWord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumAddToMakeParenthesesValid" />
         <item itemvalue="Application.FractionalKnapsackProblem" />
         <item itemvalue="Application.ActivitySelection" />
         <item itemvalue="Application.TreeBuilder" />
         <item itemvalue="Application.IncreaseingTripletSubsequence" />
-        <item itemvalue="Application.GuessWord" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +346,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/FileInputStreamDemo.java</url>
           <line>7</line>
-          <properties class="core_java_udemy.iostreamsecond.FileInputStreamDemo" method="main">
+          <properties class="core_java_udemy.iostreamsecond.FileInputStreamDemo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -363,7 +355,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/stringtokenize/StringTokenizerDemo.java</url>
           <line>5</line>
-          <properties class="core_java_udemy.iostreamsecond.stringtokenize.StringTokenizerDemo" method="main">
+          <properties class="core_java_udemy.iostreamsecond.stringtokenize.StringTokenizerDemo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -372,7 +364,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/BufferedReaderDemo.java</url>
           <line>9</line>
-          <properties class="core_java_udemy.iostreamsecond.BufferedReaderDemo" method="main">
+          <properties class="core_java_udemy.iostreamsecond.BufferedReaderDemo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -381,7 +373,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/SumCalculator.java</url>
           <line>5</line>
-          <properties class="core_java_udemy.iostreamsecond.SumCalculator" method="main">
+          <properties class="core_java_udemy.iostreamsecond.SumCalculator">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
