@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Singleton">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/greedy/MinimumAddToMakeParenthesesValid.java" afterDir="false" />
+    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="MinimumAddToMakeParenthesesValid">
+      <change afterPath="$PROJECT_DIR$/src/datastructure/prefixsum/NumArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +66,7 @@
     "Application.MaxNoOfBalloons.executor": "Run",
     "Application.MinimumAddToMakeParenthesesValid.executor": "Run",
     "Application.NioReadFile.executor": "Run",
+    "Application.NumArray.executor": "Run",
     "Application.PausingThreadExecution.executor": "Run",
     "Application.PreOrderTraversal.executor": "Run",
     "Application.PricingUtils.executor": "Run",
@@ -111,7 +112,7 @@
       <recent name="core_java_udemy.iostreamsecond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumAddToMakeParenthesesValid">
+  <component name="RunManager" selected="Application.NumArray">
     <configuration name="ActivitySelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructure.greedy.ActivitySelection" />
       <module name="coding" />
@@ -138,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncreaseingTripletSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrays.IncreaseingTripletSubsequence" />
+    <configuration name="MinimumAddToMakeParenthesesValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.greedy.MinimumAddToMakeParenthesesValid" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.arrays.*" />
+          <option name="PATTERN" value="datastructure.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumAddToMakeParenthesesValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.greedy.MinimumAddToMakeParenthesesValid" />
+    <configuration name="NumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.prefixsum.NumArray" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.greedy.*" />
+          <option name="PATTERN" value="datastructure.prefixsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,19 +179,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NumArray" />
       <item itemvalue="Application.MinimumAddToMakeParenthesesValid" />
       <item itemvalue="Application.ActivitySelection" />
       <item itemvalue="Application.FractionalKnapsackProblem" />
       <item itemvalue="Application.TreeBuilder" />
-      <item itemvalue="Application.IncreaseingTripletSubsequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumArray" />
         <item itemvalue="Application.MinimumAddToMakeParenthesesValid" />
         <item itemvalue="Application.FractionalKnapsackProblem" />
         <item itemvalue="Application.ActivitySelection" />
         <item itemvalue="Application.TreeBuilder" />
-        <item itemvalue="Application.IncreaseingTripletSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +227,7 @@
       <workItem from="1764927082762" duration="506000" />
       <workItem from="1765363707045" duration="2914000" />
       <workItem from="1765442557380" duration="7041000" />
+      <workItem from="1768803304171" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="Java IO">
       <option name="closed" value="true" />
@@ -267,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765445074672</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="MinimumAddToMakeParenthesesValid">
+      <option name="closed" value="true" />
+      <created>1767775940007</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1767775940007</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +290,8 @@
     <MESSAGE value="FirstMissingPositiveSecondAttempt" />
     <MESSAGE value="GuessWord" />
     <MESSAGE value="Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton" />
+    <MESSAGE value="MinimumAddToMakeParenthesesValid" />
+    <option name="LAST_COMMIT_MESSAGE" value="MinimumAddToMakeParenthesesValid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
