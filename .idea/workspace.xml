@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Singleton">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/greedy/ActivitySelection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/greedy/FractionalKnapsackProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/greedy/JumpGameV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/treev2/TreeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/Test.java" afterDir="false" />
+    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Jump Game V2">
+      <change afterPath="$PROJECT_DIR$/src/datastructure/greedy/GasStation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delete/CommandLineArguments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delete/Constructors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delete/Operators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delete/ProductOfNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delete/WrapperClass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +58,9 @@
     "Application.FileInputStreamDemo.executor": "Run",
     "Application.FileOutputStreamDemo.executor": "Run",
     "Application.FirstMissingPositiveSecondAttempt.executor": "Run",
-    "Application.FractionalKnapsackProblem.executor": "Run",
+    "Application.FractionalKnapsackProblem.executor": "Debug",
     "Application.GCDemo.executor": "Run",
+    "Application.GasStation.executor": "Run",
     "Application.GuessWord.executor": "Run",
     "Application.JoinExample.executor": "Run",
     "Application.LevelOrder.executor": "Run",
@@ -93,6 +85,7 @@
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -119,7 +112,7 @@
       <recent name="core_java_udemy.iostreamsecond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FractionalKnapsackProblem">
+  <component name="RunManager" selected="Application.GasStation">
     <configuration name="ActivitySelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructure.greedy.ActivitySelection" />
       <module name="coding" />
@@ -146,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.strings.GuessWord" />
+    <configuration name="GasStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.greedy.GasStation" />
       <module name="coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.strings.*" />
+          <option name="PATTERN" value="datastructure.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,29 +179,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.GasStation" />
       <item itemvalue="Application.ActivitySelection" />
       <item itemvalue="Application.FractionalKnapsackProblem" />
       <item itemvalue="Application.TreeBuilder" />
       <item itemvalue="Application.IncreaseingTripletSubsequence" />
-      <item itemvalue="Application.GuessWord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GasStation" />
         <item itemvalue="Application.FractionalKnapsackProblem" />
         <item itemvalue="Application.ActivitySelection" />
         <item itemvalue="Application.TreeBuilder" />
         <item itemvalue="Application.IncreaseingTripletSubsequence" />
-        <item itemvalue="Application.GuessWord" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -234,6 +219,7 @@
       <workItem from="1764927082762" duration="506000" />
       <workItem from="1765363707045" duration="2914000" />
       <workItem from="1765442557380" duration="7041000" />
+      <workItem from="1768100978012" duration="4018000" />
     </task>
     <task id="LOCAL-00001" summary="Java IO">
       <option name="closed" value="true" />
@@ -350,6 +336,16 @@
           <url>file://$PROJECT_DIR$/src/datastructure/greedy/ActivitySelection.java</url>
           <line>19</line>
           <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/greedy/GasStation.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/greedy/GasStation.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/FileInputStreamDemo.java</url>
