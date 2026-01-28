@@ -232,8 +232,11 @@ public class Table {
 //        out.println("RA> " + name + ".select (" + keyVal + ")");
 
         List<Comparable[]> rows = new ArrayList<>();
+        Comparable[] foundTuple = index.get(keyVal);
 
-        //  T O   B E   I M P L E M E N T E D
+        if(foundTuple != null) {
+            rows.add(foundTuple);
+        }else{}
 
         return new Table(name + count++, attribute, domain, key, rows);
     } // select
@@ -248,12 +251,29 @@ public class Table {
      */
     public Table union(Table table2) {
 //        out.println("RA> " + name + ".union (" + table2.name + ")");
+        //Check compatible(table2). If false, return null.
         if (!compatible(table2)) return null;
 
         List<Comparable[]> rows = new ArrayList<>();
 
-        //  T O   B E   I M P L E M E N T E D
+        //Create a new list that contains all rows from this.tuples.
+        rows.addAll(this.tuples);
 
+        //Loop through table2.tuples.
+        for(Comparable[] tupleInT2: table2.tuples) {
+            boolean isDuplicate = false;
+            //Check if the current row from table2 already exists in your new list (to avoid duplicates, as Set Theory requires unique rows).
+            for(Comparable[] tupleInResult: rows) {
+                if(Arrays.equals(tupleInT2, tupleInResult)) {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+            //If it's not a duplicate, add it.
+            if(!isDuplicate){
+                rows.add(tupleInT2);
+            }
+        }
         return new Table(name + count++, attribute, domain, key, rows);
     } // union
 
@@ -272,7 +292,21 @@ public class Table {
 
         List<Comparable[]> rows = new ArrayList<>();
 
-        //  T O   B E   I M P L E M E N T E D
+        //Loop through this.tuples.
+        for(Comparable[] row1 : this.tuples) {
+            boolean foundInT2 = false;
+            //For each row, check if it exists in table2.tuples.
+            for(Comparable[] row2: table2.tuples) {
+                if(Arrays.equals(row1, row2)) {
+                    foundInT2 = true;
+                    break;
+                }
+            }
+            //If it takes NOT exist in table2, add it to your result list.
+            if(!foundInT2){
+                rows.add(row1);
+            }
+        }
 
         return new Table(name + count++, attribute, domain, key, rows);
     } // minus
@@ -292,11 +326,83 @@ public class Table {
 
         List<Comparable[]> rows = new ArrayList<>();
 
-        //  T O   B E   I M P L E M E N T E D
+        // STEP 1: Identify Common Columns
+        // We need to know which columns in Table 2 match Table 1.
+        List<Integer> commonCols1 = new ArrayList<>(); // Indices in Table 1
+        List<Integer> commonCols2 = new ArrayList<>(); // Indices in Table 2
 
-        // FIX - eliminate duplicate columns
-        return new Table(name + count++, ArrayUtil.concat(attribute, table2.attribute),
-                ArrayUtil.concat(domain, table2.domain), key, rows);
+        // We also need a list of columns from Table 2 that are UNIQUE (to keep).
+        List<Integer> uniqueCols2 = new ArrayList<>();
+
+        for (int i = 0; i < table2.attribute.length; i++) {
+            int posIn1 = this.col(table2.attribute[i]); // Helper method: finds index in this table
+
+            if (posIn1 != -1) {
+                // It's a match! Record the position in both tables.
+                commonCols1.add(posIn1);
+                commonCols2.add(i);
+            } else {
+                // It's a unique column in Table 2. We keep this.
+                uniqueCols2.add(i);
+            }
+        }
+
+        // STEP 2: Construct the New Schema (Attributes & Domains)
+        // Size = All columns of T1 + Only unique columns of T2
+        int newSize = this.attribute.length + uniqueCols2.size();
+        String[] newAttrs = new String[newSize];
+        Class[] newDomains = new Class[newSize];
+
+        // Copy Table 1 metadata
+        for(int i=0; i < this.attribute.length; i++) {
+            newAttrs[i] = this.attribute[i];
+            newDomains[i] = this.domain[i];
+        }
+        // Copy Table 2 metadata (only unique ones)
+        int currentPos = this.attribute.length;
+        for(int colIndex : uniqueCols2) {
+            newAttrs[currentPos] = table2.attribute[colIndex];
+            newDomains[currentPos] = table2.domain[colIndex];
+            currentPos++;
+        }
+
+        // STEP 3: Nested Loop Join
+        for (Comparable[] row1 : this.tuples) {
+            for (Comparable[] row2 : table2.tuples) {
+
+                // Check if common columns match
+                boolean match = true;
+                for (int k = 0; k < commonCols1.size(); k++) {
+                    Comparable val1 = row1[commonCols1.get(k)];
+                    Comparable val2 = row2[commonCols2.get(k)];
+
+                    if (!val1.equals(val2)) {
+                        match = false;
+                        break;
+                    }
+                }
+
+                // STEP 4: Merge Rows if Matched
+                if (match) {
+                    Comparable[] newRow = new Comparable[newSize];
+
+                    // Copy all data from Row 1
+                    for(int i=0; i < row1.length; i++) {
+                        newRow[i] = row1[i];
+                    }
+
+                    // Copy data from Row 2 (ONLY the unique columns)
+                    int appendPos = row1.length;
+                    for(int colIndex : uniqueCols2) {
+                        newRow[appendPos] = row2[colIndex];
+                        appendPos++;
+                    }
+
+                    rows.add(newRow);
+                }
+            }
+        }
+        return new Table(name + count++, newAttrs, newDomains, key, rows);
     } // join
 
     /************************************************************************************

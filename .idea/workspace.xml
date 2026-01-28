@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Assignemnt1 - Adv Database">
+    <list default="true" id="dc7ec3d4-26c7-4f99-b2c4-fe885745561d" name="Changes" comment="Adv Database Assignment1&#10;implemented project()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/msc/advdb/assignment1/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/msc/advdb/assignment1/Table.java" afterDir="false" />
     </list>
@@ -45,65 +45,65 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ActivitySelection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BufferedReaderDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CodeRunnerTableTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DecodeString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeserializationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ECommerceMainApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EmployeeDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactorialTaskDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileInputStreamDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileOutputStreamDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstMissingPositiveSecondAttempt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FractionalKnapsackProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GCDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GuessWord.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LevelOrder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxNoOfBalloons.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumAddToMakeParenthesesValid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NioReadFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PausingThreadExecution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PreOrderTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PricingUtils.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Project.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReaderAndWriterDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScannerDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SerializationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringImmutability.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringTokenizerDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskScheduler.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeBuilder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.core_java_udemy.strings.immutable.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javalanguage.roadmap.iohandling.NioReadFile.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DM2719/Documents/personal-workspace/coding/src/msc/advdb/assignment1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ActivitySelection.executor": "Run",
+    "Application.BufferedReaderDemo.executor": "Run",
+    "Application.CodeRunnerTableTest.executor": "Debug",
+    "Application.DecodeString.executor": "Debug",
+    "Application.Demo.executor": "Run",
+    "Application.DeserializationDemo.executor": "Run",
+    "Application.ECommerceMainApplication.executor": "Debug",
+    "Application.EmployeeDemo.executor": "Run",
+    "Application.FactorialTaskDemo.executor": "Run",
+    "Application.FileInputStreamDemo.executor": "Run",
+    "Application.FileOutputStreamDemo.executor": "Run",
+    "Application.FirstMissingPositiveSecondAttempt.executor": "Run",
+    "Application.FractionalKnapsackProblem.executor": "Run",
+    "Application.GCDemo.executor": "Run",
+    "Application.GuessWord.executor": "Run",
+    "Application.JoinExample.executor": "Run",
+    "Application.LevelOrder.executor": "Run",
+    "Application.MaxNoOfBalloons.executor": "Run",
+    "Application.MinimumAddToMakeParenthesesValid.executor": "Run",
+    "Application.NioReadFile.executor": "Run",
+    "Application.NumArray.executor": "Run",
+    "Application.PausingThreadExecution.executor": "Run",
+    "Application.PreOrderTraversal.executor": "Run",
+    "Application.PricingUtils.executor": "Run",
+    "Application.Project.executor": "Run",
+    "Application.ReaderAndWriterDemo.executor": "Run",
+    "Application.ScannerDemo.executor": "Run",
+    "Application.SerializationDemo.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.StringImmutability.executor": "Run",
+    "Application.StringTokenizerDemo.executor": "Run",
+    "Application.SumCalculator.executor": "Run",
+    "Application.TaskScheduler.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TreeBuilder.executor": "Run",
+    "Application.core_java_udemy.strings.immutable.Test.executor": "Run",
+    "Application.javalanguage.roadmap.iohandling.NioReadFile.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DM2719/Documents/personal-workspace/coding/src/msc/advdb/assignment1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DM2719\Documents\personal-workspace\coding\src\msc\advdb\assignment1" />
@@ -310,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769603695296</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adv Database Assignment1&#10;implemented project()">
+      <option name="closed" value="true" />
+      <created>1769624914676</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1769624914676</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +335,8 @@
     <MESSAGE value="PrefixSum" />
     <MESSAGE value="TaskScheduler" />
     <MESSAGE value="Assignemnt1 - Adv Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignemnt1 - Adv Database" />
+    <MESSAGE value="Adv Database Assignment1&#10;implemented project()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adv Database Assignment1&#10;implemented project()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -389,6 +398,24 @@
           <url>file://$PROJECT_DIR$/src/datastructure/greedy/ActivitySelection.java</url>
           <line>19</line>
           <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/msc/advdb/assignment1/Table.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/msc/advdb/assignment1/CodeRunnerTableTest.java</url>
+          <line>123</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/msc/advdb/assignment1/CodeRunnerTableTest.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/core_java_udemy/iostreamsecond/FileInputStreamDemo.java</url>
