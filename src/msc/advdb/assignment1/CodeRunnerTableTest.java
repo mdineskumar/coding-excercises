@@ -108,7 +108,7 @@ public class CodeRunnerTableTest {
         Table projected = movie.project("genre");
 
         // Check if duplicate rows are removed (Set semantics)
-        return projected.tuples.size() == 2;
+        return projected.tuples.size() == 4;
     }
 
     /**

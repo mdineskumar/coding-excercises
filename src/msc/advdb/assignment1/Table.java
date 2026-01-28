@@ -198,9 +198,25 @@ public class Table {
         String[] newKey = (Arrays.asList(attrs).containsAll(Arrays.asList(key))) ? key : attrs;
 
         List<Comparable[]> rows = new ArrayList<>();
+        // step 1: Find the index position of requested columns
+        int[] colPos = match(attrs);
 
-        //  T O   B E   I M P L E M E N T E D
+        // step 2: Iterate through every tuples in table
+        for (int i = 0; i < tuples.size(); i++) {
+            //step 3: create new tuple to hold projected data
+            Comparable[] newTuple = new Comparable[colPos.length];
 
+            //step 4: get original tuple
+            Comparable[] originalTuple = tuples.get(i);
+
+
+            for (int j = 0; j < colPos.length; j++) {
+                // take the value from the original tuple at specified column
+                newTuple[j] = originalTuple[j];
+            }
+            //step 5: add new create tuple into list
+            rows.add(newTuple);
+        }
 
         return new Table(name + count++, attrs, colDomain, newKey, rows);
     } // project
